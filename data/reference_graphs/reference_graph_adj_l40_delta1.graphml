@@ -1,0 +1,3243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="wnorm" attr.type="float" for="edge" id="d1"/>
+<key attr.name="weight" attr.type="float" for="edge" id="d0"/>
+<graph edgedefault="undirected"><node id="ADAL"/>
+<node id="ADER"/>
+<node id="AIML"/>
+<node id="AIZL"/>
+<node id="ASEL"/>
+<node id="ASKL"/>
+<node id="AVFR"/>
+<node id="AVKR"/>
+<node id="AWAL"/>
+<node id="IL2VL"/>
+<node id="PVR"/>
+<node id="RIAL"/>
+<node id="RID"/>
+<node id="RIVL"/>
+<node id="RMFL"/>
+<node id="SAAVR"/>
+<node id="SDQL"/>
+<node id="SDQR"/>
+<node id="SIADL"/>
+<node id="URADL"/>
+<node id="ADAR"/>
+<node id="ADEL"/>
+<node id="AVFL"/>
+<node id="AVKL"/>
+<node id="SAAVL"/>
+<node id="ASJL"/>
+<node id="AVJL"/>
+<node id="CEPVL"/>
+<node id="RIMR"/>
+<node id="RIR"/>
+<node id="RMDDR"/>
+<node id="RMDVL"/>
+<node id="SIADR"/>
+<node id="SMBDL"/>
+<node id="SMBVL"/>
+<node id="URXL"/>
+<node id="RIML"/>
+<node id="RMDDL"/>
+<node id="ADFL"/>
+<node id="ADLL"/>
+<node id="AIBR"/>
+<node id="AIZR"/>
+<node id="AQR"/>
+<node id="ASGL"/>
+<node id="ASIL"/>
+<node id="AUAR"/>
+<node id="AWBR"/>
+<node id="BAGR"/>
+<node id="DVA"/>
+<node id="OLQVL"/>
+<node id="PVPL"/>
+<node id="RIH"/>
+<node id="SIAVL"/>
+<node id="SIBDL"/>
+<node id="ADFR"/>
+<node id="AIBL"/>
+<node id="AUAL"/>
+<node id="AWBL"/>
+<node id="BAGL"/>
+<node id="ALML"/>
+<node id="ASER"/>
+<node id="ASKR"/>
+<node id="AVAR"/>
+<node id="AVBL"/>
+<node id="AVDL"/>
+<node id="AVHL"/>
+<node id="AVJR"/>
+<node id="AWCR"/>
+<node id="RICL"/>
+<node id="RICR"/>
+<node id="URBL"/>
+<node id="ADLR"/>
+<node id="AVAL"/>
+<node id="AWCL"/>
+<node id="AFDL"/>
+<node id="AIAL"/>
+<node id="SABD"/>
+<node id="AINL"/>
+<node id="AVBR"/>
+<node id="AVHR"/>
+<node id="AIAR"/>
+<node id="RIGL"/>
+<node id="RMED"/>
+<node id="SIBDR"/>
+<node id="SIBVR"/>
+<node id="URAVR"/>
+<node id="URYVR"/>
+<node id="SIBVL"/>
+<node id="URAVL"/>
+<node id="URYVL"/>
+<node id="AVEL"/>
+<node id="PVCR"/>
+<node id="RIS"/>
+<node id="SMBDR"/>
+<node id="AIMR"/>
+<node id="PVCL"/>
+<node id="AIYL"/>
+<node id="AVDR"/>
+<node id="IL1R"/>
+<node id="IL2DL"/>
+<node id="IL2R"/>
+<node id="OLLR"/>
+<node id="AINR"/>
+<node id="IL1L"/>
+<node id="IL2L"/>
+<node id="OLLL"/>
+<node id="AVER"/>
+<node id="AVM"/>
+<node id="PVQL"/>
+<node id="RIGR"/>
+<node id="AIYR"/>
+<node id="PVPR"/>
+<node id="RIAR"/>
+<node id="SMBVR"/>
+<node id="SMDDL"/>
+<node id="ALA"/>
+<node id="RMDL"/>
+<node id="ALMR"/>
+<node id="ALNL"/>
+<node id="RMFR"/>
+<node id="RMHL"/>
+<node id="ALNR"/>
+<node id="FLPL"/>
+<node id="RIBL"/>
+<node id="SAADL"/>
+<node id="CEPVR"/>
+<node id="ASGR"/>
+<node id="ASHL"/>
+<node id="PVQR"/>
+<node id="RIFR"/>
+<node id="RIPL"/>
+<node id="ASHR"/>
+<node id="RIFL"/>
+<node id="RMGL"/>
+<node id="ASJR"/>
+<node id="RMEV"/>
+<node id="AVL"/>
+<node id="BDUR"/>
+<node id="BDUL"/>
+<node id="DVC"/>
+<node id="PVT"/>
+<node id="RIPR"/>
+<node id="CEPDL"/>
+<node id="OLQDR"/>
+<node id="OLQVR"/>
+<node id="RIVR"/>
+<node id="RMER"/>
+<node id="SMDVR"/>
+<node id="URYDR"/>
+<node id="OLQDL"/>
+<node id="RMEL"/>
+<node id="SMDVL"/>
+<node id="URYDL"/>
+<node id="SMDDR"/>
+<node id="RMDR"/>
+<node id="URXR"/>
+<node id="FLPR"/>
+<node id="SIAVR"/>
+<node id="RMGR"/>
+<node id="IL1DL"/>
+<node id="CEPDR"/>
+<node id="RMHR"/>
+<node id="SAADR"/>
+<node id="IL1DR"/>
+<node id="IL1VL"/>
+<node id="IL1VR"/>
+<node id="IL2DR"/>
+<node id="IL2VR"/>
+<node id="RMDVR"/>
+<node id="RIBR"/>
+<node id="URBR"/>
+<edge source="ADAL" target="ADER">
+  <data key="d0">1130.0</data>
+  <data key="d1">7.293749231090374e-05</data>
+</edge>
+<edge source="ADAL" target="AIML">
+  <data key="d0">1638.0</data>
+  <data key="d1">0.00010483495886187891</data>
+</edge>
+<edge source="ADAL" target="AIZL">
+  <data key="d0">1260.0</data>
+  <data key="d1">6.794373202086174e-05</data>
+</edge>
+<edge source="ADAL" target="ASEL">
+  <data key="d0">1740.0</data>
+  <data key="d1">9.382705850499956e-05</data>
+</edge>
+<edge source="ADAL" target="ASKL">
+  <data key="d0">1457.0</data>
+  <data key="d1">9.404418256370509e-05</data>
+</edge>
+<edge source="ADAL" target="AVFR">
+  <data key="d0">2020.0</data>
+  <data key="d1">0.00011337386767148092</data>
+</edge>
+<edge source="ADAL" target="AVKR">
+  <data key="d0">2876.0</data>
+  <data key="d1">0.00015508426451745904</data>
+</edge>
+<edge source="ADAL" target="AWAL">
+  <data key="d0">3626.0</data>
+  <data key="d1">0.00020351170503801476</data>
+</edge>
+<edge source="ADAL" target="IL2VL">
+  <data key="d0">1236.0</data>
+  <data key="d1">6.93713368524507e-05</data>
+</edge>
+<edge source="ADAL" target="PVR">
+  <data key="d0">1278.0</data>
+  <data key="d1">8.179430856256487e-05</data>
+</edge>
+<edge source="ADAL" target="RIAL">
+  <data key="d0">1718.0</data>
+  <data key="d1">0.00011089080689392268</data>
+</edge>
+<edge source="ADAL" target="RID">
+  <data key="d0">3811.0</data>
+  <data key="d1">0.00021389495529505634</data>
+</edge>
+<edge source="ADAL" target="RIVL">
+  <data key="d0">1401.0</data>
+  <data key="d1">7.863207356819048e-05</data>
+</edge>
+<edge source="ADAL" target="RMFL">
+  <data key="d0">2413.0</data>
+  <data key="d1">0.00013011763917963445</data>
+</edge>
+<edge source="ADAL" target="SAAVR">
+  <data key="d0">1397.0</data>
+  <data key="d1">8.94105235226159e-05</data>
+</edge>
+<edge source="ADAL" target="SDQL">
+  <data key="d0">2389.0</data>
+  <data key="d1">0.00015420147710685754</data>
+</edge>
+<edge source="ADAL" target="SDQR">
+  <data key="d0">1672.0</data>
+  <data key="d1">0.00010701102027903635</data>
+</edge>
+<edge source="ADAL" target="SIADL">
+  <data key="d0">2608.0</data>
+  <data key="d1">0.00014063274056381542</data>
+</edge>
+<edge source="ADAL" target="URADL">
+  <data key="d0">1775.0</data>
+  <data key="d1">0.0001145699547361541</data>
+</edge>
+<edge source="ADER" target="AVFL">
+  <data key="d0">2854.0</data>
+  <data key="d1">0.00018421557792506132</data>
+</edge>
+<edge source="ADER" target="RIML">
+  <data key="d0">1971.0</data>
+  <data key="d1">0.0001272210595971604</data>
+</edge>
+<edge source="ADER" target="RMDDL">
+  <data key="d0">1362.0</data>
+  <data key="d1">8.717046029907148e-05</data>
+</edge>
+<edge source="ADER" target="SDQL">
+  <data key="d0">2121.0</data>
+  <data key="d1">0.0001369030276030326</data>
+</edge>
+<edge source="ADER" target="SIADL">
+  <data key="d0">3026.0</data>
+  <data key="d1">0.00019531756790512806</data>
+</edge>
+<edge source="AIML" target="AVEL">
+  <data key="d0">2455.0</data>
+  <data key="d1">0.00015712443468004442</data>
+</edge>
+<edge source="AIML" target="AVJL">
+  <data key="d0">2949.0</data>
+  <data key="d1">0.00018874132703521423</data>
+</edge>
+<edge source="AIML" target="AVKL">
+  <data key="d0">2236.0</data>
+  <data key="d1">0.00012057316253860862</data>
+</edge>
+<edge source="AIML" target="CEPVL">
+  <data key="d0">7600.0</data>
+  <data key="d1">0.0004098193359988486</data>
+</edge>
+<edge source="AIML" target="PVCR">
+  <data key="d0">1260.0</data>
+  <data key="d1">6.794373202086174e-05</data>
+</edge>
+<edge source="AIML" target="RIH">
+  <data key="d0">7886.0</data>
+  <data key="d1">0.0004426070893352963</data>
+</edge>
+<edge source="AIML" target="RIR">
+  <data key="d0">4345.0</data>
+  <data key="d1">0.0002342980282782891</data>
+</edge>
+<edge source="AIML" target="RIS">
+  <data key="d0">1844.0</data>
+  <data key="d1">9.943511257656275e-05</data>
+</edge>
+<edge source="AIML" target="SMBDR">
+  <data key="d0">1729.0</data>
+  <data key="d1">9.323389893973806e-05</data>
+</edge>
+<edge source="AIZL" target="ADFR">
+  <data key="d0">3187.0</data>
+  <data key="d1">0.0002039737569553163</data>
+</edge>
+<edge source="AIZL" target="AVDL">
+  <data key="d0">2421.0</data>
+  <data key="d1">0.00013054902795437006</data>
+</edge>
+<edge source="AIZL" target="AVDR">
+  <data key="d0">3378.0</data>
+  <data key="d1">0.00021803791949224146</data>
+</edge>
+<edge source="AIZL" target="PVPR">
+  <data key="d0">1923.0</data>
+  <data key="d1">0.00012412282983528133</data>
+</edge>
+<edge source="AIZL" target="RIAR">
+  <data key="d0">3980.0</data>
+  <data key="d1">0.00022338019471905646</data>
+</edge>
+<edge source="AIZL" target="RID">
+  <data key="d0">1260.0</data>
+  <data key="d1">8.13285312493263e-05</data>
+</edge>
+<edge source="AIZL" target="RIGR">
+  <data key="d0">1945.0</data>
+  <data key="d1">0.00010488139585760008</data>
+</edge>
+<edge source="AIZL" target="SABD">
+  <data key="d0">1976.0</data>
+  <data key="d1">0.00010655302735970064</data>
+</edge>
+<edge source="AIZL" target="SIBDL">
+  <data key="d0">2329.0</data>
+  <data key="d1">0.00015032868990450869</data>
+</edge>
+<edge source="AIZL" target="SIBDR">
+  <data key="d0">2044.0</data>
+  <data key="d1">0.0001102198319449535</data>
+</edge>
+<edge source="AIZL" target="SIBVR">
+  <data key="d0">4818.0</data>
+  <data key="d1">0.0002598038895845332</data>
+</edge>
+<edge source="AIZL" target="SMBVR">
+  <data key="d0">3315.0</data>
+  <data key="d1">0.00017875672353107673</data>
+</edge>
+<edge source="AIZL" target="SMDDL">
+  <data key="d0">1418.0</data>
+  <data key="d1">7.646366032189044e-05</data>
+</edge>
+<edge source="ASEL" target="ADLR">
+  <data key="d0">18367.0</data>
+  <data key="d1">0.0009904147031961647</data>
+</edge>
+<edge source="ASEL" target="AINR">
+  <data key="d0">1970.0</data>
+  <data key="d1">0.00011056758381822644</data>
+</edge>
+<edge source="ASEL" target="ALA">
+  <data key="d0">1415.0</data>
+  <data key="d1">9.056255603758161e-05</data>
+</edge>
+<edge source="ASEL" target="AVAR">
+  <data key="d0">4042.0</data>
+  <data key="d1">0.00021795917843517713</data>
+</edge>
+<edge source="ASEL" target="AVFL">
+  <data key="d0">1558.0</data>
+  <data key="d1">8.401296387976396e-05</data>
+</edge>
+<edge source="ASEL" target="BAGL">
+  <data key="d0">6464.0</data>
+  <data key="d1">0.0004172282745997184</data>
+</edge>
+<edge source="ASEL" target="CEPVR">
+  <data key="d0">1472.0</data>
+  <data key="d1">7.937553455135594e-05</data>
+</edge>
+<edge source="ASEL" target="RID">
+  <data key="d0">2575.0</data>
+  <data key="d1">0.00014452361844260564</data>
+</edge>
+<edge source="ASEL" target="RMFL">
+  <data key="d0">5266.0</data>
+  <data key="d1">0.0002955578154247616</data>
+</edge>
+<edge source="ASEL" target="SABD">
+  <data key="d0">3360.0</data>
+  <data key="d1">0.00018118328538896465</data>
+</edge>
+<edge source="ASKL" target="ADLR">
+  <data key="d0">1988.0</data>
+  <data key="d1">0.00011157784600539805</data>
+</edge>
+<edge source="ASKL" target="ASGL">
+  <data key="d0">2850.0</data>
+  <data key="d1">0.00015368225099956823</data>
+</edge>
+<edge source="ASKL" target="ASJR">
+  <data key="d0">1674.0</data>
+  <data key="d1">9.02681011134306e-05</data>
+</edge>
+<edge source="ASKL" target="AVFR">
+  <data key="d0">4397.0</data>
+  <data key="d1">0.00024678460205519883</data>
+</edge>
+<edge source="ASKL" target="AVHR">
+  <data key="d0">3686.0</data>
+  <data key="d1">0.00023591065834242106</data>
+</edge>
+<edge source="ASKL" target="AWBL">
+  <data key="d0">3314.0</data>
+  <data key="d1">0.00018600049379370682</data>
+</edge>
+<edge source="ASKL" target="RIML">
+  <data key="d0">1683.0</data>
+  <data key="d1">9.075341348500819e-05</data>
+</edge>
+<edge source="ASKL" target="SABD">
+  <data key="d0">2358.0</data>
+  <data key="d1">0.00012715184135332698</data>
+</edge>
+<edge source="ASKL" target="SMBVL">
+  <data key="d0">1739.0</data>
+  <data key="d1">9.37731349081576e-05</data>
+</edge>
+<edge source="AVFR" target="ADEL">
+  <data key="d0">2854.0</data>
+  <data key="d1">0.00018266115542845082</data>
+</edge>
+<edge source="AVFR" target="ADLL">
+  <data key="d0">2076.0</data>
+  <data key="d1">0.00011651690558712594</data>
+</edge>
+<edge source="AVFR" target="AIAL">
+  <data key="d0">1394.0</data>
+  <data key="d1">7.823919382873485e-05</data>
+</edge>
+<edge source="AVFR" target="RMDL">
+  <data key="d0">1518.0</data>
+  <data key="d1">8.185602000608581e-05</data>
+</edge>
+<edge source="AVFR" target="SIBVL">
+  <data key="d0">3520.0</data>
+  <data key="d1">0.00018981106088367727</data>
+</edge>
+<edge source="AVFR" target="SMDVL">
+  <data key="d0">3058.0</data>
+  <data key="d1">0.0001648983591426946</data>
+</edge>
+<edge source="AVFR" target="URXL">
+  <data key="d0">1635.0</data>
+  <data key="d1">8.816508083659441e-05</data>
+</edge>
+<edge source="AVKR" target="AVBL">
+  <data key="d0">2248.0</data>
+  <data key="d1">0.00012122024570071206</data>
+</edge>
+<edge source="AVKR" target="FLPL">
+  <data key="d0">2409.0</data>
+  <data key="d1">0.00015418035158624318</data>
+</edge>
+<edge source="AVKR" target="RIVL">
+  <data key="d0">4456.0</data>
+  <data key="d1">0.0002500960170020391</data>
+</edge>
+<edge source="AVKR" target="RMGL">
+  <data key="d0">3540.0</data>
+  <data key="d1">0.0002284944449385834</data>
+</edge>
+<edge source="AVKR" target="SAAVL">
+  <data key="d0">1403.0</data>
+  <data key="d1">9.05586740815911e-05</data>
+</edge>
+<edge source="AVKR" target="SDQL">
+  <data key="d0">3666.0</data>
+  <data key="d1">0.00023463062221468138</data>
+</edge>
+<edge source="AWAL" target="RIGL">
+  <data key="d0">1552.0</data>
+  <data key="d1">8.368942229871224e-05</data>
+</edge>
+<edge source="AWAL" target="RIR">
+  <data key="d0">3808.0</data>
+  <data key="d1">0.00020534105677415994</data>
+</edge>
+<edge source="AWAL" target="SMBVL">
+  <data key="d0">1874.0</data>
+  <data key="d1">0.00011993938516920701</data>
+</edge>
+<edge source="IL2VL" target="DVC">
+  <data key="d0">1723.0</data>
+  <data key="d1">9.291035735868633e-05</data>
+</edge>
+<edge source="IL2VL" target="RICL">
+  <data key="d0">1748.0</data>
+  <data key="d1">9.810768350977656e-05</data>
+</edge>
+<edge source="IL2VL" target="RICR">
+  <data key="d0">1339.0</data>
+  <data key="d1">8.569841875217086e-05</data>
+</edge>
+<edge source="IL2VL" target="RMDDL">
+  <data key="d0">1313.0</data>
+  <data key="d1">7.08016826534853e-05</data>
+</edge>
+<edge source="IL2VL" target="SIBVL">
+  <data key="d0">1441.0</data>
+  <data key="d1">8.087710065079406e-05</data>
+</edge>
+<edge source="IL2VL" target="URXL">
+  <data key="d0">1331.0</data>
+  <data key="d1">8.5186404301075e-05</data>
+</edge>
+<edge source="PVR" target="ADEL">
+  <data key="d0">1584.0</data>
+  <data key="d1">8.890307247110187e-05</data>
+</edge>
+<edge source="PVR" target="AVHL">
+  <data key="d0">1195.0</data>
+  <data key="d1">7.648215863244524e-05</data>
+</edge>
+<edge source="PVR" target="AVKL">
+  <data key="d0">12788.0</data>
+  <data key="d1">0.0007177351583083654</data>
+</edge>
+<edge source="PVR" target="BDUL">
+  <data key="d0">1477.0</data>
+  <data key="d1">9.453066803357458e-05</data>
+</edge>
+<edge source="PVR" target="FLPL">
+  <data key="d0">1639.0</data>
+  <data key="d1">0.0001048989606682659</data>
+</edge>
+<edge source="PVR" target="PVCL">
+  <data key="d0">2114.0</data>
+  <data key="d1">0.00011864968131559934</data>
+</edge>
+<edge source="PVR" target="RMDL">
+  <data key="d0">2320.0</data>
+  <data key="d1">0.00014848419081780163</data>
+</edge>
+<edge source="PVR" target="RMFL">
+  <data key="d0">1470.0</data>
+  <data key="d1">9.40826553888657e-05</data>
+</edge>
+<edge source="PVR" target="SMDVL">
+  <data key="d0">1240.0</data>
+  <data key="d1">6.959583956071106e-05</data>
+</edge>
+<edge source="PVR" target="URADL">
+  <data key="d0">1482.0</data>
+  <data key="d1">8.317825341046273e-05</data>
+</edge>
+<edge source="PVR" target="URYVL">
+  <data key="d0">1498.0</data>
+  <data key="d1">8.407626424350417e-05</data>
+</edge>
+<edge source="RIAL" target="AIZR">
+  <data key="d0">3980.0</data>
+  <data key="d1">0.00021461591543097598</data>
+</edge>
+<edge source="RIAL" target="AWCL">
+  <data key="d0">2684.0</data>
+  <data key="d1">0.0001506413172427004</data>
+</edge>
+<edge source="RIAL" target="AWCR">
+  <data key="d0">1749.0</data>
+  <data key="d1">0.0001128917469484696</data>
+</edge>
+<edge source="RIAL" target="PVPL">
+  <data key="d0">1699.0</data>
+  <data key="d1">9.161619103447945e-05</data>
+</edge>
+<edge source="RIAL" target="RIFL">
+  <data key="d0">1724.0</data>
+  <data key="d1">9.676066726021441e-05</data>
+</edge>
+<edge source="RIAL" target="SDQR">
+  <data key="d0">1959.0</data>
+  <data key="d1">0.0001253795387121006</data>
+</edge>
+<edge source="RID" target="ADFL">
+  <data key="d0">1976.0</data>
+  <data key="d1">0.00011090433788061698</data>
+</edge>
+<edge source="RID" target="ADLL">
+  <data key="d0">2123.0</data>
+  <data key="d1">0.00011915481240918515</data>
+</edge>
+<edge source="RID" target="AFDL">
+  <data key="d0">3382.0</data>
+  <data key="d1">0.00018236960451948762</data>
+</edge>
+<edge source="RID" target="ALML">
+  <data key="d0">10649.0</data>
+  <data key="d1">0.0006873551819635521</data>
+</edge>
+<edge source="RID" target="ASGL">
+  <data key="d0">3218.0</data>
+  <data key="d1">0.00018061242879545823</data>
+</edge>
+<edge source="RID" target="AVEL">
+  <data key="d0">1437.0</data>
+  <data key="d1">8.06525979425337e-05</data>
+</edge>
+<edge source="RID" target="AWBL">
+  <data key="d0">1332.0</data>
+  <data key="d1">7.47594018506993e-05</data>
+</edge>
+<edge source="RID" target="BDUL">
+  <data key="d0">5689.0</data>
+  <data key="d1">0.00031929897682329454</data>
+</edge>
+<edge source="RID" target="CEPDL">
+  <data key="d0">1182.0</data>
+  <data key="d1">7.629390788627276e-05</data>
+</edge>
+<edge source="RID" target="PVQL">
+  <data key="d0">4112.0</data>
+  <data key="d1">0.0002307887840916483</data>
+</edge>
+<edge source="RID" target="RIBL">
+  <data key="d0">1953.0</data>
+  <data key="d1">0.00010961344730811992</data>
+</edge>
+<edge source="RID" target="RMDDL">
+  <data key="d0">1546.0</data>
+  <data key="d1">8.677029674262847e-05</data>
+</edge>
+<edge source="RID" target="RMHL">
+  <data key="d0">5207.0</data>
+  <data key="d1">0.00029224640047792135</data>
+</edge>
+<edge source="RID" target="SDQL">
+  <data key="d0">2373.0</data>
+  <data key="d1">0.00013318623167545753</data>
+</edge>
+<edge source="RID" target="SIADL">
+  <data key="d0">1994.0</data>
+  <data key="d1">0.0001287056280247275</data>
+</edge>
+<edge source="RID" target="SIBDL">
+  <data key="d0">7956.0</data>
+  <data key="d1">0.0005135315830314604</data>
+</edge>
+<edge source="RID" target="SMBVL">
+  <data key="d0">1800.0</data>
+  <data key="d1">0.00011618361607046614</data>
+</edge>
+<edge source="RID" target="SMDVL">
+  <data key="d0">2061.0</data>
+  <data key="d1">0.00013303024040068373</data>
+</edge>
+<edge source="RID" target="URXL">
+  <data key="d0">3421.0</data>
+  <data key="d1">0.00022081341698725813</data>
+</edge>
+<edge source="RIVL" target="AVBL">
+  <data key="d0">2991.0</data>
+  <data key="d1">0.00016787190010168288</data>
+</edge>
+<edge source="RIVL" target="AVDL">
+  <data key="d0">2637.0</data>
+  <data key="d1">0.00014800341042064117</data>
+</edge>
+<edge source="RIVL" target="AVDR">
+  <data key="d0">2329.0</data>
+  <data key="d1">0.0001307167018845936</data>
+</edge>
+<edge source="RIVL" target="AVER">
+  <data key="d0">1477.0</data>
+  <data key="d1">8.28976250251373e-05</data>
+</edge>
+<edge source="RIVL" target="DVA">
+  <data key="d0">2128.0</data>
+  <data key="d1">0.00011943544079451059</data>
+</edge>
+<edge source="RIVL" target="PVCL">
+  <data key="d0">1330.0</data>
+  <data key="d1">7.464715049656912e-05</data>
+</edge>
+<edge source="RIVL" target="PVCR">
+  <data key="d0">1494.0</data>
+  <data key="d1">9.56186987421533e-05</data>
+</edge>
+<edge source="RIVL" target="RIBL">
+  <data key="d0">1277.0</data>
+  <data key="d1">6.886043316717495e-05</data>
+</edge>
+<edge source="RIVL" target="URBL">
+  <data key="d0">1818.0</data>
+  <data key="d1">0.00011635528401153593</data>
+</edge>
+<edge source="RMFL" target="ALNR">
+  <data key="d0">1116.0</data>
+  <data key="d1">7.2033841963689e-05</data>
+</edge>
+<edge source="RMFL" target="AVEL">
+  <data key="d0">3169.0</data>
+  <data key="d1">0.0002045477107373929</data>
+</edge>
+<edge source="RMFL" target="AWCR">
+  <data key="d0">1361.0</data>
+  <data key="d1">7.63870464855869e-05</data>
+</edge>
+<edge source="RMFL" target="FLPR">
+  <data key="d0">1556.0</data>
+  <data key="d1">8.733155351327937e-05</data>
+</edge>
+<edge source="RMFL" target="IL1R">
+  <data key="d0">4086.0</data>
+  <data key="d1">0.00026373680847995815</data>
+</edge>
+<edge source="RMFL" target="OLQVR">
+  <data key="d0">1500.0</data>
+  <data key="d1">9.60027095804752e-05</data>
+</edge>
+<edge source="RMFL" target="RIBR">
+  <data key="d0">6507.0</data>
+  <data key="d1">0.0003652097806625378</data>
+</edge>
+<edge source="RMFL" target="RICL">
+  <data key="d0">1512.0</data>
+  <data key="d1">9.6770731257119e-05</data>
+</edge>
+<edge source="RMFL" target="RIS">
+  <data key="d0">1145.0</data>
+  <data key="d1">7.328206831309607e-05</data>
+</edge>
+<edge source="RMFL" target="RMED">
+  <data key="d0">2752.0</data>
+  <data key="d1">0.00015445786328312648</data>
+</edge>
+<edge source="RMFL" target="SMBDL">
+  <data key="d0">4254.0</data>
+  <data key="d1">0.00023875863023489101</data>
+</edge>
+<edge source="RMFL" target="SMDVL">
+  <data key="d0">1228.0</data>
+  <data key="d1">6.892233143592999e-05</data>
+</edge>
+<edge source="SAAVR" target="ALNL">
+  <data key="d0">1129.0</data>
+  <data key="d1">7.287294585753126e-05</data>
+</edge>
+<edge source="SAAVR" target="AVDL">
+  <data key="d0">1642.0</data>
+  <data key="d1">0.00010598527643761411</data>
+</edge>
+<edge source="SAAVR" target="AVKL">
+  <data key="d0">1403.0</data>
+  <data key="d1">8.97945343609378e-05</data>
+</edge>
+<edge source="SAAVR" target="BAGL">
+  <data key="d0">2417.0</data>
+  <data key="d1">0.00013033333356700225</data>
+</edge>
+<edge source="SAAVR" target="PVCL">
+  <data key="d0">1267.0</data>
+  <data key="d1">8.178035642293367e-05</data>
+</edge>
+<edge source="SAAVR" target="SIAVL">
+  <data key="d0">2206.0</data>
+  <data key="d1">0.00012381324360558757</data>
+</edge>
+<edge source="SAAVR" target="SIBDL">
+  <data key="d0">1523.0</data>
+  <data key="d1">8.212563799029558e-05</data>
+</edge>
+<edge source="SAAVR" target="SIBVL">
+  <data key="d0">1261.0</data>
+  <data key="d1">7.077447877907794e-05</data>
+</edge>
+<edge source="SDQL" target="ADAR">
+  <data key="d0">1672.0</data>
+  <data key="d1">0.00010792167003878854</data>
+</edge>
+<edge source="SDQL" target="ALMR">
+  <data key="d0">2886.0</data>
+  <data key="d1">0.00015562350048587857</data>
+</edge>
+<edge source="SDQL" target="ALNL">
+  <data key="d0">2558.0</data>
+  <data key="d1">0.0001637166207379037</data>
+</edge>
+<edge source="SDQL" target="AVAL">
+  <data key="d0">7254.0</data>
+  <data key="d1">0.0004071356614301597</data>
+</edge>
+<edge source="SDQL" target="AVDL">
+  <data key="d0">2020.0</data>
+  <data key="d1">0.00011337386767148092</data>
+</edge>
+<edge source="SDQL" target="AVDR">
+  <data key="d0">2358.0</data>
+  <data key="d1">0.00015220053705231065</data>
+</edge>
+<edge source="SDQL" target="AVHL">
+  <data key="d0">1876.0</data>
+  <data key="d1">0.00012108914652677471</data>
+</edge>
+<edge source="SDQL" target="AVL">
+  <data key="d0">2475.0</data>
+  <data key="d1">0.00015840447080778407</data>
+</edge>
+<edge source="SDQL" target="RIAR">
+  <data key="d0">1959.0</data>
+  <data key="d1">0.00012644650215669063</data>
+</edge>
+<edge source="SDQL" target="RIMR">
+  <data key="d0">2235.0</data>
+  <data key="d1">0.00014426132328749545</data>
+</edge>
+<edge source="SDQL" target="RMHR">
+  <data key="d0">9630.0</data>
+  <data key="d1">0.0005192842375880148</data>
+</edge>
+<edge source="SDQL" target="SAADL">
+  <data key="d0">1196.0</data>
+  <data key="d1">7.71975582334875e-05</data>
+</edge>
+<edge source="SDQL" target="SIAVR">
+  <data key="d0">8619.0</data>
+  <data key="d1">0.0004647674811807995</data>
+</edge>
+<edge source="SDQL" target="SIBDR">
+  <data key="d0">5027.0</data>
+  <data key="d1">0.0002821437786062052</data>
+</edge>
+<edge source="SDQL" target="SIBVR">
+  <data key="d0">1614.0</data>
+  <data key="d1">9.058684278305456e-05</data>
+</edge>
+<edge source="SDQL" target="SMDDL">
+  <data key="d0">3371.0</data>
+  <data key="d1">0.00018177644495422614</data>
+</edge>
+<edge source="SDQL" target="SMDVR">
+  <data key="d0">5137.0</data>
+  <data key="d1">0.00033157513097443586</data>
+</edge>
+<edge source="SDQL" target="URBL">
+  <data key="d0">2489.0</data>
+  <data key="d1">0.00015930049609720183</data>
+</edge>
+<edge source="SDQR" target="ADEL">
+  <data key="d0">2121.0</data>
+  <data key="d1">0.00013574783134679194</data>
+</edge>
+<edge source="SDQR" target="ALML">
+  <data key="d0">2886.0</data>
+  <data key="d1">0.00016197870400984848</data>
+</edge>
+<edge source="SDQR" target="AVDL">
+  <data key="d0">2358.0</data>
+  <data key="d1">0.00015091625946050702</data>
+</edge>
+<edge source="SDQR" target="AVKL">
+  <data key="d0">3666.0</data>
+  <data key="d1">0.00023662729806351603</data>
+</edge>
+<edge source="SDQR" target="RIML">
+  <data key="d0">2235.0</data>
+  <data key="d1">0.00014304403727490804</data>
+</edge>
+<edge source="SDQR" target="RMHL">
+  <data key="d0">9630.0</data>
+  <data key="d1">0.0005404902701368125</data>
+</edge>
+<edge source="SDQR" target="SIAVL">
+  <data key="d0">8619.0</data>
+  <data key="d1">0.000483747210624007</data>
+</edge>
+<edge source="SDQR" target="SIBDL">
+  <data key="d0">5027.0</data>
+  <data key="d1">0.0002710739213245016</data>
+</edge>
+<edge source="SDQR" target="SIBVL">
+  <data key="d0">1614.0</data>
+  <data key="d1">8.703268530291338e-05</data>
+</edge>
+<edge source="SDQR" target="SMDVL">
+  <data key="d0">5137.0</data>
+  <data key="d1">0.0003287772794099341</data>
+</edge>
+<edge source="SIADL" target="ADFL">
+  <data key="d0">2006.0</data>
+  <data key="d1">0.00012838762361228883</data>
+</edge>
+<edge source="SIADL" target="ASJR">
+  <data key="d0">1135.0</data>
+  <data key="d1">7.264205024922623e-05</data>
+</edge>
+<edge source="SIADL" target="AVEL">
+  <data key="d0">1811.0</data>
+  <data key="d1">9.765563388077827e-05</data>
+</edge>
+<edge source="SIADL" target="CEPDR">
+  <data key="d0">2359.0</data>
+  <data key="d1">0.00012720576495016894</data>
+</edge>
+<edge source="SIADL" target="PVT">
+  <data key="d0">2571.0</data>
+  <data key="d1">0.00016594893162064913</data>
+</edge>
+<edge source="SIADL" target="RIH">
+  <data key="d0">1524.0</data>
+  <data key="d1">8.217956158713754e-05</data>
+</edge>
+<edge source="SIADL" target="RMDVR">
+  <data key="d0">1866.0</data>
+  <data key="d1">0.00010473051340345713</data>
+</edge>
+<edge source="SIADL" target="RMHR">
+  <data key="d0">1586.0</data>
+  <data key="d1">8.552282459133868e-05</data>
+</edge>
+<edge source="SIADL" target="SIBDR">
+  <data key="d0">1854.0</data>
+  <data key="d1">0.00010405700527867605</data>
+</edge>
+<edge source="SIADL" target="SMDDR">
+  <data key="d0">4519.0</data>
+  <data key="d1">0.00024368073412878906</data>
+</edge>
+<edge source="SIADL" target="URBR">
+  <data key="d0">1537.0</data>
+  <data key="d1">9.837077641679359e-05</data>
+</edge>
+<edge source="SIADL" target="URXR">
+  <data key="d0">1653.0</data>
+  <data key="d1">9.277574418859305e-05</data>
+</edge>
+<edge source="URADL" target="BDUL">
+  <data key="d0">1238.0</data>
+  <data key="d1">6.675741289033877e-05</data>
+</edge>
+<edge source="URADL" target="RIH">
+  <data key="d0">2593.0</data>
+  <data key="d1">0.00014553388062977723</data>
+</edge>
+<edge source="URADL" target="URXL">
+  <data key="d0">1423.0</data>
+  <data key="d1">7.986683846362245e-05</data>
+</edge>
+<edge source="ADAR" target="ADEL">
+  <data key="d0">1130.0</data>
+  <data key="d1">7.232204121729132e-05</data>
+</edge>
+<edge source="ADAR" target="AVFL">
+  <data key="d0">2020.0</data>
+  <data key="d1">0.00010892566562074661</data>
+</edge>
+<edge source="ADAR" target="AVKL">
+  <data key="d0">2876.0</data>
+  <data key="d1">0.0001614174472391976</data>
+</edge>
+<edge source="ADAR" target="SAAVL">
+  <data key="d0">1397.0</data>
+  <data key="d1">9.017139536135622e-05</data>
+</edge>
+<edge source="ADEL" target="ASJL">
+  <data key="d0">4660.0</data>
+  <data key="d1">0.00029824841776334294</data>
+</edge>
+<edge source="ADEL" target="AVJL">
+  <data key="d0">3747.0</data>
+  <data key="d1">0.00020205171736680075</data>
+</edge>
+<edge source="ADEL" target="AVKL">
+  <data key="d0">2582.0</data>
+  <data key="d1">0.00016665894260774642</data>
+</edge>
+<edge source="ADEL" target="CEPVL">
+  <data key="d0">1325.0</data>
+  <data key="d1">8.48023934627531e-05</data>
+</edge>
+<edge source="ADEL" target="RIMR">
+  <data key="d0">1971.0</data>
+  <data key="d1">0.00012614756038874442</data>
+</edge>
+<edge source="ADEL" target="RIR">
+  <data key="d0">2786.0</data>
+  <data key="d1">0.00015023114080168318</data>
+</edge>
+<edge source="ADEL" target="RMDDR">
+  <data key="d0">1362.0</data>
+  <data key="d1">8.791226949331938e-05</data>
+</edge>
+<edge source="ADEL" target="RMDVL">
+  <data key="d0">6680.0</data>
+  <data key="d1">0.00042753206666504956</data>
+</edge>
+<edge source="ADEL" target="SIADR">
+  <data key="d0">3026.0</data>
+  <data key="d1">0.00019366946612701198</data>
+</edge>
+<edge source="ADEL" target="SMBDL">
+  <data key="d0">2167.0</data>
+  <data key="d1">0.00013869191444059318</data>
+</edge>
+<edge source="ADEL" target="SMBVL">
+  <data key="d0">2909.0</data>
+  <data key="d1">0.0001861812547797349</data>
+</edge>
+<edge source="ADEL" target="URXL">
+  <data key="d0">3846.0</data>
+  <data key="d1">0.00020739015345415417</data>
+</edge>
+<edge source="AVFL" target="ADLR">
+  <data key="d0">2076.0</data>
+  <data key="d1">0.00011194538704389602</data>
+</edge>
+<edge source="AVFL" target="AIAR">
+  <data key="d0">1394.0</data>
+  <data key="d1">7.516949399768355e-05</data>
+</edge>
+<edge source="AVFL" target="ALA">
+  <data key="d0">1216.0</data>
+  <data key="d1">6.824882331114891e-05</data>
+</edge>
+<edge source="AVFL" target="ASKR">
+  <data key="d0">4397.0</data>
+  <data key="d1">0.0002371020553140707</data>
+</edge>
+<edge source="AVFL" target="AVKL">
+  <data key="d0">1296.0</data>
+  <data key="d1">6.988498150717208e-05</data>
+</edge>
+<edge source="AVFL" target="AVM">
+  <data key="d0">2192.0</data>
+  <data key="d1">0.00014148582579247876</data>
+</edge>
+<edge source="AVFL" target="PVCL">
+  <data key="d0">1469.0</data>
+  <data key="d1">9.481874000417487e-05</data>
+</edge>
+<edge source="AVFL" target="PVPL">
+  <data key="d0">3192.0</data>
+  <data key="d1">0.0001791531611917659</data>
+</edge>
+<edge source="AVFL" target="RIML">
+  <data key="d0">5705.0</data>
+  <data key="d1">0.00032019698765633597</data>
+</edge>
+<edge source="AVFL" target="RMDR">
+  <data key="d0">1518.0</data>
+  <data key="d1">8.519877778480595e-05</data>
+</edge>
+<edge source="AVFL" target="SAADL">
+  <data key="d0">1131.0</data>
+  <data key="d1">7.23860430236783e-05</data>
+</edge>
+<edge source="AVFL" target="SIAVL">
+  <data key="d0">5062.0</data>
+  <data key="d1">0.0002841081773034834</data>
+</edge>
+<edge source="AVFL" target="SIBVR">
+  <data key="d0">3520.0</data>
+  <data key="d1">0.00019756238326911526</data>
+</edge>
+<edge source="AVFL" target="SMDVR">
+  <data key="d0">3058.0</data>
+  <data key="d1">0.0001716323204650439</data>
+</edge>
+<edge source="AVFL" target="URXL">
+  <data key="d0">1604.0</data>
+  <data key="d1">9.002558601240366e-05</data>
+</edge>
+<edge source="AVFL" target="URXR">
+  <data key="d0">1635.0</data>
+  <data key="d1">9.176548200142144e-05</data>
+</edge>
+<edge source="AVKL" target="ALNL">
+  <data key="d0">1722.0</data>
+  <data key="d1">0.00011021111059838553</data>
+</edge>
+<edge source="AVKL" target="AVBR">
+  <data key="d0">2248.0</data>
+  <data key="d1">0.00012617052204232134</data>
+</edge>
+<edge source="AVKL" target="AVDL">
+  <data key="d0">3113.0</data>
+  <data key="d1">0.00020093310934853393</data>
+</edge>
+<edge source="AVKL" target="FLPL">
+  <data key="d0">6960.0</data>
+  <data key="d1">0.00039063471237302336</data>
+</edge>
+<edge source="AVKL" target="FLPR">
+  <data key="d0">2409.0</data>
+  <data key="d1">0.00015549240617430718</data>
+</edge>
+<edge source="AVKL" target="PVPL">
+  <data key="d0">5224.0</data>
+  <data key="d1">0.0002932005369880279</data>
+</edge>
+<edge source="AVKL" target="RIH">
+  <data key="d0">2041.0</data>
+  <data key="d1">0.00011005806115442764</data>
+</edge>
+<edge source="AVKL" target="RIVR">
+  <data key="d0">4456.0</data>
+  <data key="d1">0.00024028354752774598</data>
+</edge>
+<edge source="AVKL" target="RMDVL">
+  <data key="d0">2330.0</data>
+  <data key="d1">0.0001307728275616587</data>
+</edge>
+<edge source="AVKL" target="RMEV">
+  <data key="d0">2414.0</data>
+  <data key="d1">0.0001558151384411696</data>
+</edge>
+<edge source="AVKL" target="RMGL">
+  <data key="d0">3743.0</data>
+  <data key="d1">0.00020183602297943294</data>
+</edge>
+<edge source="AVKL" target="RMGR">
+  <data key="d0">3540.0</data>
+  <data key="d1">0.00022656639460992147</data>
+</edge>
+<edge source="AVKL" target="URYVL">
+  <data key="d0">1341.0</data>
+  <data key="d1">7.231154336506e-05</data>
+</edge>
+<edge source="SAAVL" target="ADLL">
+  <data key="d0">1682.0</data>
+  <data key="d1">0.00010856713457251336</data>
+</edge>
+<edge source="SAAVL" target="ALNR">
+  <data key="d0">1129.0</data>
+  <data key="d1">7.225803941090433e-05</data>
+</edge>
+<edge source="SAAVL" target="AVDR">
+  <data key="d0">1642.0</data>
+  <data key="d1">0.00010509096608742685</data>
+</edge>
+<edge source="SAAVL" target="AVEL">
+  <data key="d0">1646.0</data>
+  <data key="d1">0.00010624346225110403</data>
+</edge>
+<edge source="SAAVL" target="BAGR">
+  <data key="d0">2417.0</data>
+  <data key="d1">0.0001356557614663215</data>
+</edge>
+<edge source="SAAVL" target="PVCR">
+  <data key="d0">1267.0</data>
+  <data key="d1">8.109028869230805e-05</data>
+</edge>
+<edge source="SAAVL" target="RIBL">
+  <data key="d0">1451.0</data>
+  <data key="d1">9.286662106751301e-05</data>
+</edge>
+<edge source="SAAVL" target="RIH">
+  <data key="d0">6032.0</data>
+  <data key="d1">0.0003860588961262843</data>
+</edge>
+<edge source="SAAVL" target="RMDL">
+  <data key="d0">1247.0</data>
+  <data key="d1">6.998871930016669e-05</data>
+</edge>
+<edge source="SAAVL" target="RMGL">
+  <data key="d0">2233.0</data>
+  <data key="d1">0.0001441322303807505</data>
+</edge>
+<edge source="SAAVL" target="SIAVL">
+  <data key="d0">1355.0</data>
+  <data key="d1">7.306647372084735e-05</data>
+</edge>
+<edge source="SAAVL" target="SIAVR">
+  <data key="d0">2206.0</data>
+  <data key="d1">0.00011895545463335001</data>
+</edge>
+<edge source="SAAVL" target="SIBDL">
+  <data key="d0">1534.0</data>
+  <data key="d1">8.271879755555708e-05</data>
+</edge>
+<edge source="SAAVL" target="SIBDR">
+  <data key="d0">1523.0</data>
+  <data key="d1">8.547940617013141e-05</data>
+</edge>
+<edge source="SAAVL" target="SIBVR">
+  <data key="d0">1261.0</data>
+  <data key="d1">6.79976556177037e-05</data>
+</edge>
+<edge source="ASJL" target="ASKR">
+  <data key="d0">1674.0</data>
+  <data key="d1">9.395438340695994e-05</data>
+</edge>
+<edge source="ASJL" target="CEPVL">
+  <data key="d0">2225.0</data>
+  <data key="d1">0.00011998000297334713</data>
+</edge>
+<edge source="ASJL" target="IL1L">
+  <data key="d0">2561.0</data>
+  <data key="d1">0.00014373785896369437</data>
+</edge>
+<edge source="ASJL" target="PVQR">
+  <data key="d0">1482.0</data>
+  <data key="d1">8.317825341046273e-05</data>
+</edge>
+<edge source="ASJL" target="RMGL">
+  <data key="d0">4063.0</data>
+  <data key="d1">0.00021909157396885815</data>
+</edge>
+<edge source="ASJL" target="SABD">
+  <data key="d0">1220.0</data>
+  <data key="d1">6.57867881471836e-05</data>
+</edge>
+<edge source="ASJL" target="SIADR">
+  <data key="d0">1135.0</data>
+  <data key="d1">7.326022457776615e-05</data>
+</edge>
+<edge source="ASJL" target="SMBVL">
+  <data key="d0">3665.0</data>
+  <data key="d1">0.00020570060644355327</data>
+</edge>
+<edge source="ASJL" target="URXL">
+  <data key="d0">1546.0</data>
+  <data key="d1">8.677029674262847e-05</data>
+</edge>
+<edge source="AVJL" target="ADLL">
+  <data key="d0">1401.0</data>
+  <data key="d1">7.863207356819048e-05</data>
+</edge>
+<edge source="AVJL" target="ADLR">
+  <data key="d0">2530.0</data>
+  <data key="d1">0.0001419979629746766</data>
+</edge>
+<edge source="AVJL" target="ALA">
+  <data key="d0">1203.0</data>
+  <data key="d1">7.699417308354111e-05</data>
+</edge>
+<edge source="AVJL" target="AQR">
+  <data key="d0">4014.0</data>
+  <data key="d1">0.00022528846773926952</data>
+</edge>
+<edge source="AVJL" target="ASHL">
+  <data key="d0">1285.0</data>
+  <data key="d1">8.294219258363832e-05</data>
+</edge>
+<edge source="AVJL" target="FLPL">
+  <data key="d0">1908.0</data>
+  <data key="d1">0.00012211544658636447</data>
+</edge>
+<edge source="AVJL" target="RICL">
+  <data key="d0">2716.0</data>
+  <data key="d1">0.0001753081673596589</data>
+</edge>
+<edge source="AVJL" target="RICR">
+  <data key="d0">4864.0</data>
+  <data key="d1">0.0003139539492037485</data>
+</edge>
+<edge source="AVJL" target="SIBVL">
+  <data key="d0">2317.0</data>
+  <data key="d1">0.00013004319375981252</data>
+</edge>
+<edge source="AVJL" target="SIBVR">
+  <data key="d0">2831.0</data>
+  <data key="d1">0.00015889179177126856</data>
+</edge>
+<edge source="AVJL" target="SMDVL">
+  <data key="d0">1655.0</data>
+  <data key="d1">0.00010682438033145637</data>
+</edge>
+<edge source="AVJL" target="URYDR">
+  <data key="d0">1324.0</data>
+  <data key="d1">8.545950426516509e-05</data>
+</edge>
+<edge source="CEPVL" target="ADLL">
+  <data key="d0">16239.0</data>
+  <data key="d1">0.0008756652891164872</data>
+</edge>
+<edge source="CEPVL" target="AIAL">
+  <data key="d0">4384.0</data>
+  <data key="d1">0.00023640104855512532</data>
+</edge>
+<edge source="CEPVL" target="ASER">
+  <data key="d0">1472.0</data>
+  <data key="d1">8.261699663981184e-05</data>
+</edge>
+<edge source="CEPVL" target="ASIL">
+  <data key="d0">2097.0</data>
+  <data key="d1">0.00011307778257757704</data>
+</edge>
+<edge source="CEPVL" target="AVDR">
+  <data key="d0">1714.0</data>
+  <data key="d1">9.619941048956352e-05</data>
+</edge>
+<edge source="CEPVL" target="AWCL">
+  <data key="d0">1310.0</data>
+  <data key="d1">7.063991186295943e-05</data>
+</edge>
+<edge source="CEPVL" target="AWCR">
+  <data key="d0">1115.0</data>
+  <data key="d1">7.196929551031652e-05</data>
+</edge>
+<edge source="CEPVL" target="BDUL">
+  <data key="d0">3604.0</data>
+  <data key="d1">0.00019434064301840137</data>
+</edge>
+<edge source="CEPVL" target="RIPL">
+  <data key="d0">1440.0</data>
+  <data key="d1">7.764997945241342e-05</data>
+</edge>
+<edge source="CEPVL" target="RMDR">
+  <data key="d0">1889.0</data>
+  <data key="d1">0.00012192825042061696</data>
+</edge>
+<edge source="CEPVL" target="SIBDL">
+  <data key="d0">1810.0</data>
+  <data key="d1">9.760171028393631e-05</data>
+</edge>
+<edge source="CEPVL" target="URXL">
+  <data key="d0">2254.0</data>
+  <data key="d1">0.00012154378728176379</data>
+</edge>
+<edge source="RIMR" target="AIYL">
+  <data key="d0">1179.0</data>
+  <data key="d1">7.545812973025351e-05</data>
+</edge>
+<edge source="RIMR" target="RIBL">
+  <data key="d0">2600.0</data>
+  <data key="d1">0.00016640469660615702</data>
+</edge>
+<edge source="RIMR" target="SIBDL">
+  <data key="d0">1598.0</data>
+  <data key="d1">0.00010314523248922494</data>
+</edge>
+<edge source="RIMR" target="SIBVL">
+  <data key="d0">1217.0</data>
+  <data key="d1">6.562501735665773e-05</data>
+</edge>
+<edge source="RIR" target="AVEL">
+  <data key="d0">3097.0</data>
+  <data key="d1">0.00019990036609457423</data>
+</edge>
+<edge source="RIR" target="RMGL">
+  <data key="d0">3526.0</data>
+  <data key="d1">0.000190134602464729</data>
+</edge>
+<edge source="RIR" target="SAADL">
+  <data key="d0">1410.0</data>
+  <data key="d1">7.60322715471548e-05</data>
+</edge>
+<edge source="RIR" target="SIBVL">
+  <data key="d0">1305.0</data>
+  <data key="d1">7.037029387874967e-05</data>
+</edge>
+<edge source="RIR" target="SMBDL">
+  <data key="d0">3039.0</data>
+  <data key="d1">0.00019615667179897033</data>
+</edge>
+<edge source="RIR" target="SMBVL">
+  <data key="d0">2849.0</data>
+  <data key="d1">0.00015990205395844016</data>
+</edge>
+<edge source="RMDDR" target="AIBL">
+  <data key="d0">1211.0</data>
+  <data key="d1">6.530147577560601e-05</data>
+</edge>
+<edge source="RMDDR" target="ALML">
+  <data key="d0">2882.0</data>
+  <data key="d1">0.00015540780609851076</data>
+</edge>
+<edge source="RMDDR" target="IL2DL">
+  <data key="d0">1474.0</data>
+  <data key="d1">7.948338174503985e-05</data>
+</edge>
+<edge source="RMDDR" target="RMEL">
+  <data key="d0">2513.0</data>
+  <data key="d1">0.00016083653945048946</data>
+</edge>
+<edge source="RMDDR" target="SMDDL">
+  <data key="d0">1474.0</data>
+  <data key="d1">7.948338174503985e-05</data>
+</edge>
+<edge source="RMDVL" target="DVA">
+  <data key="d0">4900.0</data>
+  <data key="d1">0.00031627762152515785</data>
+</edge>
+<edge source="RMDVL" target="OLLR">
+  <data key="d0">1689.0</data>
+  <data key="d1">9.107695506605991e-05</data>
+</edge>
+<edge source="RMDVL" target="RICR">
+  <data key="d0">1858.0</data>
+  <data key="d1">0.0001001900429323501</data>
+</edge>
+<edge source="RMDVL" target="RMHR">
+  <data key="d0">10568.0</data>
+  <data key="d1">0.0006763710898976412</data>
+</edge>
+<edge source="RMDVL" target="SIADR">
+  <data key="d0">1866.0</data>
+  <data key="d1">0.00010062143170708573</data>
+</edge>
+<edge source="RMDVL" target="SIBDL">
+  <data key="d0">5707.0</data>
+  <data key="d1">0.00030774196717703014</data>
+</edge>
+<edge source="RMDVL" target="SMBVL">
+  <data key="d0">2750.0</data>
+  <data key="d1">0.00014828989131537287</data>
+</edge>
+<edge source="RMDVL" target="SMDDR">
+  <data key="d0">2861.0</data>
+  <data key="d1">0.00016057556208322124</data>
+</edge>
+<edge source="RMDVL" target="URBL">
+  <data key="d0">16687.0</data>
+  <data key="d1">0.001067998143179593</data>
+</edge>
+<edge source="RMDVL" target="URXL">
+  <data key="d0">1278.0</data>
+  <data key="d1">6.891435676401691e-05</data>
+</edge>
+<edge source="RMDVL" target="URXR">
+  <data key="d0">1749.0</data>
+  <data key="d1">9.816380918684165e-05</data>
+</edge>
+<edge source="SIADR" target="CEPDL">
+  <data key="d0">2359.0</data>
+  <data key="d1">0.0001324004721965463</data>
+</edge>
+<edge source="SIADR" target="RMHL">
+  <data key="d0">1586.0</data>
+  <data key="d1">8.901532382523205e-05</data>
+</edge>
+<edge source="SIADR" target="SIBDL">
+  <data key="d0">1854.0</data>
+  <data key="d1">9.997434854498228e-05</data>
+</edge>
+<edge source="SIADR" target="SMDDL">
+  <data key="d0">4519.0</data>
+  <data key="d1">0.00025363193465713975</data>
+</edge>
+<edge source="SIADR" target="URBL">
+  <data key="d0">1537.0</data>
+  <data key="d1">9.920789883350359e-05</data>
+</edge>
+<edge source="SIADR" target="URXL">
+  <data key="d0">1653.0</data>
+  <data key="d1">8.913570557974958e-05</data>
+</edge>
+<edge source="SMBDL" target="AIMR">
+  <data key="d0">1729.0</data>
+  <data key="d1">9.704129564553986e-05</data>
+</edge>
+<edge source="SMBDL" target="AVAL">
+  <data key="d0">1316.0</data>
+  <data key="d1">8.494313263818524e-05</data>
+</edge>
+<edge source="SMBDL" target="AVDL">
+  <data key="d0">1970.0</data>
+  <data key="d1">0.00010622948577864892</data>
+</edge>
+<edge source="SMBDL" target="AVDR">
+  <data key="d0">2449.0</data>
+  <data key="d1">0.00015807426430920643</data>
+</edge>
+<edge source="SMBDL" target="AVER">
+  <data key="d0">2348.0</data>
+  <data key="d1">0.0001317830897488303</data>
+</edge>
+<edge source="SMBDL" target="CEPDL">
+  <data key="d0">3090.0</data>
+  <data key="d1">0.00016662391424163714</data>
+</edge>
+<edge source="SMBDL" target="FLPL">
+  <data key="d0">1620.0</data>
+  <data key="d1">8.73562268839651e-05</data>
+</edge>
+<edge source="SMBDL" target="FLPR">
+  <data key="d0">2422.0</data>
+  <data key="d1">0.00015501237506927395</data>
+</edge>
+<edge source="SMBDL" target="RMEV">
+  <data key="d0">2915.0</data>
+  <data key="d1">0.00016360634864473608</data>
+</edge>
+<edge source="SMBDL" target="RMGR">
+  <data key="d0">1711.0</data>
+  <data key="d1">0.00011043898172031531</data>
+</edge>
+<edge source="SMBDL" target="SMBVR">
+  <data key="d0">25534.0</data>
+  <data key="d1">0.0016481291404129347</data>
+</edge>
+<edge source="SMBDL" target="URYDL">
+  <data key="d0">1563.0</data>
+  <data key="d1">8.428258186397374e-05</data>
+</edge>
+<edge source="SMBVL" target="AIZR">
+  <data key="d0">3315.0</data>
+  <data key="d1">0.00018605661947077192</data>
+</edge>
+<edge source="SMBVL" target="ALML">
+  <data key="d0">3073.0</data>
+  <data key="d1">0.00017247420562102023</data>
+</edge>
+<edge source="SMBVL" target="AVER">
+  <data key="d0">2360.0</data>
+  <data key="d1">0.00013245659787361138</data>
+</edge>
+<edge source="SMBVL" target="PVCL">
+  <data key="d0">2377.0</data>
+  <data key="d1">0.0001281763896933241</data>
+</edge>
+<edge source="SMBVL" target="RIGR">
+  <data key="d0">2536.0</data>
+  <data key="d1">0.00016230858099739007</data>
+</edge>
+<edge source="SMBVL" target="RIML">
+  <data key="d0">1626.0</data>
+  <data key="d1">0.00010406693718523511</data>
+</edge>
+<edge source="SMBVL" target="RMDDL">
+  <data key="d0">1787.0</data>
+  <data key="d1">0.00011437122801353945</data>
+</edge>
+<edge source="SMBVL" target="RMHR">
+  <data key="d0">1361.0</data>
+  <data key="d1">8.78477230399469e-05</data>
+</edge>
+<edge source="SMBVL" target="SAADR">
+  <data key="d0">1773.0</data>
+  <data key="d1">0.00011347520272412169</data>
+</edge>
+<edge source="SMBVL" target="SABD">
+  <data key="d0">2136.0</data>
+  <data key="d1">0.00011518080285441325</data>
+</edge>
+<edge source="SMBVL" target="SMBDR">
+  <data key="d0">25534.0</data>
+  <data key="d1">0.0016342221242852358</data>
+</edge>
+<edge source="SMBVL" target="URXL">
+  <data key="d0">2484.0</data>
+  <data key="d1">0.00013394621455541314</data>
+</edge>
+<edge source="URXL" target="AFDL">
+  <data key="d0">1278.0</data>
+  <data key="d1">7.172861528918446e-05</data>
+</edge>
+<edge source="URXL" target="AIYL">
+  <data key="d0">1359.0</data>
+  <data key="d1">8.771863013320193e-05</data>
+</edge>
+<edge source="URXL" target="BAGL">
+  <data key="d0">2437.0</data>
+  <data key="d1">0.00013141180550384134</data>
+</edge>
+<edge source="URXL" target="RIBL">
+  <data key="d0">2468.0</data>
+  <data key="d1">0.0001579564581630752</data>
+</edge>
+<edge source="URXL" target="RIPL">
+  <data key="d0">7999.0</data>
+  <data key="d1">0.00043133485113878815</data>
+</edge>
+<edge source="URXL" target="RMDL">
+  <data key="d0">6946.0</data>
+  <data key="d1">0.00037455330366421087</data>
+</edge>
+<edge source="URXL" target="RMDVR">
+  <data key="d0">1749.0</data>
+  <data key="d1">9.431237087657713e-05</data>
+</edge>
+<edge source="URXL" target="SIAVL">
+  <data key="d0">1493.0</data>
+  <data key="d1">8.050793008503698e-05</data>
+</edge>
+<edge source="URXL" target="SMDDR">
+  <data key="d0">2014.0</data>
+  <data key="d1">0.00010860212403969489</data>
+</edge>
+<edge source="URXL" target="URAVL">
+  <data key="d0">2023.0</data>
+  <data key="d1">0.00010908743641127247</data>
+</edge>
+<edge source="RIML" target="ADFL">
+  <data key="d0">5140.0</data>
+  <data key="d1">0.0002771672877676424</data>
+</edge>
+<edge source="RIML" target="ADLL">
+  <data key="d0">2870.0</data>
+  <data key="d1">0.00016108069317680705</data>
+</edge>
+<edge source="RIML" target="AIYR">
+  <data key="d0">1179.0</data>
+  <data key="d1">7.610026852615532e-05</data>
+</edge>
+<edge source="RIML" target="ASIL">
+  <data key="d0">2252.0</data>
+  <data key="d1">0.00012143594008807988</data>
+</edge>
+<edge source="RIML" target="AVM">
+  <data key="d0">1334.0</data>
+  <data key="d1">8.610496879888991e-05</data>
+</edge>
+<edge source="RIML" target="FLPL">
+  <data key="d0">3730.0</data>
+  <data key="d1">0.0002093487754527841</data>
+</edge>
+<edge source="RIML" target="OLLL">
+  <data key="d0">1291.0</data>
+  <data key="d1">8.332947130387321e-05</data>
+</edge>
+<edge source="RIML" target="RIBR">
+  <data key="d0">2600.0</data>
+  <data key="d1">0.0001678207787684511</data>
+</edge>
+<edge source="RIML" target="RMEV">
+  <data key="d0">1179.0</data>
+  <data key="d1">7.545812973025351e-05</data>
+</edge>
+<edge source="RIML" target="SIBDR">
+  <data key="d0">1598.0</data>
+  <data key="d1">0.00010227488660639957</data>
+</edge>
+<edge source="RIML" target="SIBVR">
+  <data key="d0">1217.0</data>
+  <data key="d1">6.8304948988214e-05</data>
+</edge>
+<edge source="RIML" target="URYVL">
+  <data key="d0">1861.0</data>
+  <data key="d1">0.00010444988501813169</data>
+</edge>
+<edge source="RMDDL" target="AIBR">
+  <data key="d0">1211.0</data>
+  <data key="d1">6.796819492582346e-05</data>
+</edge>
+<edge source="RMDDL" target="ALMR">
+  <data key="d0">2882.0</data>
+  <data key="d1">0.00016175420130158812</data>
+</edge>
+<edge source="RMDDL" target="ALNL">
+  <data key="d0">1443.0</data>
+  <data key="d1">8.098935200492424e-05</data>
+</edge>
+<edge source="RMDDL" target="CEPDL">
+  <data key="d0">1314.0</data>
+  <data key="d1">8.481403973144028e-05</data>
+</edge>
+<edge source="RMDDL" target="IL2DR">
+  <data key="d0">1474.0</data>
+  <data key="d1">8.272924799394202e-05</data>
+</edge>
+<edge source="RMDDL" target="RMER">
+  <data key="d0">2513.0</data>
+  <data key="d1">0.00016220523732504523</data>
+</edge>
+<edge source="RMDDL" target="SMDDR">
+  <data key="d0">1474.0</data>
+  <data key="d1">8.272924799394202e-05</data>
+</edge>
+<edge source="ADFL" target="ADLL">
+  <data key="d0">2700.0</data>
+  <data key="d1">0.00015153932807574183</data>
+</edge>
+<edge source="ADFL" target="AIBR">
+  <data key="d0">3498.0</data>
+  <data key="d1">0.00018862474175315426</data>
+</edge>
+<edge source="ADFL" target="AIZR">
+  <data key="d0">3187.0</data>
+  <data key="d1">0.00020570954689809755</data>
+</edge>
+<edge source="ADFL" target="AQR">
+  <data key="d0">4207.0</data>
+  <data key="d1">0.0002268565719140995</data>
+</edge>
+<edge source="ADFL" target="ASGL">
+  <data key="d0">1478.0</data>
+  <data key="d1">8.295375070220238e-05</data>
+</edge>
+<edge source="ADFL" target="ASIL">
+  <data key="d0">8450.0</data>
+  <data key="d1">0.00047426197120000683</data>
+</edge>
+<edge source="ADFL" target="AUAR">
+  <data key="d0">6489.0</data>
+  <data key="d1">0.0004188419359340304</data>
+</edge>
+<edge source="ADFL" target="AWBR">
+  <data key="d0">1541.0</data>
+  <data key="d1">9.946608464699352e-05</data>
+</edge>
+<edge source="ADFL" target="BAGR">
+  <data key="d0">5087.0</data>
+  <data key="d1">0.00027430933713501883</data>
+</edge>
+<edge source="ADFL" target="DVA">
+  <data key="d0">2707.0</data>
+  <data key="d1">0.00014597117665116885</data>
+</edge>
+<edge source="ADFL" target="OLQVL">
+  <data key="d0">1635.0</data>
+  <data key="d1">0.00010464295344271797</data>
+</edge>
+<edge source="ADFL" target="PVPL">
+  <data key="d0">14232.0</data>
+  <data key="d1">0.000767440630254686</data>
+</edge>
+<edge source="ADFL" target="RIH">
+  <data key="d0">5012.0</data>
+  <data key="d1">0.0002702650673718723</data>
+</edge>
+<edge source="ADFL" target="SIAVL">
+  <data key="d0">3247.0</data>
+  <data key="d1">0.0002095823341004464</data>
+</edge>
+<edge source="ADFL" target="SIBDL">
+  <data key="d0">3430.0</data>
+  <data key="d1">0.0001925110723332572</data>
+</edge>
+<edge source="ADLL" target="ALML">
+  <data key="d0">1692.0</data>
+  <data key="d1">9.496464559413155e-05</data>
+</edge>
+<edge source="ADLL" target="ASER">
+  <data key="d0">18367.0</data>
+  <data key="d1">0.0010308603106545</data>
+</edge>
+<edge source="ADLL" target="ASKR">
+  <data key="d0">1988.0</data>
+  <data key="d1">0.00010720011052180409</data>
+</edge>
+<edge source="ADLL" target="AVAR">
+  <data key="d0">7281.0</data>
+  <data key="d1">0.00046599715230362664</data>
+</edge>
+<edge source="ADLL" target="AVBL">
+  <data key="d0">6951.0</data>
+  <data key="d1">0.0003901295812794376</data>
+</edge>
+<edge source="ADLL" target="AVDL">
+  <data key="d0">1235.0</data>
+  <data key="d1">7.971486991501427e-05</data>
+</edge>
+<edge source="ADLL" target="AVHL">
+  <data key="d0">2119.0</data>
+  <data key="d1">0.00013561982773401796</data>
+</edge>
+<edge source="ADLL" target="AVJR">
+  <data key="d0">2530.0</data>
+  <data key="d1">0.00013642670001014302</data>
+</edge>
+<edge source="ADLL" target="AWCR">
+  <data key="d0">1703.0</data>
+  <data key="d1">9.558202804184752e-05</data>
+</edge>
+<edge source="ADLL" target="DVA">
+  <data key="d0">1461.0</data>
+  <data key="d1">8.199961419209585e-05</data>
+</edge>
+<edge source="ADLL" target="RICL">
+  <data key="d0">5050.0</data>
+  <data key="d1">0.0002723141640518665</data>
+</edge>
+<edge source="ADLL" target="RICR">
+  <data key="d0">2568.0</data>
+  <data key="d1">0.00013847579669013727</data>
+</edge>
+<edge source="ADLL" target="URBL">
+  <data key="d0">5798.0</data>
+  <data key="d1">0.00031264901448964795</data>
+</edge>
+<edge source="AIBR" target="AIAL">
+  <data key="d0">1404.0</data>
+  <data key="d1">9.062322053496358e-05</data>
+</edge>
+<edge source="AIBR" target="AVAL">
+  <data key="d0">1960.0</data>
+  <data key="d1">0.0001254435405184876</data>
+</edge>
+<edge source="AIBR" target="AVBL">
+  <data key="d0">2181.0</data>
+  <data key="d1">0.00014077581480538147</data>
+</edge>
+<edge source="AIBR" target="AWBL">
+  <data key="d0">1217.0</data>
+  <data key="d1">6.562501735665773e-05</data>
+</edge>
+<edge source="AIBR" target="RICL">
+  <data key="d0">2428.0</data>
+  <data key="d1">0.00015671878878838433</data>
+</edge>
+<edge source="AIBR" target="SIBDL">
+  <data key="d0">3796.0</data>
+  <data key="d1">0.00024295085704498923</data>
+</edge>
+<edge source="AIBR" target="SIBVL">
+  <data key="d0">1295.0</data>
+  <data key="d1">7.268275179929099e-05</data>
+</edge>
+<edge source="AIBR" target="URAVL">
+  <data key="d0">1317.0</data>
+  <data key="d1">7.391751669472295e-05</data>
+</edge>
+<edge source="AIBR" target="URYVL">
+  <data key="d0">1616.0</data>
+  <data key="d1">9.069909413718474e-05</data>
+</edge>
+<edge source="AIZR" target="AVDL">
+  <data key="d0">3378.0</data>
+  <data key="d1">0.00021619810197523015</data>
+</edge>
+<edge source="AIZR" target="PVPL">
+  <data key="d0">1923.0</data>
+  <data key="d1">0.0001230754736821692</data>
+</edge>
+<edge source="AIZR" target="RIGL">
+  <data key="d0">1945.0</data>
+  <data key="d1">0.0001091644418915992</data>
+</edge>
+<edge source="AIZR" target="SIBDL">
+  <data key="d0">2044.0</data>
+  <data key="d1">0.00011472088392104308</data>
+</edge>
+<edge source="AIZR" target="SIBVL">
+  <data key="d0">4818.0</data>
+  <data key="d1">0.00027041351209960155</data>
+</edge>
+<edge source="AQR" target="FLPL">
+  <data key="d0">4014.0</data>
+  <data key="d1">0.00022528846773926952</data>
+</edge>
+<edge source="AQR" target="RIBL">
+  <data key="d0">1331.0</data>
+  <data key="d1">8.5186404301075e-05</data>
+</edge>
+<edge source="AQR" target="RICL">
+  <data key="d0">2725.0</data>
+  <data key="d1">0.00017588908544001125</data>
+</edge>
+<edge source="AQR" target="SAADL">
+  <data key="d0">3604.0</data>
+  <data key="d1">0.00019434064301840137</data>
+</edge>
+<edge source="ASGL" target="AVBL">
+  <data key="d0">8182.0</data>
+  <data key="d1">0.0004592202897465628</data>
+</edge>
+<edge source="ASGL" target="AWBL">
+  <data key="d0">1274.0</data>
+  <data key="d1">6.869866237664909e-05</data>
+</edge>
+<edge source="ASGL" target="AWCR">
+  <data key="d0">9446.0</data>
+  <data key="d1">0.0006045610631314458</data>
+</edge>
+<edge source="ASGL" target="RIS">
+  <data key="d0">1248.0</data>
+  <data key="d1">6.72966488587583e-05</data>
+</edge>
+<edge source="ASGL" target="SABD">
+  <data key="d0">2928.0</data>
+  <data key="d1">0.00015788829155324063</data>
+</edge>
+<edge source="ASIL" target="AUAL">
+  <data key="d0">1342.0</data>
+  <data key="d1">7.236546696190196e-05</data>
+</edge>
+<edge source="AUAR" target="AVDL">
+  <data key="d0">1397.0</data>
+  <data key="d1">8.94105235226159e-05</data>
+</edge>
+<edge source="AWBR" target="AIBL">
+  <data key="d0">1217.0</data>
+  <data key="d1">6.8304948988214e-05</data>
+</edge>
+<edge source="AWBR" target="ASHL">
+  <data key="d0">1246.0</data>
+  <data key="d1">8.042488090211156e-05</data>
+</edge>
+<edge source="BAGR" target="AVBL">
+  <data key="d0">2145.0</data>
+  <data key="d1">0.00012038957730461712</data>
+</edge>
+<edge source="BAGR" target="AWCL">
+  <data key="d0">4164.0</data>
+  <data key="d1">0.00026650352179539917</data>
+</edge>
+<edge source="BAGR" target="SIBVL">
+  <data key="d0">1481.0</data>
+  <data key="d1">9.559329744464464e-05</data>
+</edge>
+<edge source="BAGR" target="SMDVL">
+  <data key="d0">1341.0</data>
+  <data key="d1">7.231154336506e-05</data>
+</edge>
+<edge source="DVA" target="BDUL">
+  <data key="d0">3136.0</data>
+  <data key="d1">0.00020070966482958015</data>
+</edge>
+<edge source="DVA" target="OLQVL">
+  <data key="d0">2896.0</data>
+  <data key="d1">0.00018692652896670553</data>
+</edge>
+<edge source="DVA" target="URBL">
+  <data key="d0">1600.0</data>
+  <data key="d1">0.0001032743253959699</data>
+</edge>
+<edge source="OLQVL" target="AVDR">
+  <data key="d0">1878.0</data>
+  <data key="d1">0.00012121823943351967</data>
+</edge>
+<edge source="OLQVL" target="RMER">
+  <data key="d0">4435.0</data>
+  <data key="d1">0.0002838480113262717</data>
+</edge>
+<edge source="OLQVL" target="RMFR">
+  <data key="d0">1500.0</data>
+  <data key="d1">9.681968005872177e-05</data>
+</edge>
+<edge source="OLQVL" target="SIBVR">
+  <data key="d0">1269.0</data>
+  <data key="d1">8.190944932967863e-05</data>
+</edge>
+<edge source="PVPL" target="ASHR">
+  <data key="d0">3706.0</data>
+  <data key="d1">0.00023719069447016074</data>
+</edge>
+<edge source="PVPL" target="AVL">
+  <data key="d0">1629.0</data>
+  <data key="d1">0.00010514617254377186</data>
+</edge>
+<edge source="PVPL" target="AWBL">
+  <data key="d0">1185.0</data>
+  <data key="d1">7.584214056857541e-05</data>
+</edge>
+<edge source="PVPL" target="DVC">
+  <data key="d0">2248.0</data>
+  <data key="d1">0.00012122024570071206</data>
+</edge>
+<edge source="PVPL" target="FLPR">
+  <data key="d0">1350.0</data>
+  <data key="d1">7.279685573663758e-05</data>
+</edge>
+<edge source="PVPL" target="RICL">
+  <data key="d0">4523.0</data>
+  <data key="d1">0.0002894801702883262</data>
+</edge>
+<edge source="RIH" target="AIAL">
+  <data key="d0">1896.0</data>
+  <data key="d1">0.00010641428371540981</data>
+</edge>
+<edge source="RIH" target="AVEL">
+  <data key="d0">7072.0</data>
+  <data key="d1">0.00038134767686629704</data>
+</edge>
+<edge source="RIH" target="PVCL">
+  <data key="d0">5318.0</data>
+  <data key="d1">0.0002984763506321463</data>
+</edge>
+<edge source="RIH" target="SIAVL">
+  <data key="d0">8558.0</data>
+  <data key="d1">0.0004803235443230365</data>
+</edge>
+<edge source="RIH" target="SIBVL">
+  <data key="d0">2212.0</data>
+  <data key="d1">0.00011927899621440174</data>
+</edge>
+<edge source="RIH" target="SMDVL">
+  <data key="d0">2059.0</data>
+  <data key="d1">0.00013177971935079895</data>
+</edge>
+<edge source="SIAVL" target="AIAL">
+  <data key="d0">2080.0</data>
+  <data key="d1">0.0001167414082953863</data>
+</edge>
+<edge source="SIAVL" target="AVHR">
+  <data key="d0">3065.0</data>
+  <data key="d1">0.00019783487958665484</data>
+</edge>
+<edge source="SIAVL" target="AVL">
+  <data key="d0">1288.0</data>
+  <data key="d1">6.945359273243646e-05</data>
+</edge>
+<edge source="SIAVL" target="OLLL">
+  <data key="d0">1228.0</data>
+  <data key="d1">6.892233143592999e-05</data>
+</edge>
+<edge source="SIAVL" target="RMEL">
+  <data key="d0">1994.0</data>
+  <data key="d1">0.00012761960193564503</data>
+</edge>
+<edge source="SIAVL" target="SABD">
+  <data key="d0">4414.0</data>
+  <data key="d1">0.0002380187564603839</data>
+</edge>
+<edge source="SIBDL" target="AFDL">
+  <data key="d0">1252.0</data>
+  <data key="d1">8.01302615965033e-05</data>
+</edge>
+<edge source="SIBDL" target="AINR">
+  <data key="d0">1937.0</data>
+  <data key="d1">0.00010445000708286445</data>
+</edge>
+<edge source="SIBDL" target="AVBL">
+  <data key="d0">2746.0</data>
+  <data key="d1">0.00015412110922073595</data>
+</edge>
+<edge source="SIBDL" target="BAGL">
+  <data key="d0">2229.0</data>
+  <data key="d1">0.00012019569736071495</data>
+</edge>
+<edge source="SIBDL" target="PVCR">
+  <data key="d0">1567.0</data>
+  <data key="d1">8.794893596099535e-05</data>
+</edge>
+<edge source="SIBDL" target="RMHR">
+  <data key="d0">1984.0</data>
+  <data key="d1">0.00012806016349100268</data>
+</edge>
+<edge source="SIBDL" target="SMDVR">
+  <data key="d0">1356.0</data>
+  <data key="d1">7.610641810026145e-05</data>
+</edge>
+<edge source="ADFR" target="AIBL">
+  <data key="d0">3498.0</data>
+  <data key="d1">0.0001963276183736833</data>
+</edge>
+<edge source="ADFR" target="AUAL">
+  <data key="d0">6489.0</data>
+  <data key="d1">0.0004153077216451357</data>
+</edge>
+<edge source="ADFR" target="AWBL">
+  <data key="d0">1541.0</data>
+  <data key="d1">9.862678364234152e-05</data>
+</edge>
+<edge source="ADFR" target="BAGL">
+  <data key="d0">5087.0</data>
+  <data key="d1">0.0002855113192301106</data>
+</edge>
+<edge source="AIBL" target="AIAR">
+  <data key="d0">1404.0</data>
+  <data key="d1">8.985853616732479e-05</data>
+</edge>
+<edge source="AIBL" target="AUAL">
+  <data key="d0">3319.0</data>
+  <data key="d1">0.0002124219953983981</data>
+</edge>
+<edge source="AIBL" target="AVAR">
+  <data key="d0">1960.0</data>
+  <data key="d1">0.00012651104861006313</data>
+</edge>
+<edge source="AIBL" target="AVBR">
+  <data key="d0">2181.0</data>
+  <data key="d1">0.00013958793973001095</data>
+</edge>
+<edge source="AIBL" target="AWBL">
+  <data key="d0">1682.0</data>
+  <data key="d1">0.00010856713457251336</data>
+</edge>
+<edge source="AIBL" target="RICL">
+  <data key="d0">7936.0</data>
+  <data key="d1">0.00042793766453774507</data>
+</edge>
+<edge source="AIBL" target="RICR">
+  <data key="d0">2428.0</data>
+  <data key="d1">0.00015539638590759586</data>
+</edge>
+<edge source="AIBL" target="RIGL">
+  <data key="d0">1271.0</data>
+  <data key="d1">7.133573554972884e-05</data>
+</edge>
+<edge source="AIBL" target="RMED">
+  <data key="d0">1455.0</data>
+  <data key="d1">9.391508965696013e-05</data>
+</edge>
+<edge source="AIBL" target="SABD">
+  <data key="d0">1568.0</data>
+  <data key="d1">8.45521998481835e-05</data>
+</edge>
+<edge source="AIBL" target="SIBDR">
+  <data key="d0">3796.0</data>
+  <data key="d1">0.00024501833700193857</data>
+</edge>
+<edge source="AIBL" target="SIBVR">
+  <data key="d0">1295.0</data>
+  <data key="d1">6.983105791033013e-05</data>
+</edge>
+<edge source="AIBL" target="URAVR">
+  <data key="d0">1317.0</data>
+  <data key="d1">7.101737704085312e-05</data>
+</edge>
+<edge source="AIBL" target="URYVR">
+  <data key="d0">1616.0</data>
+  <data key="d1">8.714053249659728e-05</data>
+</edge>
+<edge source="AUAL" target="AVDL">
+  <data key="d0">1568.0</data>
+  <data key="d1">0.00010035483241479007</data>
+</edge>
+<edge source="AUAL" target="AVDR">
+  <data key="d0">1397.0</data>
+  <data key="d1">9.017139536135622e-05</data>
+</edge>
+<edge source="AUAL" target="RIGL">
+  <data key="d0">1606.0</data>
+  <data key="d1">8.660129652817775e-05</data>
+</edge>
+<edge source="AUAL" target="RMEV">
+  <data key="d0">1389.0</data>
+  <data key="d1">8.889850907152003e-05</data>
+</edge>
+<edge source="AWBL" target="AFDL">
+  <data key="d0">4089.0</data>
+  <data key="d1">0.0002617033863163754</data>
+</edge>
+<edge source="AWBL" target="ASHR">
+  <data key="d0">1246.0</data>
+  <data key="d1">7.97462507581814e-05</data>
+</edge>
+<edge source="AWBL" target="AVBL">
+  <data key="d0">1955.0</data>
+  <data key="d1">0.0001097256986622501</data>
+</edge>
+<edge source="AWBL" target="SIBVL">
+  <data key="d0">1611.0</data>
+  <data key="d1">0.00010398433638306719</data>
+</edge>
+<edge source="BAGL" target="AIYL">
+  <data key="d0">1756.0</data>
+  <data key="d1">0.00011334357212207697</data>
+</edge>
+<edge source="BAGL" target="AVBL">
+  <data key="d0">1972.0</data>
+  <data key="d1">0.0001262115621951314</data>
+</edge>
+<edge source="BAGL" target="AVBR">
+  <data key="d0">2145.0</data>
+  <data key="d1">0.00011566611522599083</data>
+</edge>
+<edge source="BAGL" target="AWCL">
+  <data key="d0">8903.0</data>
+  <data key="d1">0.0005698080822633138</data>
+</edge>
+<edge source="BAGL" target="AWCR">
+  <data key="d0">4164.0</data>
+  <data key="d1">0.00026877143184301166</data>
+</edge>
+<edge source="BAGL" target="IL1L">
+  <data key="d0">1212.0</data>
+  <data key="d1">7.82303014874472e-05</data>
+</edge>
+<edge source="BAGL" target="IL2DL">
+  <data key="d0">1235.0</data>
+  <data key="d1">6.65956420998129e-05</data>
+</edge>
+<edge source="BAGL" target="PVCL">
+  <data key="d0">1217.0</data>
+  <data key="d1">6.562501735665773e-05</data>
+</edge>
+<edge source="BAGL" target="RIGL">
+  <data key="d0">3199.0</data>
+  <data key="d1">0.0001725015862974101</data>
+</edge>
+<edge source="BAGL" target="RMEL">
+  <data key="d0">1980.0</data>
+  <data key="d1">0.00012672357664622727</data>
+</edge>
+<edge source="BAGL" target="SIBVL">
+  <data key="d0">1609.0</data>
+  <data key="d1">8.676306731870361e-05</data>
+</edge>
+<edge source="BAGL" target="SIBVR">
+  <data key="d0">1481.0</data>
+  <data key="d1">9.478667525912251e-05</data>
+</edge>
+<edge source="BAGL" target="SMDVR">
+  <data key="d0">1341.0</data>
+  <data key="d1">7.52645329442851e-05</data>
+</edge>
+<edge source="ALML" target="AVHL">
+  <data key="d0">2243.0</data>
+  <data key="d1">0.00014477769491447531</data>
+</edge>
+<edge source="ALML" target="AVHR">
+  <data key="d0">1188.0</data>
+  <data key="d1">7.668118660650765e-05</data>
+</edge>
+<edge source="ALML" target="RICL">
+  <data key="d0">1402.0</data>
+  <data key="d1">9.049412762821863e-05</data>
+</edge>
+<edge source="ALML" target="RICR">
+  <data key="d0">3764.0</data>
+  <data key="d1">0.00024090279924060578</data>
+</edge>
+<edge source="ALML" target="SIBVR">
+  <data key="d0">3907.0</data>
+  <data key="d1">0.00021067949286151337</data>
+</edge>
+<edge source="ALML" target="URBL">
+  <data key="d0">1543.0</data>
+  <data key="d1">9.959517755373847e-05</data>
+</edge>
+<edge source="ASER" target="AINL">
+  <data key="d0">1970.0</data>
+  <data key="d1">0.00010622948577864892</data>
+</edge>
+<edge source="ASER" target="AVAL">
+  <data key="d0">4042.0</data>
+  <data key="d1">0.00022685998669709202</data>
+</edge>
+<edge source="ASKR" target="AVHL">
+  <data key="d0">3686.0</data>
+  <data key="d1">0.00023791822713096567</data>
+</edge>
+<edge source="AVAR" target="ALNL">
+  <data key="d0">2123.0</data>
+  <data key="d1">0.00011915481240918515</data>
+</edge>
+<edge source="AVAR" target="ASHL">
+  <data key="d0">1854.0</data>
+  <data key="d1">0.00011865934904146735</data>
+</edge>
+<edge source="AVAR" target="BDUL">
+  <data key="d0">1352.0</data>
+  <data key="d1">8.653044223520165e-05</data>
+</edge>
+<edge source="AVAR" target="PVQL">
+  <data key="d0">4911.0</data>
+  <data key="d1">0.0003143128711664758</data>
+</edge>
+<edge source="AVAR" target="SIBVL">
+  <data key="d0">1156.0</data>
+  <data key="d1">7.461570009858825e-05</data>
+</edge>
+<edge source="AVBL" target="AIAR">
+  <data key="d0">2550.0</data>
+  <data key="d1">0.0001375051719469821</data>
+</edge>
+<edge source="AVBL" target="BDUR">
+  <data key="d0">1706.0</data>
+  <data key="d1">9.57504050730428e-05</data>
+</edge>
+<edge source="AVBL" target="DVC">
+  <data key="d0">9586.0</data>
+  <data key="d1">0.0005380207403459486</data>
+</edge>
+<edge source="AVBL" target="FLPL">
+  <data key="d0">8028.0</data>
+  <data key="d1">0.0005138065016747033</data>
+</edge>
+<edge source="AVBL" target="PVT">
+  <data key="d0">7688.0</data>
+  <data key="d1">0.0004314942052764086</data>
+</edge>
+<edge source="AVBL" target="RICL">
+  <data key="d0">2087.0</data>
+  <data key="d1">0.0001335717699296345</data>
+</edge>
+<edge source="AVBL" target="RIPR">
+  <data key="d0">2039.0</data>
+  <data key="d1">0.00011444025553571762</data>
+</edge>
+<edge source="AVDL" target="AINL">
+  <data key="d0">1497.0</data>
+  <data key="d1">9.662604069860434e-05</data>
+</edge>
+<edge source="AVDL" target="AINR">
+  <data key="d0">1574.0</data>
+  <data key="d1">8.834181570045098e-05</data>
+</edge>
+<edge source="AVDL" target="BDUL">
+  <data key="d0">1204.0</data>
+  <data key="d1">7.70581748899281e-05</data>
+</edge>
+<edge source="AVDL" target="CEPDL">
+  <data key="d0">3985.0</data>
+  <data key="d1">0.00021488553341518575</data>
+</edge>
+<edge source="AVDL" target="CEPVR">
+  <data key="d0">1714.0</data>
+  <data key="d1">9.242504498710876e-05</data>
+</edge>
+<edge source="AVDL" target="OLQDR">
+  <data key="d0">1171.0</data>
+  <data key="d1">7.494611527915764e-05</data>
+</edge>
+<edge source="AVDL" target="OLQVR">
+  <data key="d0">1878.0</data>
+  <data key="d1">0.00012019539239475495</data>
+</edge>
+<edge source="AVDL" target="RICL">
+  <data key="d0">7797.0</data>
+  <data key="d1">0.0005032686969452359</data>
+</edge>
+<edge source="AVDL" target="RIFR">
+  <data key="d0">5155.0</data>
+  <data key="d1">0.0002779761417202717</data>
+</edge>
+<edge source="AVDL" target="RIVR">
+  <data key="d0">2329.0</data>
+  <data key="d1">0.00012558805704491032</data>
+</edge>
+<edge source="AVDL" target="RMER">
+  <data key="d0">1141.0</data>
+  <data key="d1">7.364750329800103e-05</data>
+</edge>
+<edge source="AVDL" target="SMBDR">
+  <data key="d0">2449.0</data>
+  <data key="d1">0.0001567404238417225</data>
+</edge>
+<edge source="AVDL" target="SMDVR">
+  <data key="d0">1648.0</data>
+  <data key="d1">9.24951158032676e-05</data>
+</edge>
+<edge source="AVDL" target="URYDR">
+  <data key="d0">1259.0</data>
+  <data key="d1">7.066222742494777e-05</data>
+</edge>
+<edge source="AVHL" target="AIAR">
+  <data key="d0">2922.0</data>
+  <data key="d1">0.00018860473675439004</data>
+</edge>
+<edge source="AVHL" target="ALMR">
+  <data key="d0">1188.0</data>
+  <data key="d1">7.603414598773636e-05</data>
+</edge>
+<edge source="AVHL" target="AVEL">
+  <data key="d0">2162.0</data>
+  <data key="d1">0.00013954943219130433</data>
+</edge>
+<edge source="AVHL" target="BDUL">
+  <data key="d0">1318.0</data>
+  <data key="d1">7.397364237178805e-05</data>
+</edge>
+<edge source="AVHL" target="FLPR">
+  <data key="d0">2148.0</data>
+  <data key="d1">0.00013747588011924048</data>
+</edge>
+<edge source="AVHL" target="PVQR">
+  <data key="d0">7033.0</data>
+  <data key="d1">0.0004539552065686602</data>
+</edge>
+<edge source="AVHL" target="PVT">
+  <data key="d0">2492.0</data>
+  <data key="d1">0.0001398651872462032</data>
+</edge>
+<edge source="AVHL" target="RIGR">
+  <data key="d0">2693.0</data>
+  <data key="d1">0.00014521624629538148</data>
+</edge>
+<edge source="AVHL" target="SIAVR">
+  <data key="d0">3065.0</data>
+  <data key="d1">0.0001961655365761043</data>
+</edge>
+<edge source="AVHL" target="SIBVR">
+  <data key="d0">3452.0</data>
+  <data key="d1">0.00022093423564786694</data>
+</edge>
+<edge source="AVHL" target="SMDVL">
+  <data key="d0">1749.0</data>
+  <data key="d1">0.00011193915937083409</data>
+</edge>
+<edge source="AVHL" target="URYVR">
+  <data key="d0">1222.0</data>
+  <data key="d1">7.887576602117201e-05</data>
+</edge>
+<edge source="AVJR" target="RICL">
+  <data key="d0">4864.0</data>
+  <data key="d1">0.0003113047862662876</data>
+</edge>
+<edge source="AVJR" target="SIBVL">
+  <data key="d0">2831.0</data>
+  <data key="d1">0.00015265770265957112</data>
+</edge>
+<edge source="AVJR" target="URYDL">
+  <data key="d0">1324.0</data>
+  <data key="d1">8.473839165636611e-05</data>
+</edge>
+<edge source="AWCR" target="IL1L">
+  <data key="d0">1239.0</data>
+  <data key="d1">6.953971388364598e-05</data>
+</edge>
+<edge source="AWCR" target="OLLL">
+  <data key="d0">1271.0</data>
+  <data key="d1">6.853689158612323e-05</data>
+</edge>
+<edge source="RICL" target="ADLR">
+  <data key="d0">2568.0</data>
+  <data key="d1">0.00014413073870315</data>
+</edge>
+<edge source="RICL" target="ALMR">
+  <data key="d0">3764.0</data>
+  <data key="d1">0.00024295285049401918</data>
+</edge>
+<edge source="RICL" target="AVL">
+  <data key="d0">4396.0</data>
+  <data key="d1">0.0002467284763781337</data>
+</edge>
+<edge source="RICL" target="FLPL">
+  <data key="d0">6622.0</data>
+  <data key="d1">0.0003716642335250231</data>
+</edge>
+<edge source="RICL" target="IL2VR">
+  <data key="d0">1339.0</data>
+  <data key="d1">8.642770106575232e-05</data>
+</edge>
+<edge source="RICL" target="PVCL">
+  <data key="d0">2209.0</data>
+  <data key="d1">0.00014258311549981094</data>
+</edge>
+<edge source="RICL" target="RIPL">
+  <data key="d0">2079.0</data>
+  <data key="d1">0.00013305975547853863</data>
+</edge>
+<edge source="RICL" target="RMDL">
+  <data key="d0">2457.0</data>
+  <data key="d1">0.0001324902774406804</data>
+</edge>
+<edge source="RICL" target="RMDVR">
+  <data key="d0">1858.0</data>
+  <data key="d1">0.00010428150798693641</data>
+</edge>
+<edge source="RICL" target="SAADR">
+  <data key="d0">1301.0</data>
+  <data key="d1">7.301950586168152e-05</data>
+</edge>
+<edge source="RICL" target="SABD">
+  <data key="d0">2650.0</data>
+  <data key="d1">0.0001428975316311775</data>
+</edge>
+<edge source="RICL" target="URAVL">
+  <data key="d0">1284.0</data>
+  <data key="d1">8.217831940088677e-05</data>
+</edge>
+<edge source="RICR" target="SAADL">
+  <data key="d0">1301.0</data>
+  <data key="d1">7.015459949138185e-05</data>
+</edge>
+<edge source="URBL" target="ALNL">
+  <data key="d0">1347.0</data>
+  <data key="d1">8.621043320326673e-05</data>
+</edge>
+<edge source="URBL" target="ASHL">
+  <data key="d0">1307.0</data>
+  <data key="d1">7.047814107243357e-05</data>
+</edge>
+<edge source="URBL" target="RMDL">
+  <data key="d0">1996.0</data>
+  <data key="d1">0.00011202685142191877</data>
+</edge>
+<edge source="URBL" target="SAADR">
+  <data key="d0">2160.0</data>
+  <data key="d1">0.00013942033928455937</data>
+</edge>
+<edge source="ADLR" target="AVAL">
+  <data key="d0">7281.0</data>
+  <data key="d1">0.00046996272700503553</data>
+</edge>
+<edge source="ADLR" target="AWCL">
+  <data key="d0">1703.0</data>
+  <data key="d1">9.183188542184726e-05</data>
+</edge>
+<edge source="AVAL" target="ALNR">
+  <data key="d0">2123.0</data>
+  <data key="d1">0.00011447979609546784</data>
+</edge>
+<edge source="AVAL" target="ASHR">
+  <data key="d0">1854.0</data>
+  <data key="d1">0.00011966912455258012</data>
+</edge>
+<edge source="AVAL" target="AVL">
+  <data key="d0">3879.0</data>
+  <data key="d1">0.0002482630069751089</data>
+</edge>
+<edge source="AVAL" target="BDUR">
+  <data key="d0">1352.0</data>
+  <data key="d1">8.726680495959456e-05</data>
+</edge>
+<edge source="AVAL" target="PVQR">
+  <data key="d0">4911.0</data>
+  <data key="d1">0.0003169876325122551</data>
+</edge>
+<edge source="AVAL" target="RIS">
+  <data key="d0">2374.0</data>
+  <data key="d1">0.00012801461890279823</data>
+</edge>
+<edge source="AVAL" target="SABD">
+  <data key="d0">1646.0</data>
+  <data key="d1">0.00010534697331297479</data>
+</edge>
+<edge source="AVAL" target="SIBVR">
+  <data key="d0">1156.0</data>
+  <data key="d1">7.398608818335289e-05</data>
+</edge>
+<edge source="AWCL" target="ASGR">
+  <data key="d0">9446.0</data>
+  <data key="d1">0.0006097057985564573</data>
+</edge>
+<edge source="AWCL" target="CEPVR">
+  <data key="d0">1115.0</data>
+  <data key="d1">7.136201412148656e-05</data>
+</edge>
+<edge source="AWCL" target="IL1R">
+  <data key="d0">1239.0</data>
+  <data key="d1">6.681133648718071e-05</data>
+</edge>
+<edge source="AWCL" target="OLLR">
+  <data key="d0">1271.0</data>
+  <data key="d1">7.133573554972884e-05</data>
+</edge>
+<edge source="AWCL" target="RIAR">
+  <data key="d0">1749.0</data>
+  <data key="d1">0.00011193915937083409</data>
+</edge>
+<edge source="AWCL" target="RMFR">
+  <data key="d0">1361.0</data>
+  <data key="d1">7.339001530189907e-05</data>
+</edge>
+<edge source="AFDL" target="AIAL">
+  <data key="d0">1193.0</data>
+  <data key="d1">7.635415501967127e-05</data>
+</edge>
+<edge source="AFDL" target="SABD">
+  <data key="d0">1368.0</data>
+  <data key="d1">7.376748047979275e-05</data>
+</edge>
+<edge source="AIAL" target="AINL">
+  <data key="d0">1833.0</data>
+  <data key="d1">0.00011831364903175802</data>
+</edge>
+<edge source="AIAL" target="AVBR">
+  <data key="d0">2550.0</data>
+  <data key="d1">0.0001431204765159784</data>
+</edge>
+<edge source="AIAL" target="AVHR">
+  <data key="d0">2922.0</data>
+  <data key="d1">0.0001870132782627657</data>
+</edge>
+<edge source="SABD" target="SIBVL">
+  <data key="d0">1792.0</data>
+  <data key="d1">0.0001005772133006405</data>
+</edge>
+<edge source="SABD" target="SMDVL">
+  <data key="d0">2430.0</data>
+  <data key="d1">0.00013638539526816763</data>
+</edge>
+<edge source="AINL" target="AIYL">
+  <data key="d0">1174.0</data>
+  <data key="d1">7.577753625929292e-05</data>
+</edge>
+<edge source="AINL" target="AVDR">
+  <data key="d0">1574.0</data>
+  <data key="d1">8.487574142923523e-05</data>
+</edge>
+<edge source="AINL" target="IL1R">
+  <data key="d0">1228.0</data>
+  <data key="d1">6.621817692191922e-05</data>
+</edge>
+<edge source="AINL" target="IL2DL">
+  <data key="d0">1314.0</data>
+  <data key="d1">7.085560625032725e-05</data>
+</edge>
+<edge source="AINL" target="IL2R">
+  <data key="d0">1400.0</data>
+  <data key="d1">8.960252894177685e-05</data>
+</edge>
+<edge source="AINL" target="OLLR">
+  <data key="d0">1185.0</data>
+  <data key="d1">7.584214056857541e-05</data>
+</edge>
+<edge source="AINL" target="SIBDR">
+  <data key="d0">1937.0</data>
+  <data key="d1">0.00010871543647507848</data>
+</edge>
+<edge source="AVBR" target="BDUL">
+  <data key="d0">1706.0</data>
+  <data key="d1">9.199365621237312e-05</data>
+</edge>
+<edge source="AVBR" target="RIPL">
+  <data key="d0">2039.0</data>
+  <data key="d1">0.00010995021396074372</data>
+</edge>
+<edge source="AVHR" target="FLPL">
+  <data key="d0">2148.0</data>
+  <data key="d1">0.0001386457818440896</data>
+</edge>
+<edge source="AVHR" target="PVQL">
+  <data key="d0">7033.0</data>
+  <data key="d1">0.0004501247043196547</data>
+</edge>
+<edge source="AVHR" target="RIGL">
+  <data key="d0">2693.0</data>
+  <data key="d1">0.0001511464483362862</data>
+</edge>
+<edge source="AVHR" target="SIBVL">
+  <data key="d0">3452.0</data>
+  <data key="d1">0.00022281435704180506</data>
+</edge>
+<edge source="AVHR" target="URYVL">
+  <data key="d0">1222.0</data>
+  <data key="d1">7.82102074048938e-05</data>
+</edge>
+<edge source="RIGL" target="AIYR">
+  <data key="d0">1234.0</data>
+  <data key="d1">6.654171850297095e-05</data>
+</edge>
+<edge source="RIGL" target="CEPDL">
+  <data key="d0">1670.0</data>
+  <data key="d1">9.372988069869958e-05</data>
+</edge>
+<edge source="RIGL" target="FLPR">
+  <data key="d0">8024.0</data>
+  <data key="d1">0.00043268294105983703</data>
+</edge>
+<edge source="RIGL" target="IL1VL">
+  <data key="d0">1439.0</data>
+  <data key="d1">8.076484929666388e-05</data>
+</edge>
+<edge source="RIGL" target="IL2DL">
+  <data key="d0">1268.0</data>
+  <data key="d1">7.116735851853356e-05</data>
+</edge>
+<edge source="RIGL" target="RMEL">
+  <data key="d0">3349.0</data>
+  <data key="d1">0.00021434204959000763</data>
+</edge>
+<edge source="RIGL" target="SIBVR">
+  <data key="d0">2180.0</data>
+  <data key="d1">0.00011755344111545921</data>
+</edge>
+<edge source="RIGL" target="SMBVR">
+  <data key="d0">2536.0</data>
+  <data key="d1">0.0001636898057526123</data>
+</edge>
+<edge source="RMED" target="OLQDL">
+  <data key="d0">7687.0</data>
+  <data key="d1">0.0004961685870742629</data>
+</edge>
+<edge source="RMED" target="SMDVL">
+  <data key="d0">2389.0</data>
+  <data key="d1">0.00015420147710685754</data>
+</edge>
+<edge source="SIBDR" target="PVCL">
+  <data key="d0">1567.0</data>
+  <data key="d1">8.449827625134155e-05</data>
+</edge>
+<edge source="SIBDR" target="RMHL">
+  <data key="d0">1984.0</data>
+  <data key="d1">0.0001269795838717752</data>
+</edge>
+<edge source="SIBDR" target="SMDVL">
+  <data key="d0">1356.0</data>
+  <data key="d1">7.31203973176893e-05</data>
+</edge>
+<edge source="SIBVR" target="ASHL">
+  <data key="d0">5458.0</data>
+  <data key="d1">0.00030633394542125885</data>
+</edge>
+<edge source="SIBVR" target="IL2L">
+  <data key="d0">1137.0</data>
+  <data key="d1">7.33893174845111e-05</data>
+</edge>
+<edge source="SIBVR" target="OLLL">
+  <data key="d0">1720.0</data>
+  <data key="d1">0.00011101989980066764</data>
+</edge>
+<edge source="SIBVR" target="RIBL">
+  <data key="d0">1369.0</data>
+  <data key="d1">8.836409466692675e-05</data>
+</edge>
+<edge source="SIBVR" target="RMEL">
+  <data key="d0">1441.0</data>
+  <data key="d1">9.222660300364317e-05</data>
+</edge>
+<edge source="SIBVR" target="SAADL">
+  <data key="d0">4487.0</data>
+  <data key="d1">0.0002518359129910569</data>
+</edge>
+<edge source="URYVR" target="PVCL">
+  <data key="d0">1717.0</data>
+  <data key="d1">9.636778752075878e-05</data>
+</edge>
+<edge source="URYVR" target="RMEL">
+  <data key="d0">2526.0</data>
+  <data key="d1">0.00016304434121888747</data>
+</edge>
+<edge source="SIBVL" target="ALMR">
+  <data key="d0">3907.0</data>
+  <data key="d1">0.00021928302029330493</data>
+</edge>
+<edge source="SIBVL" target="ASHL">
+  <data key="d0">1266.0</data>
+  <data key="d1">8.102628688592107e-05</data>
+</edge>
+<edge source="SIBVL" target="ASHR">
+  <data key="d0">5458.0</data>
+  <data key="d1">0.00029431499156338365</data>
+</edge>
+<edge source="SIBVL" target="AVL">
+  <data key="d0">1276.0</data>
+  <data key="d1">6.880650957033301e-05</data>
+</edge>
+<edge source="SIBVL" target="IL2R">
+  <data key="d0">1137.0</data>
+  <data key="d1">7.27700538620002e-05</data>
+</edge>
+<edge source="SIBVL" target="OLLR">
+  <data key="d0">1720.0</data>
+  <data key="d1">0.00011008310698561156</data>
+</edge>
+<edge source="SIBVL" target="OLQVR">
+  <data key="d0">1269.0</data>
+  <data key="d1">8.121829230508202e-05</data>
+</edge>
+<edge source="SIBVL" target="RIBR">
+  <data key="d0">1369.0</data>
+  <data key="d1">8.761847294378037e-05</data>
+</edge>
+<edge source="SIBVL" target="RIGR">
+  <data key="d0">2180.0</data>
+  <data key="d1">0.00012235397600189526</data>
+</edge>
+<edge source="SIBVL" target="RMEL">
+  <data key="d0">1402.0</data>
+  <data key="d1">8.973053255455082e-05</data>
+</edge>
+<edge source="SIBVL" target="RMER">
+  <data key="d0">1441.0</data>
+  <data key="d1">9.30114393097454e-05</data>
+</edge>
+<edge source="SIBVL" target="SAADR">
+  <data key="d0">4487.0</data>
+  <data key="d1">0.00024195517902984655</data>
+</edge>
+<edge source="SIBVL" target="SMDVL">
+  <data key="d0">2384.0</data>
+  <data key="d1">0.0001285538548712178</data>
+</edge>
+<edge source="URAVL" target="AVL">
+  <data key="d0">1193.0</data>
+  <data key="d1">7.700391887337006e-05</data>
+</edge>
+<edge source="URAVL" target="PVT">
+  <data key="d0">1360.0</data>
+  <data key="d1">7.633092080852181e-05</data>
+</edge>
+<edge source="URYVL" target="IL1L">
+  <data key="d0">4340.0</data>
+  <data key="d1">0.00028013160763656837</data>
+</edge>
+<edge source="URYVL" target="PVCR">
+  <data key="d0">1717.0</data>
+  <data key="d1">9.258681577763461e-05</data>
+</edge>
+<edge source="URYVL" target="RMER">
+  <data key="d0">2526.0</data>
+  <data key="d1">0.00016166856293352023</data>
+</edge>
+<edge source="AVEL" target="AIYR">
+  <data key="d0">1504.0</data>
+  <data key="d1">8.110108965029846e-05</data>
+</edge>
+<edge source="AVEL" target="IL2L">
+  <data key="d0">1330.0</data>
+  <data key="d1">8.512240249468801e-05</data>
+</edge>
+<edge source="AVEL" target="OLLL">
+  <data key="d0">3052.0</data>
+  <data key="d1">0.00019699577569281257</data>
+</edge>
+<edge source="AVEL" target="PVQL">
+  <data key="d0">1347.0</data>
+  <data key="d1">7.263508494611172e-05</data>
+</edge>
+<edge source="AVEL" target="PVT">
+  <data key="d0">7136.0</data>
+  <data key="d1">0.00040051283153647916</data>
+</edge>
+<edge source="AVEL" target="RIFL">
+  <data key="d0">1392.0</data>
+  <data key="d1">8.909051449068099e-05</data>
+</edge>
+<edge source="AVEL" target="RIVR">
+  <data key="d0">1477.0</data>
+  <data key="d1">7.964515253556571e-05</data>
+</edge>
+<edge source="AVEL" target="RMEL">
+  <data key="d0">2299.0</data>
+  <data key="d1">0.000147140152883675</data>
+</edge>
+<edge source="AVEL" target="SMBDR">
+  <data key="d0">2348.0</data>
+  <data key="d1">0.00012661260538490745</data>
+</edge>
+<edge source="AVEL" target="SMBVR">
+  <data key="d0">2360.0</data>
+  <data key="d1">0.0001272596885470109</data>
+</edge>
+<edge source="AVEL" target="SMDDR">
+  <data key="d0">2139.0</data>
+  <data key="d1">0.00011534257364493911</data>
+</edge>
+<edge source="AVEL" target="SMDVR">
+  <data key="d0">1217.0</data>
+  <data key="d1">6.8304948988214e-05</data>
+</edge>
+<edge source="AVEL" target="URYDL">
+  <data key="d0">1313.0</data>
+  <data key="d1">7.08016826534853e-05</data>
+</edge>
+<edge source="PVCR" target="AIYL">
+  <data key="d0">1300.0</data>
+  <data key="d1">7.010067589453989e-05</data>
+</edge>
+<edge source="PVCR" target="ASHL">
+  <data key="d0">3470.0</data>
+  <data key="d1">0.00018711488104157956</data>
+</edge>
+<edge source="PVCR" target="RIFL">
+  <data key="d0">3214.0</data>
+  <data key="d1">0.00020745230113915453</data>
+</edge>
+<edge source="PVCR" target="RMGL">
+  <data key="d0">2079.0</data>
+  <data key="d1">0.00013305975547853863</data>
+</edge>
+<edge source="RIS" target="BDUL">
+  <data key="d0">1258.0</data>
+  <data key="d1">6.783588482717784e-05</data>
+</edge>
+<edge source="RIS" target="PVQL">
+  <data key="d0">7404.0</data>
+  <data key="d1">0.00039925031101782567</data>
+</edge>
+<edge source="RIS" target="RIFL">
+  <data key="d0">9616.0</data>
+  <data key="d1">0.0005185293072322274</data>
+</edge>
+<edge source="RIS" target="URYDL">
+  <data key="d0">1981.0</data>
+  <data key="d1">0.00012678757845261424</data>
+</edge>
+<edge source="SMBDR" target="FLPL">
+  <data key="d0">2422.0</data>
+  <data key="d1">0.00015633151006814942</data>
+</edge>
+<edge source="SMBDR" target="RMGL">
+  <data key="d0">1711.0</data>
+  <data key="d1">0.00010950709072812871</data>
+</edge>
+<edge source="AIMR" target="PVCL">
+  <data key="d0">1260.0</data>
+  <data key="d1">7.071835310201285e-05</data>
+</edge>
+<edge source="PVCL" target="AIYL">
+  <data key="d0">1612.0</data>
+  <data key="d1">8.692483810922947e-05</data>
+</edge>
+<edge source="PVCL" target="AIYR">
+  <data key="d0">1300.0</data>
+  <data key="d1">7.296338018461644e-05</data>
+</edge>
+<edge source="PVCL" target="ASHR">
+  <data key="d0">3470.0</data>
+  <data key="d1">0.0001947560994158608</data>
+</edge>
+<edge source="PVCL" target="RIFL">
+  <data key="d0">1332.0</data>
+  <data key="d1">7.182623099348241e-05</data>
+</edge>
+<edge source="PVCL" target="RIFR">
+  <data key="d0">3214.0</data>
+  <data key="d1">0.00020570180572776486</data>
+</edge>
+<edge source="PVCL" target="RIVR">
+  <data key="d0">1494.0</data>
+  <data key="d1">9.64324013384869e-05</data>
+</edge>
+<edge source="PVCL" target="RMGR">
+  <data key="d0">2079.0</data>
+  <data key="d1">0.00013419207656138838</data>
+</edge>
+<edge source="AIYL" target="AVER">
+  <data key="d0">1504.0</data>
+  <data key="d1">8.44130183058947e-05</data>
+</edge>
+<edge source="AIYL" target="AVM">
+  <data key="d0">2448.0</data>
+  <data key="d1">0.00013200496506910283</data>
+</edge>
+<edge source="AIYL" target="PVQL">
+  <data key="d0">2338.0</data>
+  <data key="d1">0.0001312218329781794</data>
+</edge>
+<edge source="AIYL" target="RIGR">
+  <data key="d0">1234.0</data>
+  <data key="d1">6.925908549832052e-05</data>
+</edge>
+<edge source="AVDR" target="OLQDL">
+  <data key="d0">1171.0</data>
+  <data key="d1">7.558389689917546e-05</data>
+</edge>
+<edge source="AVDR" target="RIFL">
+  <data key="d0">5155.0</data>
+  <data key="d1">0.00028932786527053673</data>
+</edge>
+<edge source="AVDR" target="RMEL">
+  <data key="d0">1141.0</data>
+  <data key="d1">7.302606108754813e-05</data>
+</edge>
+<edge source="AVDR" target="SMDVL">
+  <data key="d0">1648.0</data>
+  <data key="d1">8.88660875955398e-05</data>
+</edge>
+<edge source="AVDR" target="URYDL">
+  <data key="d0">1259.0</data>
+  <data key="d1">6.78898084240198e-05</data>
+</edge>
+<edge source="IL2DL" target="IL1L">
+  <data key="d0">1580.0</data>
+  <data key="d1">0.00010198339632852027</data>
+</edge>
+<edge source="AINR" target="IL1L">
+  <data key="d0">1228.0</data>
+  <data key="d1">6.892233143592999e-05</data>
+</edge>
+<edge source="AINR" target="IL2L">
+  <data key="d0">1400.0</data>
+  <data key="d1">9.036503472147367e-05</data>
+</edge>
+<edge source="AINR" target="OLLL">
+  <data key="d0">1185.0</data>
+  <data key="d1">7.648754724639021e-05</data>
+</edge>
+<edge source="IL1L" target="ALA">
+  <data key="d0">1214.0</data>
+  <data key="d1">6.546324656613187e-05</data>
+</edge>
+<edge source="IL1L" target="RIPL">
+  <data key="d0">1418.0</data>
+  <data key="d1">9.152687088217832e-05</data>
+</edge>
+<edge source="IL1L" target="RMFR">
+  <data key="d0">4086.0</data>
+  <data key="d1">0.00026151138089721446</data>
+</edge>
+<edge source="IL2L" target="ALA">
+  <data key="d0">1170.0</data>
+  <data key="d1">7.551935044580299e-05</data>
+</edge>
+<edge source="IL2L" target="IL1VL">
+  <data key="d0">4153.0</data>
+  <data key="d1">0.00022394469768463398</data>
+</edge>
+<edge source="IL2L" target="SMDVL">
+  <data key="d0">1368.0</data>
+  <data key="d1">8.755447113739338e-05</data>
+</edge>
+<edge source="OLLL" target="RMDVR">
+  <data key="d0">1689.0</data>
+  <data key="d1">9.479626856293627e-05</data>
+</edge>
+<edge source="AVER" target="SMDDL">
+  <data key="d0">2139.0</data>
+  <data key="d1">0.00012005282324222658</data>
+</edge>
+<edge source="AVER" target="SMDVL">
+  <data key="d0">1217.0</data>
+  <data key="d1">6.562501735665773e-05</data>
+</edge>
+<edge source="AVM" target="ASHL">
+  <data key="d0">1766.0</data>
+  <data key="d1">9.522907202289036e-05</data>
+</edge>
+<edge source="AVM" target="FLPL">
+  <data key="d0">3126.0</data>
+  <data key="d1">0.0002017722132423762</data>
+</edge>
+<edge source="PVQL" target="ASHR">
+  <data key="d0">2311.0</data>
+  <data key="d1">0.0001479081745603188</data>
+</edge>
+<edge source="PVQL" target="ASJR">
+  <data key="d0">1482.0</data>
+  <data key="d1">7.991477051977549e-05</data>
+</edge>
+<edge source="PVQL" target="FLPL">
+  <data key="d0">1683.0</data>
+  <data key="d1">0.00010863168102588584</data>
+</edge>
+<edge source="RIGR" target="FLPL">
+  <data key="d0">8024.0</data>
+  <data key="d1">0.00045035243277027865</data>
+</edge>
+<edge source="PVPR" target="ASHL">
+  <data key="d0">3706.0</data>
+  <data key="d1">0.00023920915619841528</data>
+</edge>
+<edge source="PVPR" target="FLPL">
+  <data key="d0">1350.0</data>
+  <data key="d1">7.576966403787091e-05</data>
+</edge>
+<edge source="SMBVR" target="RMHL">
+  <data key="d0">1361.0</data>
+  <data key="d1">8.71064584926845e-05</data>
+</edge>
+<edge source="SMBVR" target="SAADL">
+  <data key="d0">1773.0</data>
+  <data key="d1">0.00011444086182940914</data>
+</edge>
+<edge source="SMDDL" target="CEPDL">
+  <data key="d0">1585.0</data>
+  <data key="d1">8.546890099449672e-05</data>
+</edge>
+<edge source="SMDDL" target="IL1DR">
+  <data key="d0">1663.0</data>
+  <data key="d1">9.333700095924395e-05</data>
+</edge>
+<edge source="SMDDL" target="OLQDR">
+  <data key="d0">4589.0</data>
+  <data key="d1">0.000257560732051696</data>
+</edge>
+<edge source="SMDDL" target="RMDVR">
+  <data key="d0">2861.0</data>
+  <data key="d1">0.00015427541056482972</data>
+</edge>
+<edge source="SMDDL" target="RMEV">
+  <data key="d0">1674.0</data>
+  <data key="d1">9.02681011134306e-05</data>
+</edge>
+<edge source="SMDDL" target="URXR">
+  <data key="d0">2014.0</data>
+  <data key="d1">0.00011303711360909038</data>
+</edge>
+<edge source="ALA" target="RMDL">
+  <data key="d0">2302.0</data>
+  <data key="d1">0.00012413211993017757</data>
+</edge>
+<edge source="RMDL" target="AVL">
+  <data key="d0">3326.0</data>
+  <data key="d1">0.00021287000804310702</data>
+</edge>
+<edge source="RMDL" target="CEPDR">
+  <data key="d0">2844.0</data>
+  <data key="d1">0.0001835701133913365</data>
+</edge>
+<edge source="RMDL" target="CEPVR">
+  <data key="d0">1889.0</data>
+  <data key="d1">0.00012089941226501177</data>
+</edge>
+<edge source="ALNL" target="RMFR">
+  <data key="d0">1116.0</data>
+  <data key="d1">7.142601592787355e-05</data>
+</edge>
+<edge source="ALNL" target="RMHL">
+  <data key="d0">2982.0</data>
+  <data key="d1">0.0001673667690080971</data>
+</edge>
+<edge source="RMFR" target="FLPL">
+  <data key="d0">1556.0</data>
+  <data key="d1">8.390511668608006e-05</data>
+</edge>
+<edge source="RMFR" target="RIBL">
+  <data key="d0">6507.0</data>
+  <data key="d1">0.00035088084465059315</data>
+</edge>
+<edge source="RMHL" target="FLPR">
+  <data key="d0">1622.0</data>
+  <data key="d1">9.103584819957527e-05</data>
+</edge>
+<edge source="RMHL" target="OLQDR">
+  <data key="d0">2320.0</data>
+  <data key="d1">0.00013021157079100778</data>
+</edge>
+<edge source="RMHL" target="RMDVR">
+  <data key="d0">10568.0</data>
+  <data key="d1">0.0006821269192403812</data>
+</edge>
+<edge source="FLPL" target="BDUR">
+  <data key="d0">1119.0</data>
+  <data key="d1">7.16180213470345e-05</data>
+</edge>
+<edge source="FLPL" target="DVC">
+  <data key="d0">5532.0</data>
+  <data key="d1">0.0003104872455240755</data>
+</edge>
+<edge source="FLPL" target="RMGL">
+  <data key="d0">3440.0</data>
+  <data key="d1">0.00018549717313632094</data>
+</edge>
+<edge source="FLPL" target="RMHR">
+  <data key="d0">1622.0</data>
+  <data key="d1">8.7464074077649e-05</data>
+</edge>
+<edge source="FLPL" target="SAADR">
+  <data key="d0">8122.0</data>
+  <data key="d1">0.00045585274912265743</data>
+</edge>
+<edge source="RIBL" target="RMER">
+  <data key="d0">9186.0</data>
+  <data key="d1">0.0005879205934708301</data>
+</edge>
+<edge source="SAADL" target="AVL">
+  <data key="d0">2659.0</data>
+  <data key="d1">0.0001716290195174275</data>
+</edge>
+<edge source="SAADL" target="FLPR">
+  <data key="d0">8122.0</data>
+  <data key="d1">0.00043796745355034847</data>
+</edge>
+<edge source="SAADL" target="RMER">
+  <data key="d0">2862.0</data>
+  <data key="d1">0.00018473194955204115</data>
+</edge>
+<edge source="SAADL" target="URBR">
+  <data key="d0">2160.0</data>
+  <data key="d1">0.00013824390179588428</data>
+</edge>
+<edge source="ASHL" target="PVQR">
+  <data key="d0">2311.0</data>
+  <data key="d1">0.00014916685374380403</data>
+</edge>
+<edge source="ASHL" target="RIFR">
+  <data key="d0">3325.0</data>
+  <data key="d1">0.00021461695746349994</data>
+</edge>
+<edge source="ASHL" target="RIPL">
+  <data key="d0">2234.0</data>
+  <data key="d1">0.0001253847625634101</data>
+</edge>
+<edge source="RIFR" target="BDUL">
+  <data key="d0">1461.0</data>
+  <data key="d1">9.350663913138285e-05</data>
+</edge>
+<edge source="RIPL" target="CEPDL">
+  <data key="d0">2011.0</data>
+  <data key="d1">0.00012980291773205966</data>
+</edge>
+<edge source="ASHR" target="RIFL">
+  <data key="d0">3325.0</data>
+  <data key="d1">0.00021280600623672002</data>
+</edge>
+<edge source="RIFL" target="BDUR">
+  <data key="d0">1461.0</data>
+  <data key="d1">9.430236837719502e-05</data>
+</edge>
+<edge source="RIFL" target="CEPDL">
+  <data key="d0">3221.0</data>
+  <data key="d1">0.00017368790542793307</data>
+</edge>
+<edge source="RMGL" target="BDUL">
+  <data key="d0">1666.0</data>
+  <data key="d1">8.983671233869497e-05</data>
+</edge>
+<edge source="RMGL" target="SMDVR">
+  <data key="d0">1306.0</data>
+  <data key="d1">7.042421747559161e-05</data>
+</edge>
+<edge source="RMEV" target="URYDL">
+  <data key="d0">2119.0</data>
+  <data key="d1">0.00011426410170810003</data>
+</edge>
+<edge source="AVL" target="IL1DL">
+  <data key="d0">1240.0</data>
+  <data key="d1">6.686526008402267e-05</data>
+</edge>
+<edge source="AVL" target="OLQDL">
+  <data key="d0">1557.0</data>
+  <data key="d1">8.395904028292202e-05</data>
+</edge>
+<edge source="AVL" target="URYDL">
+  <data key="d0">1422.0</data>
+  <data key="d1">9.178505669566825e-05</data>
+</edge>
+<edge source="BDUL" target="CEPDL">
+  <data key="d0">2342.0</data>
+  <data key="d1">0.00012628906380385572</data>
+</edge>
+<edge source="BDUL" target="FLPR">
+  <data key="d0">1119.0</data>
+  <data key="d1">7.222748132380645e-05</data>
+</edge>
+<edge source="PVT" target="IL1VL">
+  <data key="d0">1234.0</data>
+  <data key="d1">6.925908549832052e-05</data>
+</edge>
+<edge source="CEPDL" target="RMDR">
+  <data key="d0">2844.0</data>
+  <data key="d1">0.00018202113736458098</data>
+</edge>
+<edge source="OLQVR" target="RMEL">
+  <data key="d0">4435.0</data>
+  <data key="d1">0.00028626352070695404</data>
+</edge>
+<edge source="RMER" target="IL1VL">
+  <data key="d0">6958.0</data>
+  <data key="d1">0.00044532456884063094</data>
+</edge>
+<edge source="OLQDL" target="RMEL">
+  <data key="d0">2277.0</data>
+  <data key="d1">0.00012779816667720894</data>
+</edge>
+<edge source="OLQDL" target="RMHR">
+  <data key="d0">2320.0</data>
+  <data key="d1">0.00012510274467333275</data>
+</edge>
+<edge source="OLQDL" target="SMDDR">
+  <data key="d0">4589.0</data>
+  <data key="d1">0.00024745538590772585</data>
+</edge>
+<edge source="RMEL" target="IL1VR">
+  <data key="d0">6958.0</data>
+  <data key="d1">0.0004491142225657241</data>
+</edge>
+<edge source="RMEL" target="RIBR">
+  <data key="d0">9186.0</data>
+  <data key="d1">0.0005929237206796122</data>
+</edge>
+<edge source="RMEL" target="SAADR">
+  <data key="d0">2862.0</data>
+  <data key="d1">0.00018317316987954667</data>
+</edge>
+<edge source="RMEL" target="URYDL">
+  <data key="d0">1390.0</data>
+  <data key="d1">7.801469112047449e-05</data>
+</edge>
+<edge source="SMDVL" target="RMGR">
+  <data key="d0">1306.0</data>
+  <data key="d1">7.330013424700698e-05</data>
+</edge>
+<edge source="SMDDR" target="IL1DL">
+  <data key="d0">1663.0</data>
+  <data key="d1">8.967494154816911e-05</data>
+</edge>
+</graph></graphml>
