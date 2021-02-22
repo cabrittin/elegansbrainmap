@@ -80,4 +80,4 @@ if __name__ == '__main__':
         module.run(params.config,fout=params.fout,source_data = params.source_data)
 
     else:
-        print("Error: Not a valide paper figure.")
+        print("Error: Not a valid paper figure.")
