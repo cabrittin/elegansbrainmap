@@ -40,5 +40,13 @@ password=account-password
 ```
 Once your MySQL databases and .cnf file are setup, you should be able run the scripts.
 
+## Config file
+The file configs/config.ini points to default mat and data file which are required by the scripts. 
 
+## Generating paper figures
+Most paper figures can be generated with the paper_figures.py wrapper. For example,
+```bash
+python paper_figures.py ed1a
+```
+will generate Extended Data (ed) Fig. 1a. The file paper_figmap.csv maps figures to the appropriate scripts. 
 
