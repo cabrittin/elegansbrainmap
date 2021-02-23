@@ -51,3 +51,22 @@ python paper_figures.py ed1a
 ```
 will generate Fig. 2a and Extended Data (ed) Fig. 1a, respectively. The file paper_figmap.csv maps figures to the appropriate scripts. 
 
+## Preprocessing data
+For convenience, we have provided preprocessed data in the data/ directory. In some instances where the preprocessed data is large (e.g. for Fig 2a), the figure generating the script will also do the necessary preproscessing. 
+
+### Generate stochastic population model clusters
+Default settings (e.g. Fig 1c)
+```bash
+python preprocess/cluster_population_models.py 
+```
+By default this will run 100 iterations in parallel across 10 cpus, to change the number of cpus and iterations
+```bash
+python preprocess/cluster_population_models.py -n 1 -i 1000
+```
+The default is σ=0.23, to change σ
+```bash
+python python preprocess/cluster_population_models.py -s 0.0,0.1,0.23,0.4
+```
+which will generate perturbations with σ=0.0, 0.1, 0.23 and 0.4. Use -h flag to see other adjustable settings. To plot the resulting cluster frequency matrices, take a look at analysis/cluster_population_plot_figure.py and scripts/fig1_cluster_results.py. 
+
+
