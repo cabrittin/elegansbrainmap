@@ -19,7 +19,7 @@ pip install requrements.txt
 ```
 
 ## MySQL data
-We found it convenient to store individual instances of membrane and synaptic contacts in a MySQL database, which can be downloaded from [here](https://zenodo.org/record/4383277#.X-wK5tZOk-I). MySQL offers several benefits, e.g.: easier and faster to query data and less RAM intensive. Installing a MySQL database is straightforward (just do a simple web search for your particular OS). However, learning to navigate in SQL does have a bit of a learing curve. If you find that working with MySQL is a major hurdle, then reach out to us. If there is sufficient demand, then we can think about modifying the code to handle csv inputs.
+We found it convenient to store individual instances of membrane and synaptic contacts in a MySQL database, which can be downloaded from [here](https://zenodo.org/record/4383277#.X-wK5tZOk-I). MySQL offers several benefits, e.g., easier and faster to query data and less RAM intensive. Installing a MySQL database is straightforward (just do a simple web search for your particular OS). However, learning to navigate in SQL does have a bit of a learing curve. If you find that working with MySQL is a major hurdle, then reach out to us. If there is sufficient demand, then we can think about modifying the code to handle csv inputs.
 
 ### Import database
 In your MySQL [create](https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb) the databases 'N2U' and 'JSH'. [Download](https://zenodo.org/record/4383277#.X-wK5tZOk-I) databases.tar.bz2. Then import the databases as follows the adult:
