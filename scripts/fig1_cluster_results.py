@@ -12,23 +12,9 @@ import sys
 sys.path.append(r'./analysis')
 from configparser import ConfigParser,ExtendedInterpolation
 import argparse
-from igraph import Graph
-import networkx as nx
-import numpy as np
-import aux
-from collections import defaultdict 
-from sklearn.metrics.cluster import normalized_mutual_info_score
 import matplotlib.pyplot as plt
-from tqdm import tqdm
-from itertools import combinations
-import seaborn as sns
-import scipy.cluster.hierarchy as sch
-import matplotlib as mpl
-from matplotlib import colors
 
 
-from connectome.load import from_db
-from connectome.format_graphs import consensus_graph,filter_graph_edge
 from mc_community_plot_figure import *
 
 
