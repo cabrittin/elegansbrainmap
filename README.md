@@ -46,7 +46,8 @@ The file configs/config.ini points to default mat and data file which are requir
 ## Generating paper figures
 Most paper figures can be generated with the paper_figures.py wrapper. For example,
 ```bash
+python paper_figures.py fig2a
 python paper_figures.py ed1a
 ```
-will generate Extended Data (ed) Fig. 1a. The file paper_figmap.csv maps figures to the appropriate scripts. 
+will generate Fig. 2a and Extended Data (ed) Fig. 1a, respectively. The file paper_figmap.csv maps figures to the appropriate scripts. 
 
