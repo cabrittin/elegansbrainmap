@@ -1,5 +1,5 @@
 """
-mc_community_plot_figure.py
+cluster_population_plot_figure.py
 
 Monte Carlo community analysis
 

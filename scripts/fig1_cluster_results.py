@@ -15,7 +15,7 @@ import argparse
 import matplotlib.pyplot as plt
 
 
-from mc_community_plot_figure import *
+from cluster_population_plot_figure import *
 
 
 CONFIG = 'configs/config.ini'
