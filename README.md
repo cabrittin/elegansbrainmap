@@ -41,7 +41,7 @@ password=account-password
 Once your MySQL databases and .cnf file are setup, you should be able run the scripts.
 
 ## Config file
-The file configs/config.ini points to default mat and data file which are required by the scripts. 
+The file configs/config.ini points to default mat and data file which are required by the scripts. Most scripts assume that the file configs/config.ini, however, for most scripts you can pass a different config file with the -c flag.  
 
 ## Generating paper figures
 Most paper figures can be generated with the paper_figures.py wrapper. For example,
