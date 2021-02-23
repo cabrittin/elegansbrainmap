@@ -1,5 +1,5 @@
 fig1,fig1_cluster_results
-fig2,fig2_model_results
+fig2a,fig2_model_results
 ed1a,neighborhood_scatter
 ed1b,tpair_adj_deg
 ed1c,plot_compare_neigh_overlap
