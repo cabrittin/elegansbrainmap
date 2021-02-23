@@ -31,7 +31,7 @@ zcat l4_databases.sql.gz | mysql -u root -ppassword JSH
 Substitute your user account with 'root' if appropriate and 'password' is the passord for the user account. 
 
 ### Accessing databases within the codebase
-The codebase needs to 'login' everytime it accesses MySQL. Hence, your account info (i.e. username and password) needs to be physically accessible to the codebase. By default, we keep this info in '~/.my.cnf', but you can change the default file in the brainmap.db.connect module. For security reasons, we recommend keeping the .cnf file outside of your code repo (you do not want this info publicly available in your git repo). The .cnf file should have the following formmat
+The codebase needs to 'login' everytime it accesses MySQL. Hence, your account info (i.e. username and password) needs to be physically accessible to the codebase. By default, we keep this info in '~/.my.cnf', but you can change the default file in the brainmap.db.connect module. For security reasons, we recommend keeping the .cnf file outside of your code repo (you do not want this info publicly available in your git repo). The .cnf file should have the following format
 ```
 [client]
 host=localhost
