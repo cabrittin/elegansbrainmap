@@ -85,7 +85,7 @@ which will generate perturbations with σ=0.0, 0.1, 0.23 and 0.4. Use -h flag to
 python preprocess/syn_graphs.py   
 ```
 
-## Pruning ℂ¹ polyads
+### Pruning ℂ¹ polyads
 ```bash
 python preprocess/prune_polyads.py      
 ```
