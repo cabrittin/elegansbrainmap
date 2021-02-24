@@ -13,6 +13,7 @@ We are working to migrate all code for the [paper](https://dx.doi.org/10.1038/s4
 * ED Fig 1: 2021/02/25
 * ED Fig 2: 2021/02/26
 * ED Fig 3-7: 2021/03/01
+
 Note that ED Figs 8-10 are not generated from code from this repo. To generate ED Fig 8, see the import_synapses.py script in [parsetrakem2](https://github.com/cabrittin/parsetrakem2). EF Figs 9,10 are generated with Cytoscape, see [data repo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) for source files.  
 
 ## Requirements:
