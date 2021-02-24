@@ -76,7 +76,7 @@ python preprocess/cluster_population_models.py -n 1 -i 1000
 ```
 The default is σ=0.23, to change σ
 ```bash
-python python preprocess/cluster_population_models.py -s 0.0,0.1,0.23,0.4
+python preprocess/cluster_population_models.py -s 0.0,0.1,0.23,0.4
 ```
 which will generate perturbations with σ=0.0, 0.1, 0.23 and 0.4. Use -h flag to see other adjustable settings. To plot the resulting cluster frequency matrices, take a look at analysis/cluster_population_plot_figure.py and scripts/fig1_cluster_results.py. NOTE: Clusters are determined by manual inspection of the cluster frequency matrix and saved to files in the data/clusters directory. 
 
