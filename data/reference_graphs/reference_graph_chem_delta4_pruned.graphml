@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="float"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="float" for="edge" id="d0"/>
 <graph edgedefault="directed"><node id="ADAL"/>
 <node id="AIBR"/>
 <node id="AVAL"/>
@@ -117,7 +117,6 @@
 <node id="IL2DL"/>
 <node id="IL2L"/>
 <node id="RIH"/>
-<node id="IL2R"/>
 <node id="IL2VL"/>
 <node id="RMEL"/>
 <node id="RMER"/>
@@ -270,9 +269,6 @@
 <edge source="ADEL" target="AVDL">
   <data key="d0">4.0</data>
 </edge>
-<edge source="ADEL" target="AVEL">
-  <data key="d0">3.25</data>
-</edge>
 <edge source="ADEL" target="OLLL">
   <data key="d0">4.25</data>
 </edge>
@@ -374,9 +370,6 @@
 </edge>
 <edge source="AIZL" target="AIAL">
   <data key="d0">11.0</data>
-</edge>
-<edge source="AIZL" target="AIBL">
-  <data key="d0">7.0</data>
 </edge>
 <edge source="AIZL" target="AIBR">
   <data key="d0">41.75</data>
@@ -801,9 +794,6 @@
 <edge source="CEPDL" target="RMDVL">
   <data key="d0">7.25</data>
 </edge>
-<edge source="CEPDL" target="RMHR">
-  <data key="d0">6.5</data>
-</edge>
 <edge source="CEPDL" target="URADL">
   <data key="d0">4.0</data>
 </edge>
@@ -881,9 +871,6 @@
 </edge>
 <edge source="AQR" target="PVPL">
   <data key="d0">2.25</data>
-</edge>
-<edge source="AQR" target="RIAL">
-  <data key="d0">4.5</data>
 </edge>
 <edge source="PVPL" target="AVAL">
   <data key="d0">4.5</data>
@@ -1140,9 +1127,6 @@
 <edge source="CEPDR" target="RICL">
   <data key="d0">9.25</data>
 </edge>
-<edge source="CEPDR" target="RMHL">
-  <data key="d0">6.5</data>
-</edge>
 <edge source="RMHL" target="RMDR">
   <data key="d0">4.75</data>
 </edge>
@@ -1175,9 +1159,6 @@
 </edge>
 <edge source="CEPVR" target="RICL">
   <data key="d0">13.75</data>
-</edge>
-<edge source="DVA" target="AUAL">
-  <data key="d0">4.75</data>
 </edge>
 <edge source="DVA" target="AVEL">
   <data key="d0">17.75</data>
@@ -1265,9 +1246,6 @@
 </edge>
 <edge source="IL2L" target="IL1L">
   <data key="d0">5.75</data>
-</edge>
-<edge source="IL2L" target="OLQDL">
-  <data key="d0">10.25</data>
 </edge>
 <edge source="IL2L" target="RIH">
   <data key="d0">16.5</data>
