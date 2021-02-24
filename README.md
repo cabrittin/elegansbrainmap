@@ -3,12 +3,17 @@
 
 This is the accompanying code for 
 
-Brittin, C. A. , Cook, S. J., Hall, D.H., Emmons, S. W., Cohen. N. A multiscale brain map derived from whole-brain volumetric reconstructions. Nature (2021). [paper](https://dx.doi.org/10.1038/s41586-021-03284-x) [preprint](https://doi.org/10.1101/2020.05.24.112870)
+Brittin, C. A. , Cook, S. J., Hall, D.H., Emmons, S. W., Cohen. N. A multiscale brain map derived from whole-brain volumetric reconstructions. Nature (2021). [[paper](https://dx.doi.org/10.1038/s41586-021-03284-x)] [[preprint](https://doi.org/10.1101/2020.05.24.112870)]
 
 Source TrakEM2 data: [zenodo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) or [wormwiring.org](http://wormwiring.org/) data.
 
 
-## In preparation for advanced online publication, documentation will be under construction 21-24th February 2021
+## Current status (updated 2021/02/24)
+We are working to migrate all code for the [paper](https://dx.doi.org/10.1038/s41586-021-03284-x) to this repo. Currently, the code in the repo should be sufficient to generate all main figures and support data, reference graphs, stochastic population models (Fig 1) and core/variable models (Fig 2). We will continue to work to migrate code for the remaining Extended Data figures and expect this to be complete before print publication (4 March 2021). The reason for the delay is that we are removing deprecated code and trying to provide scripts that demonstrate usage. Below is the expected timeline on when ED Figs with be completed:
+* ED Fig 1: 2021/02/25
+* ED Fig 2: 2021/02/26
+* ED Fig 3-7: 2021/03/01
+Note that ED Figs 8-10 are not generated from code from this repo. To generate ED Fig 8, see the import_synapses.py script in [parsetrakem2](https://github.com/cabrittin/parsetrakem2). EF Figs 9,10 are generated with Cytoscape, see [data repo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) for source files.  
 
 ## Requirements:
 Please check requirements.txt for details.
