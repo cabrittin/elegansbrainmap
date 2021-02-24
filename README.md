@@ -3,7 +3,7 @@
 
 This is the accompanying code for 
 
-Brittin, C. A. , Cook, S. J., Hall, D.H., Emmons, S. W., Cohen. N. A multiscale brain map derived from whole-brain volumetric reconstructions. Nature (in press). [biorxiv](https://doi.org/10.1101/2020.05.24.112870)
+Brittin, C. A. , Cook, S. J., Hall, D.H., Emmons, S. W., Cohen. N. A multiscale brain map derived from whole-brain volumetric reconstructions. Nature (2021). [paper](https://dx.doi.org/10.1038/s41586-021-03284-x) [preprint](https://doi.org/10.1101/2020.05.24.112870)
 
 Source TrakEM2 data: [zenodo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) or [wormwiring.org](http://wormwiring.org/) data.
 
@@ -83,6 +83,11 @@ which will generate perturbations with σ=0.0, 0.1, 0.23 and 0.4. Use -h flag to
 ### Format Brainmap graphml file to be viewed in Cytoscape
 ```bash
 python preprocess/syn_graphs.py   
+```
+
+### Breakdown of ℂ⁴ contacts across ResNet modules and layers (for Fig 4a table)
+```bash
+python preprocess/breakdown_resnet.py
 ```
 
 ### Pruning ℂ¹ polyads
