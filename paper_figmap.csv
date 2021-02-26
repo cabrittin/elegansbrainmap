@@ -5,3 +5,4 @@ fig3,fig3_c4_matrix
 ed1a,neighborhood_scatter
 ed1b,tpair_adj_deg
 ed1c,plot_compare_neigh_overlap
+ed1efh,ed1_localization_plots
