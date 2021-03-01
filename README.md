@@ -100,3 +100,16 @@ python preprocess/breakdown_resnet.py
 ```bash
 python preprocess/prune_polyads.py      
 ```
+### ED Fig 1d and Supplementary Data 2
+Generating membrane contact localization plots. Note: Scripts expect that the directory results/adj_loc/ is already created. 
+```bash
+$ python preprocess/pull_adjacency_data.py 
+Adjacency iter:: 100%|██████████████| 156941/156941 [00:00<00:00, 543555.54it/s]
+Chemical iter: 100%|██████████████████████| 2838/2838 [00:01<00:00, 1589.71it/s]
+Gap j. iter:: 100%|█████████████████████████| 748/748 [00:00<00:00, 1724.04it/s]
+Adjacency iter:: 100%|██████████████| 128273/128273 [00:00<00:00, 474645.55it/s]
+Chemical iter: 100%|███████████████████████| 6245/6245 [00:27<00:00, 230.75it/s]
+Gap j. iter:: 100%|████████████████████████| 1201/1201 [00:04<00:00, 247.92it/s]
+$ python analysis/localization_cell_batch.py 
+Cell: 100%|█████████████████████████████████████| 80/80 [02:18<00:00,  1.73s/it]
+```
