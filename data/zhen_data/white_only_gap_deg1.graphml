@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="float" for="edge" id="d0"/>
+<graph edgedefault="undirected"><node id="ADAL"/>
+<node id="AVDL"/>
+<node id="ADEL"/>
+<node id="AINL"/>
+<node id="AVKL"/>
+<node id="AVL"/>
+<node id="ADLL"/>
+<node id="AVDR"/>
+<node id="OLQVL"/>
+<node id="ADLR"/>
+<node id="AIAL"/>
+<node id="ASJL"/>
+<node id="AWCL"/>
+<node id="AIBL"/>
+<node id="RMEV"/>
+<node id="AIZL"/>
+<node id="AWAL"/>
+<node id="ALML"/>
+<node id="BDUL"/>
+<node id="ALNL"/>
+<node id="SMBDR"/>
+<node id="ALNR"/>
+<node id="SMBDL"/>
+<node id="AQR"/>
+<node id="AVBL"/>
+<node id="ASHL"/>
+<node id="ASKL"/>
+<node id="AVAL"/>
+<node id="AVEL"/>
+<node id="PVPL"/>
+<node id="SDQR"/>
+<node id="AVAR"/>
+<node id="SDQL"/>
+<node id="SIBVL"/>
+<node id="RMED"/>
+<node id="RMEL"/>
+<node id="AVJL"/>
+<node id="PVCL"/>
+<node id="SMBVR"/>
+<node id="AVKR"/>
+<node id="SMBVL"/>
+<node id="AVM"/>
+<node id="FLPL"/>
+<node id="AWBL"/>
+<node id="RICR"/>
+<node id="AWBR"/>
+<node id="RICL"/>
+<node id="DVC"/>
+<node id="PVR"/>
+<node id="IL1VL"/>
+<node id="IL2L"/>
+<node id="OLQDL"/>
+<node id="RMDDR"/>
+<node id="OLQDR"/>
+<node id="RMDDL"/>
+<node id="RIS"/>
+<node id="SMDVL"/>
+<node id="RIVL"/>
+<node id="SAADR"/>
+<node id="RIVR"/>
+<node id="SAADL"/>
+<node id="RMFL"/>
+<node id="URBR"/>
+<node id="RMFR"/>
+<node id="URBL"/>
+<node id="RMHL"/>
+<node id="SIBVR"/>
+<node id="RMHR"/>
+<edge source="ADAL" target="AVDL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AVDL" target="ADLR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADEL" target="AINL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADEL" target="AVKL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ADEL" target="AVL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AVKL" target="SMBVR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADLL" target="AVDR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADLL" target="OLQVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIAL" target="ASJL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AIAL" target="AWCL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AIBL" target="RMEV">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AIZL" target="AWAL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ALML" target="BDUL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="BDUL" target="PVCL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ALNL" target="SMBDR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ALNR" target="SMBDL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SMBDL" target="SAADL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AQR" target="AVBL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVBL" target="SIBVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ASHL" target="ASKL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVAL" target="AVEL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AVAL" target="PVPL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVAL" target="SDQR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVEL" target="RMED">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AVEL" target="RMEL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="PVPL" target="DVC">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SDQR" target="SIBVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVAR" target="SDQL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SDQL" target="SIBVR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SIBVL" target="RMHR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SIBVL" target="SMBVL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AVJL" target="PVCL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVKR" target="SMBVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVM" target="FLPL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="FLPL" target="PVR">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AWBL" target="RICR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AWBR" target="RICL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="IL1VL" target="IL2L">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="OLQDL" target="RMDDR">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="OLQDR" target="RMDDL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="RIS" target="SMDVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RIVL" target="SAADR">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="RIVR" target="SAADL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="RMFL" target="URBR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMFR" target="URBL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMHL" target="SIBVR">
+  <data key="d0">1.0</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="float" for="edge" id="d0"/>
+<graph edgedefault="directed"><node id="ADAL"/>
+<node id="AIBL"/>
+<node id="AVER"/>
+<node id="ADAR"/>
+<node id="AVEL"/>
+<node id="ADEL"/>
+<node id="AVDL"/>
+<node id="AVKR"/>
+<node id="BDUL"/>
+<node id="RIFL"/>
+<node id="RIH"/>
+<node id="RIVR"/>
+<node id="RMDR"/>
+<node id="RMFR"/>
+<node id="SAADR"/>
+<node id="ADER"/>
+<node id="AVKL"/>
+<node id="RIVL"/>
+<node id="RMDL"/>
+<node id="RMFL"/>
+<node id="SAADL"/>
+<node id="ADFL"/>
+<node id="AWBL"/>
+<node id="OLQVL"/>
+<node id="SMBDL"/>
+<node id="ADLL"/>
+<node id="ASKL"/>
+<node id="AVBL"/>
+<node id="AVJR"/>
+<node id="ADLR"/>
+<node id="AVJL"/>
+<node id="AIAL"/>
+<node id="ASEL"/>
+<node id="AVAR"/>
+<node id="RIGR"/>
+<node id="AIBR"/>
+<node id="AVAL"/>
+<node id="RIGL"/>
+<node id="AIML"/>
+<node id="ALML"/>
+<node id="AINL"/>
+<node id="AFDL"/>
+<node id="RIMR"/>
+<node id="AINR"/>
+<node id="RIML"/>
+<node id="AIYL"/>
+<node id="BAGR"/>
+<node id="AIYR"/>
+<node id="BAGL"/>
+<node id="AIZL"/>
+<node id="DVA"/>
+<node id="AVDR"/>
+<node id="ALMR"/>
+<node id="ALNL"/>
+<node id="ALNR"/>
+<node id="AWAL"/>
+<node id="ASHL"/>
+<node id="AVHR"/>
+<node id="ASHR"/>
+<node id="AVHL"/>
+<node id="ASIL"/>
+<node id="AIAR"/>
+<node id="ASKR"/>
+<node id="URXR"/>
+<node id="URXL"/>
+<node id="AVM"/>
+<node id="RIS"/>
+<node id="SMBDR"/>
+<node id="SMDDL"/>
+<node id="SMDDR"/>
+<node id="AWCL"/>
+<node id="AIZR"/>
+<node id="AWCR"/>
+<node id="AVFR"/>
+<node id="BDUR"/>
+<node id="AVFL"/>
+<node id="CEPDL"/>
+<node id="CEPDR"/>
+<node id="CEPVL"/>
+<node id="SIAVL"/>
+<node id="FLPL"/>
+<node id="PVCR"/>
+<node id="FLPR"/>
+<node id="PVCL"/>
+<node id="IL1DL"/>
+<node id="PVR"/>
+<node id="RMDDR"/>
+<node id="IL1DR"/>
+<node id="RMDDL"/>
+<node id="IL1L"/>
+<node id="RMER"/>
+<node id="IL1R"/>
+<node id="RMEL"/>
+<node id="IL2DL"/>
+<node id="RMED"/>
+<node id="RMHL"/>
+<node id="IL2L"/>
+<node id="RICR"/>
+<node id="RMEV"/>
+<node id="IL2R"/>
+<node id="RICL"/>
+<node id="IL2VL"/>
+<node id="OLLL"/>
+<node id="SMDVL"/>
+<node id="IL1VL"/>
+<node id="PVPL"/>
+<node id="PVPR"/>
+<node id="PVQL"/>
+<node id="ALA"/>
+<node id="ASJL"/>
+<node id="RIPL"/>
+<node id="RIAL"/>
+<node id="SIADR"/>
+<node id="RIAR"/>
+<node id="SIADL"/>
+<node id="RIBL"/>
+<node id="RIBR"/>
+<node id="CEPVR"/>
+<node id="URYVL"/>
+<node id="AUAL"/>
+<node id="RIR"/>
+<node id="URYDL"/>
+<node id="RMDVR"/>
+<node id="RMDVL"/>
+<node id="PVT"/>
+<node id="RMGL"/>
+<node id="SIBDL"/>
+<node id="SDQL"/>
+<node id="SAAVL"/>
+<node id="SMBVL"/>
+<node id="SMBVR"/>
+<node id="URBL"/>
+<node id="URBR"/>
+<edge source="ADAL" target="AIBL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="ADAL" target="AVER">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="AIBL" target="AVAR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIBL" target="AVEL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIBL" target="RIGR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ADAR" target="AVEL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ADEL" target="AVDL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ADEL" target="AVKR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ADEL" target="BDUL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADEL" target="RIFL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADEL" target="RIH">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ADEL" target="RIVR">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="ADEL" target="RMDR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADEL" target="RMFR">
+  <data key="d0">2.5</data>
+</edge>
+<edge source="ADEL" target="SAADR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AVKR" target="AVKL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="AVKR" target="SMBDL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVKR" target="SMDDL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="BDUL" target="ADEL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="BDUL" target="AVFR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="RIFL" target="AVJL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="RIH" target="AUAL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="RIH" target="URYVL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="RMDR" target="RMDVL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="SAADR" target="RMFL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ADER" target="AVKL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ADER" target="RIVL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="ADER" target="RMDL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADER" target="RMFL">
+  <data key="d0">2.5</data>
+</edge>
+<edge source="ADER" target="SAADL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AVKL" target="AVKR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="AVKL" target="RIS">
+  <data key="d0">4.25</data>
+</edge>
+<edge source="AVKL" target="RIVL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AVKL" target="SMBDR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVKL" target="SMDDL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="AVKL" target="SMDDR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMDL" target="RMDVR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="RMFL" target="AIBL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="RMFL" target="PVT">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMFL" target="RMDL">
+  <data key="d0">3.5</data>
+</edge>
+<edge source="RMFL" target="RMHL">
+  <data key="d0">4.0</data>
+</edge>
+<edge source="SAADL" target="RMFR">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ADFL" target="AWBL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="ADFL" target="OLQVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADFL" target="SMBDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="OLQVL" target="IL1VL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="OLQVL" target="RMEL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SMBDL" target="RMDDL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SMBDL" target="SAAVL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="ADLL" target="ASKL">
+  <data key="d0">2.25</data>
+</edge>
+<edge source="ADLL" target="AVBL">
+  <data key="d0">2.25</data>
+</edge>
+<edge source="ADLL" target="AVJR">
+  <data key="d0">3.0</data>
+</edge>
+<edge source="ASKL" target="AIAR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AVJR" target="AVAL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="ADLR" target="AVJL">
+  <data key="d0">3.0</data>
+</edge>
+<edge source="AVJL" target="AVAR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVJL" target="AVM">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIAL" target="ASEL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="ASEL" target="AWAL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AIBR" target="AVAL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIBR" target="RIGL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="RIGL" target="OLQVL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="RIGL" target="URYVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIML" target="ALML">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIML" target="AVJL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AIML" target="RIFL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ALML" target="AVDR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AINL" target="AFDL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="AINL" target="RIMR">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="RIMR" target="RIBL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="AINR" target="RIML">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="RIML" target="ADAL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RIML" target="RIBR">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="RIML" target="RIS">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RIML" target="SAADL">
+  <data key="d0">2.5</data>
+</edge>
+<edge source="AIYL" target="AFDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AIYL" target="BAGR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="BAGR" target="RMFL">
+  <data key="d0">3.75</data>
+</edge>
+<edge source="AIYR" target="BAGL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="BAGL" target="RMFR">
+  <data key="d0">3.75</data>
+</edge>
+<edge source="AIZL" target="DVA">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="DVA" target="AVBL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="DVA" target="SIAVL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="ALMR" target="AVDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="ALNL" target="RIVR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ALNR" target="RIVL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="AWAL" target="ADLL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AWAL" target="AIAL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AWAL" target="ASHL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ASHL" target="ADLL">
+  <data key="d0">2.75</data>
+</edge>
+<edge source="ASHL" target="AVHR">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="ASHL" target="AVJR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="AVHR" target="ASHL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVHR" target="RIML">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVHR" target="URXL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ASHR" target="AVHL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="ASHR" target="AVJL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="AVHL" target="ASHR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVHL" target="RIMR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AVHL" target="URXR">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ASIL" target="ASKL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="ASKR" target="AIAL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="URXL" target="IL2L">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="URXL" target="RIR">
+  <data key="d0">5.75</data>
+</edge>
+<edge source="AVM" target="AVDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RIS" target="URYDL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="SMDDL" target="RIML">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="SMDDL" target="RMDR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="SMDDR" target="RMDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="AWCL" target="AIZR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="AWCR" target="AIZL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="BDUR" target="AVFL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="CEPDL" target="SMBDR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="CEPDR" target="SMBDL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="CEPVL" target="AVEL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="FLPL" target="ADAL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="FLPL" target="ADER">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="FLPL" target="AVEL">
+  <data key="d0">2.5</data>
+</edge>
+<edge source="FLPL" target="DVA">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="FLPL" target="PVCR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="PVCR" target="PVCL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="FLPR" target="ADEL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="FLPR" target="PVCL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="PVCL" target="PVCR">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="IL1DL" target="PVR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="IL1DL" target="RMDDR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="PVR" target="AVBL">
+  <data key="d0">7.25</data>
+</edge>
+<edge source="PVR" target="AVJL">
+  <data key="d0">2.25</data>
+</edge>
+<edge source="PVR" target="IL1VL">
+  <data key="d0">3.0</data>
+</edge>
+<edge source="PVR" target="RIPL">
+  <data key="d0">6.75</data>
+</edge>
+<edge source="IL1DR" target="RMDDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RMDDL" target="RMEV">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="IL1L" target="IL1DL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="IL1L" target="RMER">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="IL1R" target="RMEL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="IL2DL" target="RIH">
+  <data key="d0">4.5</data>
+</edge>
+<edge source="IL2DL" target="RMED">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="IL2DL" target="RMHL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMED" target="RMDVL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMHL" target="RMDL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="IL2L" target="RICR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="IL2L" target="RMER">
+  <data key="d0">2.25</data>
+</edge>
+<edge source="IL2L" target="RMEV">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="IL2L" target="URXL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RICR" target="CEPVL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RMEV" target="SMDVL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="IL2R" target="RICL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="IL2R" target="RMEL">
+  <data key="d0">2.25</data>
+</edge>
+<edge source="RICL" target="CEPVL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RICL" target="CEPVR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="IL2VL" target="URXL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="OLLL" target="SMDVL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="PVPL" target="ADAL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="PVPL" target="AVER">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="PVPL" target="PVCR">
+  <data key="d0">2.75</data>
+</edge>
+<edge source="PVPR" target="AVEL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="PVPR" target="PVCL">
+  <data key="d0">2.75</data>
+</edge>
+<edge source="PVQL" target="AIML">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="PVQL" target="ALA">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="PVQL" target="ASEL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="PVQL" target="ASJL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="PVQL" target="AVFL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="RIAL" target="SIADR">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="RIAR" target="SIADL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="RIBL" target="AVDR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RIBL" target="RIGL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RIBL" target="RIH">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RIBR" target="AVDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="URYVL" target="SIBDL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RIR" target="BAGL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="URYDL" target="AVBL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="URYDL" target="AVDL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="URYDL" target="IL1DL">
+  <data key="d0">5.25</data>
+</edge>
+<edge source="RMGL" target="ALML">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMGL" target="ASHL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="RMGL" target="AVAL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="RMGL" target="SIBDL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="SDQL" target="DVA">
+  <data key="d0">4.5</data>
+</edge>
+<edge source="SDQL" target="FLPL">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="SMBVL" target="RMDVR">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="SMBVR" target="RMDVL">
+  <data key="d0">1.25</data>
+</edge>
+<edge source="URBL" target="CEPVL">
+  <data key="d0">1.75</data>
+</edge>
+<edge source="URBL" target="RMDR">
+  <data key="d0">1.0</data>
+</edge>
+<edge source="URBL" target="SIAVL">
+  <data key="d0">1.5</data>
+</edge>
+<edge source="URBR" target="RMDL">
+  <data key="d0">1.0</data>
+</edge>
+</graph></graphml>

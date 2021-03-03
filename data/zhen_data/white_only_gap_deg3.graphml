@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="float" for="edge" id="d0"/>
+<graph edgedefault="undirected"><node id="ADAL"/>
+<node id="PVQL"/>
+<node id="ADEL"/>
+<node id="AVKR"/>
+<node id="ADER"/>
+<node id="AVKL"/>
+<node id="ADFL"/>
+<node id="AIAL"/>
+<node id="ADLL"/>
+<node id="RMGL"/>
+<node id="AIBL"/>
+<node id="RIVL"/>
+<node id="AIML"/>
+<node id="SIBDR"/>
+<node id="AIMR"/>
+<node id="SIBDL"/>
+<node id="ALML"/>
+<node id="AVM"/>
+<node id="AQR"/>
+<node id="AUAL"/>
+<node id="AWBL"/>
+<node id="AVAL"/>
+<node id="RIML"/>
+<node id="AVBL"/>
+<node id="SIBVR"/>
+<node id="AVBR"/>
+<node id="SIBVL"/>
+<node id="AVDL"/>
+<node id="AVEL"/>
+<node id="RMDVL"/>
+<node id="AVJL"/>
+<node id="RIS"/>
+<node id="PVPL"/>
+<node id="PVT"/>
+<node id="RICL"/>
+<node id="SMBVL"/>
+<node id="CEPDL"/>
+<node id="RIH"/>
+<node id="FLPL"/>
+<node id="IL1VL"/>
+<node id="RMED"/>
+<node id="OLQVL"/>
+<node id="RIBL"/>
+<node id="SMBDL"/>
+<node id="SMDDR"/>
+<node id="RIBR"/>
+<node id="SMDDL"/>
+<node id="RMDDL"/>
+<node id="RMDL"/>
+<node id="SAADL"/>
+<edge source="ADAL" target="PVQL">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="ADEL" target="AVKR">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="ADER" target="AVKL">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="AVKL" target="AQR">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AVKL" target="PVPL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AVKL" target="PVT">
+  <data key="d0">2.0</data>
+</edge>
+<edge source="AVKL" target="RICL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AVKL" target="SMBVL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="ADFL" target="AIAL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="ADLL" target="RMGL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AIBL" target="RIVL">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="AIML" target="SIBDR">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AIMR" target="SIBDL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="ALML" target="AVM">
+  <data key="d0">2.6666666666666665</data>
+</edge>
+<edge source="AVM" target="AVDL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AUAL" target="AWBL">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="AVAL" target="RIML">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AVBL" target="SIBVR">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="SIBVR" target="RIBL">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="AVBR" target="SIBVL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="SIBVL" target="RIBR">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="AVEL" target="RMDVL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="AVJL" target="RIS">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="CEPDL" target="RIH">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="RIH" target="FLPL">
+  <data key="d0">3.0</data>
+</edge>
+<edge source="IL1VL" target="RMED">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="OLQVL" target="RIBL">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="RIBL" target="SMBDL">
+  <data key="d0">1.3333333333333333</data>
+</edge>
+<edge source="RIBL" target="SMDDR">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="RIBR" target="SMDDL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+<edge source="RMDDL" target="RMDL">
+  <data key="d0">3.0</data>
+</edge>
+<edge source="RMDDL" target="SAADL">
+  <data key="d0">1.6666666666666667</data>
+</edge>
+</graph></graphml>

@@ -54,7 +54,8 @@ def head_edges(Ref,limit=10):
             counter += 1
  
 
-CONFIG = os.environ['CONFIG']
+#CONFIG = os.environ['CONFIG']
+CONFIG = 'configs/config.ini'
 
 
 def run(params):
@@ -131,13 +132,16 @@ def run(params):
     print(high_count)
     print(A[4].number_of_nodes())
     print(all_count / all_count.sum(axis=1,keepdims=True))
-       
-    np.save(cfg['model_data']['all'],all_count)
-    #np.save(cfg['model_data']['all'].replace('.npy','_%d.npy'%params.delta),all_count)
-    np.save(cfg['model_data']['inter_bundle'],inter_count)
-    np.save(cfg['model_data']['intra_bundle'],intra_count)
-    np.save(cfg['model_data']['low_weight'],low_count)
-    np.save(cfg['model_data']['high_weight'],high_count)
+    
+    if params.delta > 3:
+        np.save(cfg['model_data']['all'],all_count)
+        np.save(cfg['model_data']['all'].replace('.npy','_%d.npy'%params.delta),all_count)
+        np.save(cfg['model_data']['inter_bundle'],inter_count)
+        np.save(cfg['model_data']['intra_bundle'],intra_count)
+        np.save(cfg['model_data']['low_weight'],low_count)
+        np.save(cfg['model_data']['high_weight'],high_count)
+    else:
+        np.save(cfg['model_data']['all'].replace('.npy','_%d.npy'%params.delta),all_count)
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description=__doc__,
