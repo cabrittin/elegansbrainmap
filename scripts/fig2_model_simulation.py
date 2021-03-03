@@ -1,7 +1,7 @@
 """
-fig1_cluster_results.py
+fig2_model_simulation.py
 
-Plot the cluster results in Figure 1 of the paper.
+Model simulation for Fig 2b.
 
 created: Christopher Brittin
 date: 22 February 2021
