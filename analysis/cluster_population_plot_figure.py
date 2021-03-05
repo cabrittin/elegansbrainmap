@@ -39,7 +39,7 @@ def reorder_clusters(nodes,brainmap):
             if brainmap[n] == cls: _nodes.append(n)
     return _nodes
 
-def plot_clustermap(fin,cfg,bundles,no_ticklabels=False,no_cbar=False,reorder=False):
+def plot_clustermap(fin,cfg,bundles,no_ticklabels=False,no_cbar=False,reorder=False,fig_title=None):
     fout = fin.replace('.npz','.png')
     norder = np.load(fin,allow_pickle=True)['norder']
     c = np.load(fin,allow_pickle=True)['C'] #[1000 x n] array of perturbed clusters
@@ -77,13 +77,14 @@ def plot_clustermap(fin,cfg,bundles,no_ticklabels=False,no_cbar=False,reorder=Fa
     im = sns.clustermap(z,row_linkage=y,col_linkage=y,dendrogram_ratio=(.2, .2),
             cbar_pos=(.12, .82, .03, .15),xticklabels=[],yticklabels=_nodes,
             #row_colors=ncolor,col_colors=ncolor,figsize=(2.5,2.5))
-            row_colors=ncolor,col_colors=ncolor,figsize=(10,10))
+            row_colors=ncolor,col_colors=ncolor,figsize=(10,10),)
     im.ax_row_dendrogram.set_visible(False)
     if no_cbar:
         im.cax.set_visible(False)
     else: 
         im.ax_cbar.tick_params(labelsize=10)
         im.ax_cbar.set_label('cluster frequency')
+    if fig_title: im.fig.canvas.set_window_title(fig_title)
     plt.savefig(fout,dpi=400)
     im.reordered_ind = im.dendrogram_row.reordered_ind
 
