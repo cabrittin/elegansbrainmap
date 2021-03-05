@@ -18,8 +18,8 @@ mpl.rcParams['xtick.labelsize'] = 7
 
 from models.specificity import Model_P3_Avoidance as Avoidance
 
-THRESH = [0,0,0]
-VAL = [0.5,0.4,0.4]
+#THRESH = [0,0,0]
+#VAL = [0.5,0.4,0.4]
 
 
 def get_avoidance_error(error,val=0.5,high=False):
@@ -81,6 +81,8 @@ def run(params,fout=None,source_data=None):
     #data /= data.sum(axis=1)[:,None]
     avoidance = np.load(params.avoidance_error)
     print(data/data.sum(axis=1)[:,None])
+    VAL = params.value
+    THRESH = params.thresh
 
     A = Avoidance()
     _label = ['$\mathbb{%s}^1$','$\mathbb{%s}^2$','$\mathbb{%s}^3$','$\mathbb{%s}^4$']
@@ -88,42 +90,49 @@ def run(params,fout=None,source_data=None):
     clabel = [l%'C' for l in _label]
     glabel = [l%'G' for l in _label]
 
+    ddx = 0
     fig,ax = plt.subplots(3,1,figsize=(figw,figh))
+    if params.fig_title: fig.canvas.set_window_title(params.fig_title)  
+    try:
+        print('Axon contacts')
+        aparams = get_avoidance_error(avoidance['aerror'],val=VAL[0],high=THRESH[0])
+        A.set(aparams[:3])
+        leg = get_legend(aparams)
+        print(leg)
+        print(A.Z)
+        plot_fit(ax[0],data[ddx,:],A.Z[1:],legend=leg,labels=alabel,ylabel='Fraction of axon contacts')
+        #ax[0].set_title('Adjacency',fontsize=8)
+        ax[0].legend(loc='upper left',fontsize=6)
+        ddx += 1
+    except:
+        pass
     
-    print('Axon contacts')
-    aparams = get_avoidance_error(avoidance['aerror'],val=VAL[0],high=THRESH[0])
-    A.set(aparams[:3])
-    leg = get_legend(aparams)
-    print(leg)
-    print(A.Z)
-    plot_fit(ax[0],data[0,:],A.Z[1:],legend=leg,
-            labels=alabel,ylabel='Fraction of axon contacts')
-    #ax[0].set_title('Adjacency',fontsize=8)
-    ax[0].legend(loc='upper left',fontsize=6)
     print('Chemical synapses')
     aparams = get_avoidance_error(avoidance['cerror'],val=VAL[1],high=THRESH[1])
     A.set(aparams[:3])
     leg = get_legend(aparams)
     print(leg)
     print(A.Z)
-    plot_fit(ax[1],data[1,:],A.Z[1:],legend=leg, 
+    plot_fit(ax[1],data[ddx,:],A.Z[1:],legend=leg, 
             labels=clabel,ylabel='Fraction of chemical syn.')
     ax[1].legend(loc='upper left',fontsize=6)
     #ax[1].set_title('Chemical syn.',fontsize=8) 
+    ddx += 1
+
     print('Gap junctions')
     aparams = get_avoidance_error(avoidance['gerror'],val=VAL[2],high=THRESH[2])
     A.set(aparams[:3])
     leg = get_legend(aparams)
     print(leg)
     print(A.Z)
-    plot_fit(ax[2],data[2,:],A.Z[1:],legend=leg,
+    plot_fit(ax[2],data[ddx,:],A.Z[1:],legend=leg,
             labels=glabel,ylabel='Fraction of gap junc.')
     #ax[2].set_title('Gap J.',fontsize=8)
     ax[2].legend(loc='upper left',fontsize=6)
+
     plt.tight_layout(pad=0.2)
-    
     if params.fout: plt.savefig(params.fout)
-    plt.show()
+    #plt.show()
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description=__doc__,

@@ -10,6 +10,7 @@ ed2a,plot_compare_neigh_overlap
 ed2bc,edge_distributions
 ed2def,synapses_lost
 ed2ghij,breakdown_contact_sites
+ed3,ed3_model_results
 ed4abc,model_rescale
 ed4de,ed4_model_simulation
 ed4hi,dataset_overlap
