@@ -8,11 +8,8 @@ Brittin, C. A. , Cook, S. J., Hall, D.H., Emmons, S. W., Cohen. N. A multiscale 
 Source TrakEM2 data: [zenodo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) or [wormwiring.org](http://wormwiring.org/) data.
 
 
-## Current status (updated 2021/02/24)
-We are working to migrate all code for the [paper](https://dx.doi.org/10.1038/s41586-021-03284-x) to this repo. Currently, the code in the repo should be sufficient to generate all main figures and support data, reference graphs, stochastic population models (Fig 1) and core/variable models (Fig 2). We are continueing to miagrate code for the extended data. The reason for the delay is that we are removing deprecated code and trying to provide scripts that demonstrate usage. Below is the expected timeline on when ED Fig migration is expected to be completed:
-* ED Fig 3: 2021/03/06
-
-Note that ED Figs 8-10 are not generated from code from this repo. To generate ED Fig 8, see the import_synapses.py script in [parsetrakem2](https://github.com/cabrittin/parsetrakem2). EF Figs 9,10 are generated with Cytoscape, see [data repo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) for source files.  
+## Current status
+We have migrated all code for the [paper](https://dx.doi.org/10.1038/s41586-021-03284-x) to this repo. The code in the repo is sufficient to generate all main  and most extended data figures and support data, reference graphs, stochastic population models (Fig 1) and core/variable models (Fig 2). Note that ED Figs 8-10 are not generated from code from this repo. To generate ED Fig 8, see the import_synapses.py script in [parsetrakem2](https://github.com/cabrittin/parsetrakem2). EF Figs 9,10 are generated with Cytoscape, see [data repo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) for source file. 
 
 ## Requirements:
 Please check requirements.txt for details.
