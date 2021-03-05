@@ -10,9 +10,8 @@ Source TrakEM2 data: [zenodo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) or
 
 ## Current status (updated 2021/02/24)
 We are working to migrate all code for the [paper](https://dx.doi.org/10.1038/s41586-021-03284-x) to this repo. Currently, the code in the repo should be sufficient to generate all main figures and support data, reference graphs, stochastic population models (Fig 1) and core/variable models (Fig 2). We are continueing to miagrate code for the extended data. The reason for the delay is that we are removing deprecated code and trying to provide scripts that demonstrate usage. Below is the expected timeline on when ED Fig migration is expected to be completed:
-* ED Fig 6: 2021/03/06
-* ED Fig 7: 2021/03/07
-* ED Fig 3: 2021/03/08
+* ED Fig 7: 2021/03/06
+* ED Fig 3: 2021/03/07
 
 Note that ED Figs 8-10 are not generated from code from this repo. To generate ED Fig 8, see the import_synapses.py script in [parsetrakem2](https://github.com/cabrittin/parsetrakem2). EF Figs 9,10 are generated with Cytoscape, see [data repo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) for source files.  
 
@@ -55,7 +54,7 @@ Most paper figures can be generated with the paper_figures.py wrapper. For examp
 python paper_figures.py fig2a
 python paper_figures.py ed1a
 ```
-will generate Fig. 2a and Extended Data (ed) Fig. 1a, respectively. The file paper_figmap.csv maps figures to the appropriate scripts. 
+will generate Fig. 2a and Extended Data (ed) Fig. 1a, respectively. The file paper_figmap.csv maps figures to the appropriate scripts. Only figure arguments in the first column of paper_figmap.csv are valid. 
 
 ## Preprocessing data
 For convenience, we have provided preprocessed data in the data/ directory. In some instances where the preprocessed data is large (e.g. for Fig 2a), the figure generating the script will also do the necessary preproscessing. Additionally, if you want to do your own preprocessing, check out the following scripts. 
