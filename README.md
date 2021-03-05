@@ -54,7 +54,7 @@ Most paper figures can be generated with the paper_figures.py wrapper. For examp
 python paper_figures.py fig2a
 python paper_figures.py ed1a
 ```
-will generate Fig. 2a and Extended Data (ed) Fig. 1a, respectively. The file paper_figmap.csv maps figures to the appropriate scripts. 
+will generate Fig. 2a and Extended Data (ed) Fig. 1a, respectively. The file paper_figmap.csv maps figures to the appropriate scripts. Only figure arguments in the first column of paper_figmap.csv are valid. 
 
 ## Preprocessing data
 For convenience, we have provided preprocessed data in the data/ directory. In some instances where the preprocessed data is large (e.g. for Fig 2a), the figure generating the script will also do the necessary preproscessing. Additionally, if you want to do your own preprocessing, check out the following scripts. 
