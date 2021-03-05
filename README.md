@@ -10,7 +10,6 @@ Source TrakEM2 data: [zenodo](https://zenodo.org/record/4383277#.X-wK5tZOk-I) or
 
 ## Current status (updated 2021/02/24)
 We are working to migrate all code for the [paper](https://dx.doi.org/10.1038/s41586-021-03284-x) to this repo. Currently, the code in the repo should be sufficient to generate all main figures and support data, reference graphs, stochastic population models (Fig 1) and core/variable models (Fig 2). We are continueing to miagrate code for the extended data. The reason for the delay is that we are removing deprecated code and trying to provide scripts that demonstrate usage. Below is the expected timeline on when ED Fig migration is expected to be completed:
-* ED Fig 5i-l: 2021/03/05
 * ED Fig 6: 2021/03/06
 * ED Fig 7: 2021/03/07
 * ED Fig 3: 2021/03/08
