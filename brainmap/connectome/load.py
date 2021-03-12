@@ -299,12 +299,10 @@ def from_graphml(fptr,chemical=False,electrical=False,adjacency=False,remove=Non
     Connectome object
     
     """
-    
-    neurons = sorted(scrub_neurons(db.mine.get_neurons(cur)))
     A = nx.read_graphml(fptr['membrane'])
     neurons = A.nodes()
 
-    C = Connectome(cfg['membrane'],neurons)
+    C = nxConnectome(fptr['membrane'],neurons)
 
     if adjacency: C.A = A 
     if chemical: C.C = nx.read_graphml(fptr['chemical'])

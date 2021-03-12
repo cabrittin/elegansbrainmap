@@ -19,7 +19,8 @@ from itertools import combinations
 import multiprocessing_on_dill as mp
 import time
 
-from connectome.load import from_db
+#from connectome.load import from_db
+import connectome.load 
 from connectome.load import reference_graphs
 #from connectome.format_graphs import *
 from connectome.format_graphs import consensus_graph,filter_graph_edge,normalize_edge_weight
@@ -72,7 +73,7 @@ def run_mc(idx,niters,cfg,dbs,sig,spatial_domain=0,delta=-1):
     fout = f'data/perturbations/mc_cluster_rand_{idx}.npz'
     #First: get the logscaling factors
     #Already determined that this mehtod yields reasonable values
-    lscale =  get_log_scale(cfg)
+    lscale =  get_log_scale(cfg,dbs)
     
     norder = dict([(n,i) for (i,n) in enumerate(sorted(M.nodes()))])
     C = np.zeros([niters,M.number_of_nodes()])
@@ -100,7 +101,9 @@ def perturb_data(cfg,dbs,lscale,sig,spatial_domain=0,delta=-1):
     DEG = len(dbs)*2
     G = []
     for d in dbs:
-        D = from_db(d,adjacency=True,chemical=False,electrical=False,
+        loader_method = getattr(connectome.load, cfg[d]['load'])
+        if cfg[d]['load'] == 'from_graphml': d = cfg[d]
+        D = loader_method(d,adjacency=True,chemical=False,electrical=False,
                 remove=remove,dataType='networkx',spatial_domain=spatial_domain)
         for (u,v) in D.A.edges(): 
             D.A[u][v]['weight'] *= np.exp(np.random.normal(scale=sig)*lscale)
@@ -128,7 +131,7 @@ def perturb_data(cfg,dbs,lscale,sig,spatial_domain=0,delta=-1):
     #print('delta',delta)
     return gsizes,M[delta],H
 
-def get_log_scale(cfg,lower_log_thresh=4):
+def get_log_scale(cfg,dbs,lower_log_thresh=4):
     left = aux.read.into_list(cfg['mat']['left_nodes'])
     right = aux.read.into_list(cfg['mat']['right_nodes'])
     remove = aux.read.into_list(cfg['mat']['remove'])
@@ -137,7 +140,9 @@ def get_log_scale(cfg,lower_log_thresh=4):
 
     G = []
     for d in dbs:
-        D = from_db(d,adjacency=True,chemical=False,electrical=False,remove=remove,dataType='networkx')
+        loader_method = getattr(connectome.load, cfg[d]['load'])
+        D = loader_method(d,adjacency=True,chemical=False,electrical=False,
+                remove=remove,dataType='networkx')
         D.A = filter_graph_edge(D.A,pct=edge_thresh)
         D.split_left_right(left,right)  
         G.append(D)
