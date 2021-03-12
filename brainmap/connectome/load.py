@@ -274,3 +274,44 @@ def reference_graphs(cfg,min_deg=1,max_deg=4,cfg_section='refgraphs',adj='adj',c
 
     return A,C,E
 
+
+def from_graphml(fptr,chemical=False,electrical=False,adjacency=False,remove=None,group=None,**kwargs):
+    """
+    Loads connectome data from graphml files. Returns Connectome object.
+    
+    Parameters:
+    -----------
+    fptr : dict
+      Dictionary with file names, format: {'membrane':'path','chem':'path','gap':path}:
+    chemical : bool (default False)
+      If true, load chemical graph 
+    electrical : bool (default False)
+      If true, load gap junction graph.
+    adjacency : bool (default False)
+      If true, load adjacency graph.
+    remove : list (default None)
+      Remove vertices/cells from the connectome object in the remove list
+    group : dict (default None)
+      Dictionary (key,val) = (cellName,groupName) to groups cells
+
+    Returns:
+    --------
+    Connectome object
+    
+    """
+    
+    neurons = sorted(scrub_neurons(db.mine.get_neurons(cur)))
+    A = nx.read_graphml(fptr['membrane'])
+    neurons = A.nodes()
+
+    C = Connectome(cfg['membrane'],neurons)
+
+    if adjacency: C.A = A 
+    if chemical: C.C = nx.read_graphml(fptr['chemical'])
+    if electrical: C.E = nx.read_graphml(fptr['gap'])
+
+    if remove: C.remove_cells(remove)
+    if group: C.group_cells(group['map'],key=group['key'])
+        
+    return C
+
