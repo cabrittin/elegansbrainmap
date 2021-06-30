@@ -156,6 +156,8 @@ def plot_compare(cfg,im):
     bcolor = dict([(d[2],d[1]) for d in aux.read.into_list2(cfg['mat']['bundle_color'])])
     nodes = [nodes[i] for i in idx]
     ncolor = [COLORS[CLUSTER[Adult[n]]] for n in nodes]
+    
+    aux.write.from_list('mat/cluster_node_order.txt',nodes)
 
     N = len(nodes)
     X = np.zeros([N,4])
@@ -185,7 +187,65 @@ def plot_compare(cfg,im):
     #plt.text(0.77,0.07,'Final', fontsize=18, transform=plt.gcf().transFigure)
     #plt.savefig('results/cluster_revision/cluster_compare.svg')
  
+def _plot_compare(cfg,im):
+    COLORS = ['#9301E7', '#E7A401', '#5E7FF1','#FC0000','#1FFF00','#9b9b9b','#199b07']
+    CLUSTER = {"Anterior":0,"Lateral":1,"Sublateral":2,"Avoidance":3,
+            "Taxis":4,"Unclassified":5,"Taxis2":6}
+    _CLUSTER = dict([(v,k) for (k,v) in CLUSTER.items()])
+    BOUNDS = [0,1,2,3,4,5,6,7]
+    cmap = colors.ListedColormap(COLORS)
+    norm = colors.BoundaryNorm(BOUNDS, cmap.N)
+    
+    cin = 'data/witvliet_clusters/clusters_s23_witvliet%d_t35.csv'
+    cnum = 8
+    M4 = aux.read.into_dict(cin%cnum) 
+    #M4 = aux.read.into_dict('data/clusters/clusters_s23_m4_t35.csv')
+    L4 = aux.read.into_dict('data/clusters/clusters_s23_JSH_t35.csv')
+    Adult = aux.read.into_dict('data/clusters/clusters_s23_N2U_t35.csv')
+    
+    #L4 = aux.read.into_dict('data/clusters/clusters_s23_JSH_t35_opt.csv')
+    #M4 = aux.read.into_dict('data/clusters/clusters_s23_m4_t35_opt.csv')
+    #Adult = aux.read.into_dict('data/clusters/clusters_s23_N2U_t35_opt.csv')
 
+
+    #idx = im.dendrogram_row.reordered_ind
+    idx = im.reordered_ind
+    m = nx.read_graphml(cfg['refgraphs']['adj_cl'])
+    nodes = sorted(m.nodes())
+    cclass = aux.read.into_dict(cfg['mat']['class'])
+    
+    bcolor = dict([(d[2],d[1]) for d in aux.read.into_list2(cfg['mat']['bundle_color'])])
+    nodes = [nodes[i] for i in idx]
+    ncolor = [COLORS[CLUSTER[Adult[n]]] for n in nodes]
+
+    N = len(nodes)
+    X = np.zeros([N,4])
+    data = []
+    for (i,n) in enumerate(nodes):
+        X[i,0] = CLUSTER[M4[n]]
+        X[i,1] = CLUSTER[L4[n]]
+        X[i,2] = CLUSTER[Adult[n]]
+        X[i,3] = 5
+        if np.min(X[i,:3]) == np.max(X[i,:3]): X[i,3] = np.max(X[i,:3])
+        data.append([i,cclass[n],M4[n],L4[n],Adult[n],_CLUSTER[X[i,3]]])
+    #aux.write.from_list('results/cluster_revision/fig1_row_order.csv',data)
+    #aux.write.from_list('results/cluster_revision/edfig5i_row_order.csv',data)
+    
+    fig, ax = plt.subplots(figsize=(3.8,9))
+    ax.imshow(X, cmap=cmap, norm=norm)
+    ax.set_aspect('auto')
+    ax.grid(which='major', axis='both', linestyle='-', color='k', linewidth=2)
+    ax.set_xticks([0.5,1.5,2.5,3.5])
+    #ax.set_xticklabels(['Perturbed contacts','$\mathbb{M}^4$','L4','Adult'],fontsize=10,ha='left')
+    ax.set_xticklabels([])
+    ax.set_yticks([])
+    plt.text(0.17,0.07,'$\widetilde{\mathbb{M}}^4$', fontsize=18, transform=plt.gcf().transFigure)
+    plt.text(0.37,0.07,'$\widetilde{L4}$', fontsize=18, transform=plt.gcf().transFigure)
+    plt.text(0.50,0.07,'$\widetilde{Adult}$', fontsize=18, transform=plt.gcf().transFigure)
+    plt.text(0.73,0.07,'Final', fontsize=18, transform=plt.gcf().transFigure)
+    #plt.text(0.77,0.07,'Final', fontsize=18, transform=plt.gcf().transFigure)
+    #plt.savefig('results/cluster_revision/cluster_compare.svg')
+ 
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)

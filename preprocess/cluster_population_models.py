@@ -64,13 +64,19 @@ def collapse_lr_nodes(G,left,right):
                 H[um][vm][k] = w
     return H
 
-def run_mc(idx,niters,cfg,dbs,sig,spatial_domain=0,delta=-1):
+def apply_mask(Mask,G):
+    rm_edges = [(a,b) for (a,b) in G.edges() if not Mask.has_edge(a,b)]
+    G.remove_edges_from(rm_edges)
+    return G
+
+def run_mc(idx,niters,cfg,dbs,sig,spatial_domain=0,delta=-1,mask=None):
     np.random.seed(idx*np.random.randint(10000)) 
     left = aux.read.into_list(cfg['mat']['left_nodes'])
     right = aux.read.into_list(cfg['mat']['right_nodes'])
     gfile = f'data/gtmp{idx}.graphml'
     M = nx.read_graphml(cfg['refgraphs']['adj_cl'])
     fout = f'data/perturbations/mc_cluster_rand_{idx}.npz'
+    if mask: F = nx.read_graphml(mask)
     #First: get the logscaling factors
     #Already determined that this mehtod yields reasonable values
     lscale =  get_log_scale(cfg,dbs)
@@ -83,6 +89,7 @@ def run_mc(idx,niters,cfg,dbs,sig,spatial_domain=0,delta=-1):
         _gsizes,M,Hp = perturb_data(cfg,dbs,lscale,sig,spatial_domain=spatial_domain,delta=delta)
         #print('edges',M.number_of_edges())
         gsizes.append(_gsizes)
+        if mask: M = apply_mask(F,M)
         M = collapse_lr_nodes(M,left,right)     
         nx.write_graphml(M,gfile)
         cls = multilevel_community(gfile)
@@ -141,6 +148,7 @@ def get_log_scale(cfg,dbs,lower_log_thresh=4):
     G = []
     for d in dbs:
         loader_method = getattr(connectome.load, cfg[d]['load'])
+        if cfg[d]['load'] == 'from_graphml': d = cfg[d]
         D = loader_method(d,adjacency=True,chemical=False,electrical=False,
                 remove=remove,dataType='networkx')
         D.A = filter_graph_edge(D.A,pct=edge_thresh)
@@ -206,7 +214,15 @@ if __name__=="__main__":
                         type=int,
                         required = False,
                         help = 'Spatial domain: 0->All, 1->NR, 2->VG')
-
+    
+    parser.add_argument('--mask',
+                        dest = 'mask',
+                        action = 'store',
+                        default = None,
+                        required = False,
+                        help = ('Path to graphml file. If supplied, '
+                                'clustering is only done for edges in the mask graphml')
+                        )
 
     parser.add_argument('-o','--fout',
                         dest = 'fout',
@@ -241,7 +257,7 @@ if __name__=="__main__":
         print(f'Sigma = {sig}')
         procs = []
         for idx in range(nproc):
-            proc = mp.Process(target=run_mc, args=(idx,niters,cfg,dbs,sig,params.spatial_domain,delta))
+            proc = mp.Process(target=run_mc, args=(idx,niters,cfg,dbs,sig,params.spatial_domain,delta,params.mask))
             procs.append(proc)
             proc.start()
         
