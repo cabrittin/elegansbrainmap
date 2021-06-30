@@ -22,7 +22,7 @@ from matplotlib.ticker import MultipleLocator
 from connectome.load import from_db
 from connectome.format_graphs import *
 #from networks.classification_measures import *
-import aux
+import ioaux
 
 mpl.rcParams['xtick.labelsize'] = 5
 mpl.rcParams['ytick.labelsize'] = 5

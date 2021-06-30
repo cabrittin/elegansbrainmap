@@ -18,7 +18,7 @@ import igraph
 import csv
 import numpy as np
 
-import aux
+import ioaux
 
 SCREEN = ['old']
 
@@ -222,10 +222,10 @@ class Connectome:
         """
         eid = -1
         for e in edges:
-            pre = aux.format.rm_brack(e[0])
+            pre = ioaux.format.rm_brack(e[0])
             if pre not in vertices: continue
             #i_pre = self.neurons[pre]
-            _post = list(set(map(aux.format.rm_brack,e[1].split(','))))
+            _post = list(set(map(ioaux.format.rm_brack,e[1].split(','))))
             if add_poly:
                 if len(_post) == 1:
                     poly = 'S'

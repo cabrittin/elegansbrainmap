@@ -24,7 +24,7 @@ from connectome.load import from_db
 from networks.stats import *
 from plots import print_wilcoxon,boxplots
 #from figures.stats import *
-import aux
+import ioaux
 
 mpl.rcParams['xtick.labelsize'] = 5
 mpl.rcParams['ytick.labelsize'] = 5
@@ -40,17 +40,17 @@ def write_out(nodes,score1,score2,_fout):
     _out = []
     for (n1,n2) in nodes:
         _out.append([n1,n2,score1[n1],score2[n2],abs(score1[n1]-score2[n2])])
-    aux.write.from_list(_fout,_out)
+    ioaux.write.from_list(_fout,_out)
 
 def run(_cfg,fout=None,source_data=None):
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(_cfg)
     
-    #_remove = aux.read.into_list(cfg['mat']['remove']) 
+    #_remove = ioaux.read.into_list(cfg['mat']['remove']) 
     _remove = ['VC01','VD01','VB01','VB02','HSNL','HSNR','PVNL','PVNR','PLNL','PLNR','PVR','PVR.']
-    left =  aux.read.into_list(cfg['mat']['left_nodes']) 
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap']) 
+    left =  ioaux.read.into_list(cfg['mat']['left_nodes']) 
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap']) 
     data = []
 
     N2U = 'N2U'

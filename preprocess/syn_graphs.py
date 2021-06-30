@@ -15,7 +15,7 @@ from collections import defaultdict
 
 from expand_list_to_bilateral import expand_list
 from connectome.format_graphs import *
-import aux
+import ioaux
 
 
 #CONFIG = os.environ['CONFIG']
@@ -127,17 +127,17 @@ if __name__=="__main__":
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
    
-    #bundles = aux.read.into_list2(cfg['bundles']['bundles'])
-    bundles = aux.read.into_list2(cfg['clusters']['final'])
-    merge = aux.read.into_list2(cfg['clusters']['brainmap'])
-    axclass = aux.read.into_list2(cfg['bundles']['class'])
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
+    #bundles = ioaux.read.into_list2(cfg['bundles']['bundles'])
+    bundles = ioaux.read.into_list2(cfg['clusters']['final'])
+    merge = ioaux.read.into_list2(cfg['clusters']['brainmap'])
+    axclass = ioaux.read.into_list2(cfg['bundles']['class'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
     rlmap = dict(zip(right,left))
-    lrdict = aux.read.into_lr_dict(cfg['mat']['lrmap'])
-    nclass = aux.read.into_dict(cfg['mat']['class'])
-    cook = aux.read.into_dict(cfg['mat']['cook'])
-    resnet = aux.read.into_dict(cfg['mat']['resnet'])
+    lrdict = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
+    nclass = ioaux.read.into_dict(cfg['mat']['class'])
+    cook = ioaux.read.into_dict(cfg['mat']['cook'])
+    resnet = ioaux.read.into_dict(cfg['mat']['resnet'])
 
     bundles = expand_list(bundles,lrdict)
     merge = expand_list(merge,lrdict)
@@ -163,7 +163,7 @@ if __name__=="__main__":
     #nx.add_node_attributes(C,master)
     
     #Read resnet class
-    redges = aux.read.into_list2(cfg['resnet']['resnet_edges'])
+    redges = ioaux.read.into_list2(cfg['resnet']['resnet_edges'])
     R = nx.DiGraph()
     for (u,v,c) in redges:
         if u in rlmap: u = rlmap[u]
@@ -204,7 +204,7 @@ if __name__=="__main__":
     H.remove_edges_from(nx.selfloop_edges(H))
     score_nodes(H)
 
-    data = aux.read.into_list2(cfg['motifs']['classified'])
+    data = ioaux.read.into_list2(cfg['motifs']['classified'])
     M = nx.DiGraph()
     mcells = []
     sc = defaultdict(int)

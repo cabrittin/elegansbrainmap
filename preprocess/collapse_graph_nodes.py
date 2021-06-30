@@ -13,7 +13,7 @@ from configparser import ConfigParser,ExtendedInterpolation
 import networkx as nx
 import numpy as np
 
-import aux
+import ioaux
 
 #CONFIG = os.environ['CONFIG']
 CONFIG = 'configs/config.ini'
@@ -47,8 +47,8 @@ if __name__=="__main__":
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
     
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
     rlmap = dict(zip(right,left))
 
     G = nx.read_graphml(params.fin)

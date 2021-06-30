@@ -20,7 +20,7 @@ from matplotlib.patches import PathPatch
 import pandas as pd
 import seaborn as sns
 
-import aux
+import ioaux
 from localization import *
 
 CONFIG = os.environ['CONFIG']

@@ -73,7 +73,7 @@ date: 01 November 2018
 """
 
 
-import aux
+import ioaux
 
 def get_db(cur):
     """
@@ -102,7 +102,7 @@ def get_neurons(cur):
            "and CON_Remarks like '%OK%'")
     cur.execute(sql)
     
-    return list(set([aux.format.rm_brack(a[0]) for a in cur.fetchall()]))
+    return list(set([ioaux.format.rm_brack(a[0]) for a in cur.fetchall()]))
 
 def get_contins(cur,cell):
     """
@@ -197,7 +197,7 @@ def get_img_number(cur,**kwargs):
     end : int
        Last section number (default 1e6)
     """   
-    args = aux.format.get_args(kwargs,{'start':-1,'end':1e6})
+    args = ioaux.format.get_args(kwargs,{'start':-1,'end':1e6})
     sql = ("select IMG_Number "
            "from image "
            "where IMG_Series in ('NR','VC') " 
@@ -253,7 +253,7 @@ def get_synapse_contins(cur,stype,**kwargs):
       last section number (default 1e6)
 
     """
-    args = aux.format.get_args(kwargs,{'start':None,'end':None,})
+    args = ioaux.format.get_args(kwargs,{'start':None,'end':None,})
     if args['start'] or args['end']: 
         images = get_img_number(cur,start=args['start'],end=args['end'])
         images = ''.join(["'","','".join(images),"'"])

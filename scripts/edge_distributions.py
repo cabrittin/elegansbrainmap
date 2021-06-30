@@ -18,7 +18,7 @@ import numpy as np
 #Brittin modules
 from connectome.load import from_db
 from plots import plot_dist
-import aux
+import ioaux
 
 mpl.rcParams['xtick.labelsize'] = 5
 mpl.rcParams['ytick.labelsize'] = 5
@@ -81,7 +81,7 @@ def plot_figure(db='N2U',fout=None,source_data=None):
     plt.tight_layout()
     if fout: plt.savefig(fout)    
     #plt.show()
-    if source_data: aux.write.from_list(source_data,_edges)
+    if source_data: ioaux.write.from_list(source_data,_edges)
 
 
 if __name__=='__main__':

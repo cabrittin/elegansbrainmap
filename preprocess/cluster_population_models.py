@@ -12,7 +12,7 @@ import argparse
 from igraph import Graph
 import networkx as nx
 import numpy as np
-import aux
+import ioaux
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from itertools import combinations
@@ -71,8 +71,8 @@ def apply_mask(Mask,G):
 
 def run_mc(idx,niters,cfg,dbs,sig,spatial_domain=0,delta=-1,mask=None):
     np.random.seed(idx*np.random.randint(10000)) 
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
     gfile = f'data/gtmp{idx}.graphml'
     M = nx.read_graphml(cfg['refgraphs']['adj_cl'])
     fout = f'data/perturbations/mc_cluster_rand_{idx}.npz'
@@ -98,11 +98,11 @@ def run_mc(idx,niters,cfg,dbs,sig,spatial_domain=0,delta=-1,mask=None):
     np.savez(fout,norder=norder,idx=idx,C=C,gsizes=np.array(gsizes))
  
 def perturb_data(cfg,dbs,lscale,sig,spatial_domain=0,delta=-1):
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap'])
-    nodes = aux.read.into_list(cfg['mat']['nodes'])
-    remove = aux.read.into_list(cfg['mat']['remove'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
+    nodes = ioaux.read.into_list(cfg['mat']['nodes'])
+    remove = ioaux.read.into_list(cfg['mat']['remove'])
     edge_thresh = cfg.getint('params','lower_weight_threshold')
     #dbs = cfg['input']['databases'].split(',')
     DEG = len(dbs)*2
@@ -139,9 +139,9 @@ def perturb_data(cfg,dbs,lscale,sig,spatial_domain=0,delta=-1):
     return gsizes,M[delta],H
 
 def get_log_scale(cfg,dbs,lower_log_thresh=4):
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    remove = aux.read.into_list(cfg['mat']['remove'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    remove = ioaux.read.into_list(cfg['mat']['remove'])
     edge_thresh = cfg.getint('params','lower_weight_threshold')
     dbs = cfg['input']['databases'].split(',')
 

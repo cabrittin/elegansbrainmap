@@ -18,7 +18,7 @@ from connectome.format_graphs import make_reference_graphs,clean_graph
 from connectome.load import from_db,filter_synapses
 from connectome.format_graphs import consensus_graph,filter_graph_edge,normalize_edge_weight
 from connectome.load import reference_graphs
-import aux
+import ioaux
 
 
 #CONFIG = os.environ['CONFIG']
@@ -73,11 +73,11 @@ if __name__=="__main__":
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
 
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap'])
-    nodes = aux.read.into_list(cfg['mat']['nodes']) 
-    remove = aux.read.into_list(cfg['mat']['remove'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
+    nodes = ioaux.read.into_list(cfg['mat']['nodes']) 
+    remove = ioaux.read.into_list(cfg['mat']['remove'])
     edge_thresh = cfg.getint('params','lower_weight_threshold')
     dbs = cfg['input']['databases'].split(',')
 

@@ -20,7 +20,7 @@ import pandas as pd
 from connectome.load import from_db
 from connectome.format_graphs import low_pass_edge_filter,mid_pass_edge_filter,high_pass_edge_filter
 from networks.stats import get_neighborhood_similarity,get_neighborhood_overlap_similarity
-import aux
+import ioaux
 
 CONFIG = os.environ['CONFIG']
 SOURCE = "data/neighborhood_similarity.csv"
@@ -61,9 +61,9 @@ def add_data(cfg,data,_label,edge_filter=None,args=None):
     N2U = 'N2U'
     JSH = 'JSH'
     
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap']) 
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap']) 
     #_remove = ['VC01','VD01','VB01','VB02','HSNL','HSNR','PVNL','PVNR']
     _remove = ['VC01','VD01','VB01','VB02','HSNL','HSNR','PVNL','PVNR','PLNL','PLNR','PVR','PVR.']
 
@@ -92,8 +92,8 @@ def run(_cfg,source_data=None):
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(_cfg)
 
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
     data = []
     
     add_data(cfg,data,['all','all'])

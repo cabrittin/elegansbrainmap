@@ -1,7 +1,7 @@
 """
 read.py
 
-Part of auxilary module. Contains functions for reading data from files.
+Part of ioauxilary module. Contains functions for reading data from files.
 
 Required 3rd party packages:
   csv

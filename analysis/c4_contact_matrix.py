@@ -12,7 +12,7 @@ import argparse
 from igraph import Graph
 import networkx as nx
 import numpy as np
-import aux
+import ioaux
 from collections import defaultdict 
 import seaborn as sns
 import scipy.cluster.hierarchy as sch
@@ -129,10 +129,10 @@ def plot_matrix3(im,M,bundles,cfg,zones,no_cbar=False,weight='weight',vmin=0,vma
     nodes = sorted(M.nodes())
     idx = im.dendrogram_row.reordered_ind
     nodes = [nodes[i] for i in idx]
-    bcolor = dict([(d[2],d[1]) for d in aux.read.into_list2(cfg['mat']['bundle_color'])])
-    cclass = aux.read.into_dict(cfg['mat']['class'])
+    bcolor = dict([(d[2],d[1]) for d in ioaux.read.into_list2(cfg['mat']['bundle_color'])])
+    cclass = ioaux.read.into_dict(cfg['mat']['class'])
     #ncolor = [bcolor[bundles[n]] for n in nodes]
-    brainmap = aux.read.into_dict(cfg['clusters']['brainmap'])
+    brainmap = ioaux.read.into_dict(cfg['clusters']['brainmap'])
     COLORS = ['0','0.25','0.5','0.75','1','#FF69B4']#,'#959595']#'#B2B2B2']
     BOUNDS = [0,1,2,3,4,5,6]
     cmap = colors.ListedColormap(COLORS)
@@ -152,7 +152,7 @@ def plot_matrix3(im,M,bundles,cfg,zones,no_cbar=False,weight='weight',vmin=0,vma
     SD = build_source_data(W,Z,clusters,nodes)    
     
     #mneigh = extract_multi_neigh(W,Z,bundles,nodes)
-    #aux.write.from_list('source_data/source_data_figure_3abc.csv',SD)
+    #ioaux.write.from_list('source_data/source_data_figure_3abc.csv',SD)
 
     zsum = zcount.sum()
     csum = ccount.sum()
@@ -217,9 +217,9 @@ def filter_reference_graph(Ref,tid):
 def run(params):
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    clusters = aux.read.into_dict(params.clusters) 
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    clusters = ioaux.read.into_dict(params.clusters) 
     im = plot_clustermap(params.fin,cfg,clusters,
             no_cbar=params.no_cbar,no_ticklabels=params.no_ticklabels)
 

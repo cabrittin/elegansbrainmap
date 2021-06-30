@@ -18,7 +18,7 @@ import matplotlib.colors as colors
 from collections import defaultdict
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-import aux
+import ioaux
 from connectome.format_graphs import make_reference_graphs
 from localization import *
 
@@ -51,24 +51,24 @@ if __name__=="__main__":
     params = parser.parse_args()
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap'])
-    remove = aux.read.into_list(cfg['mat']['remove'])
-    cclass = aux.read.into_dict(cfg['mat']['class'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
+    remove = ioaux.read.into_list(cfg['mat']['remove'])
+    cclass = ioaux.read.into_dict(cfg['mat']['class'])
     
     A4 = nx.read_graphml(cfg['refgraphs']['adj']%4)
-    data = aux.read.into_list2(cfg['adj_align']['fout'])
+    data = ioaux.read.into_list2(cfg['adj_align']['fout'])
 
     S = dict([(i,nx.read_graphml(cfg['refgraphs']['chem']%i)) for i in range(1,5)])
     Ref = make_reference_graphs(S)
-    syn = aux.read.into_list2(cfg['adj_align']['cout']) 
+    syn = ioaux.read.into_list2(cfg['adj_align']['cout']) 
     syn4 = format_syn_data(syn,Ref,rfilter=4) 
     syn1 = format_syn_data(syn,Ref,rfilter=3)#,high_pass=0) 
     
     #S = dict([(i,nx.read_graphml(cfg['refgraphs']['gap']%i)) for i in range(1,5)])
     #Ref = make_reference_graphs(S)
-    #syn = aux.read.into_list2(cfg['adj_align']['gout']) 
+    #syn = ioaux.read.into_list2(cfg['adj_align']['gout']) 
     #gap4 = format_syn_data(syn,Ref,thresh=4) 
     #gap1 = format_syn_data(syn,Ref,thresh=1,high_pass=0) 
 

@@ -13,7 +13,7 @@ import numpy as np
 from scipy.stats import pearsonr
 from tabulate import tabulate
 
-import aux
+import ioaux
 from connectome.subcellular import Subcell
 
 def get_bilateral_specificity(C,lrd,left):
@@ -424,7 +424,7 @@ def write_specificity(fout,pre,post,ndict):
     for n in pre:
         d[ndict[n]] = [pre[n].p,post[n].p]
 
-    aux.write.from_dict(fout,d)
+    ioaux.write.from_dict(fout,d)
     
     
 class Prob:

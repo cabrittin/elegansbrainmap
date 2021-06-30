@@ -17,7 +17,7 @@ from tqdm import tqdm
 
 import db as db
 from connectome.load import from_db
-import aux
+import ioaux
 from connectome.format_graphs import filter_graph_edge
 
 #CONFIG = os.environ['CONFIG']
@@ -208,10 +208,10 @@ if __name__=="__main__":
     params = parser.parse_args()
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap'])
-    remove = aux.read.into_list(cfg['mat']['remove'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
+    remove = ioaux.read.into_list(cfg['mat']['remove'])
     edge_thresh = cfg.getint('params','lower_weight_threshold')
     
     A4 = nx.read_graphml(cfg['refgraphs']['adj']%4)
@@ -233,9 +233,9 @@ if __name__=="__main__":
     pull_synapses(chem,_db,A4,_min=_min,_max=_max)
     pull_gap_junctions(gap,_db,A4,_min=_min,_max=_max) 
 
-    aux.write.from_list(cfg['adj_align']['fout'],data)
-    aux.write.from_list(cfg['adj_align']['cout'],chem)
-    aux.write.from_list(cfg['adj_align']['gout'],gap)
+    ioaux.write.from_list(cfg['adj_align']['fout'],data)
+    ioaux.write.from_list(cfg['adj_align']['cout'],chem)
+    ioaux.write.from_list(cfg['adj_align']['gout'],gap)
     
     
 

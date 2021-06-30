@@ -13,7 +13,7 @@ import numpy as np
 from tqdm import tqdm
 from collections import defaultdict
 
-import aux
+import ioaux
 
 def extract_bundle_contact(G,xml,rlmap):
     num_class = len(set([G.node[n]['bid'] for n in G.nodes()]))
@@ -62,7 +62,7 @@ def extract_cell_bundle_contact(c,G,root,num_class,rlmap):
 
 def get_cell_contact(flist):
     z =[]
-    for f in flist: z += aux.read.into_list2(f)
+    for f in flist: z += ioaux.read.into_list2(f)
     n = len(z[0]) - 4
     m = len(z)
     Z = np.zeros((m,n))

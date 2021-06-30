@@ -12,7 +12,7 @@ mpl.rcParams['xtick.labelsize'] = 5
 mpl.rcParams['ytick.labelsize'] = 5
 
 from connectome.load import from_db
-import aux
+import ioaux
 
 REMOVE = ['VB01', 'VD01','VC01']
 WIN_SIZE = 6
@@ -24,9 +24,9 @@ def run(_cfg,fout=None,source_data=None):
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(_cfg)
 
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    cclass = aux.read.into_dict(cfg['mat']['class']) 
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    cclass = ioaux.read.into_dict(cfg['mat']['class']) 
 
     N = from_db('N2U',adjacency=True,dataType='networkx',remove=REMOVE)
     J = from_db('JSH',adjacency=True,dataType='networkx',remove=REMOVE)
@@ -84,7 +84,7 @@ def run(_cfg,fout=None,source_data=None):
     plt.tight_layout()
     if fout: plt.savefig(fout)
     plt.show()
-    if source_data: aux.write.from_list(source_data,SD)
+    if source_data: ioaux.write.from_list(source_data,SD)
 
 
 if __name__=="__main__":

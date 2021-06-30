@@ -14,7 +14,7 @@ from configparser import ConfigParser,ExtendedInterpolation
 import argparse
 import networkx as nx
 import numpy as np
-import aux
+import ioaux
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from tqdm import tqdm
@@ -152,11 +152,11 @@ def run(_cfg,fout=None,source_data=None):
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(_cfg)
     
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap'])
-    nodes = aux.read.into_list(cfg['mat']['nodes']) 
-    remove = aux.read.into_list(cfg['mat']['remove'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
+    nodes = ioaux.read.into_list(cfg['mat']['nodes']) 
+    remove = ioaux.read.into_list(cfg['mat']['remove'])
     edge_thresh = cfg.getint('params','lower_weight_threshold')
     dbs = cfg['input']['databases'].split(',')
 
@@ -182,7 +182,7 @@ def run(_cfg,fout=None,source_data=None):
             tmp[j] = h[u][v]['wnorm']
         sd.append([u,v,w] + tmp)
     
-    aux.write.from_list('source_data/ed_fig5_emperical.csv',sd)
+    ioaux.write.from_list('source_data/ed_fig5_emperical.csv',sd)
     
     lscale = get_log_scale(cfg)
     sig = 0.23
@@ -197,7 +197,7 @@ def run(_cfg,fout=None,source_data=None):
             tmp[j] = h[u][v]['wnorm']
         sd.append([u,v,w] + tmp)
     
-    aux.write.from_list('source_data/ed_fig5_pert.csv',sd)
+    ioaux.write.from_list('source_data/ed_fig5_pert.csv',sd)
     
     plot_log(V)
     #plt.savefig('results/cluster_revision/noise_distribution.svg')

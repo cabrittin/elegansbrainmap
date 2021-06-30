@@ -14,7 +14,7 @@ import argparse
 from igraph import Graph
 import networkx as nx
 import numpy as np
-import aux
+import ioaux
 from collections import defaultdict 
 from sklearn.metrics.cluster import normalized_mutual_info_score
 import matplotlib.pyplot as plt
@@ -40,9 +40,9 @@ def plot_matrix(im,M,bundles,cfg,no_cbar=False,weight='weight',vmin=0,vmax=0.3,
     nodes = sorted(M.nodes())
     idx = im.dendrogram_row.reordered_ind
     nodes = [nodes[i] for i in idx]
-    bcolor = dict([(d[2],d[1]) for d in aux.read.into_list2(cfg['mat']['bundle_color'])])
+    bcolor = dict([(d[2],d[1]) for d in ioaux.read.into_list2(cfg['mat']['bundle_color'])])
     ncolor = [bcolor[bundles[n]] for n in nodes]
-    brainmap = aux.read.into_dict(cfg['clusters']['brainmap'])
+    brainmap = ioaux.read.into_dict(cfg['clusters']['brainmap'])
     nodes = reorder_clusters(nodes,brainmap)
     ncolor = [bcolor[bundles[n]] for n in nodes]
     A = nx.to_numpy_array(M,nodelist=nodes,weight=weight)
@@ -85,9 +85,9 @@ def run(_cfg,fout=None,source_data=None):
     reorder_nodes = True
     no_cbar = False
  
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    clusters = aux.read.into_dict(clusters) 
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    clusters = ioaux.read.into_dict(clusters) 
     im = plot_clustermap(perturbations,cfg,clusters,
             no_cbar=no_cbar,no_ticklabels=no_ticklabels)
 

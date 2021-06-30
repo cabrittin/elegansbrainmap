@@ -1,7 +1,7 @@
 """
 write.py
 
-Part of auxilary module. Contains functions for writing data.
+Part of ioauxilary module. Contains functions for writing data.
 
 Required 3rd party packages:
   csv

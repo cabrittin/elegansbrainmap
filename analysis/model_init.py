@@ -17,7 +17,7 @@ import numpy as np
 
 from connectome.format_graphs import *
 from connectome.load import reference_graphs
-import aux
+import ioaux
 
 def add_intra_inter_bundle(Ref,bundles):
     for (a,b) in Ref.edges():
@@ -63,8 +63,8 @@ def run(params):
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
     
-    #bundles = aux.read.into_dict(cfg['clusters']['m4'])
-    bundles = aux.read.into_dict(cfg['clusters']['final'])
+    #bundles = ioaux.read.into_dict(cfg['clusters']['m4'])
+    bundles = ioaux.read.into_dict(cfg['clusters']['final'])
     #intra_bundle = cfg.getboolean('model_params','intra_bundle')
     #weight_screen = cfg.getboolean('model_params','weight_screen')
     restricted=cfg.getboolean('model_params','restricted') 

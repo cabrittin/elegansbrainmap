@@ -28,7 +28,7 @@ sys.path.append(r'./scripts')
 import argparse
 import importlib
 
-import aux
+import ioaux
 
 #CONFIG = os.environ['CONFIG']
 CONFIG = 'configs/config.ini'
@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
     params = parser.parse_args()
 
-    figmap = aux.read.into_dict('paper_figmap.csv')
+    figmap = ioaux.read.into_dict('paper_figmap.csv')
     
     print(params.config)
 

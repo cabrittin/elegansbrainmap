@@ -12,7 +12,7 @@ import os
 import argparse
 from configparser import ConfigParser,ExtendedInterpolation
 
-import aux
+import ioaux
 
 
 CONFIG = os.environ['CONFIG']
@@ -47,9 +47,9 @@ if __name__=="__main__":
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
 
-    lrdict = aux.read.into_lr_dict(cfg['mat']['lrmap'])
+    lrdict = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
     
     fout = params.lst.replace('.','_lr.')
-    lst = aux.read.into_list2(params.lst)
+    lst = ioaux.read.into_list2(params.lst)
     new = expand_list(lst,lrdict)
-    aux.write.from_list(fout,new)
+    ioaux.write.from_list(fout,new)

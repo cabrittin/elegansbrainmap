@@ -14,7 +14,7 @@ import networkx as nx
 from collections import defaultdict
 
 from connectome.format_graphs import *
-import aux
+import ioaux
 
 #CONFIG = os.environ['CONFIG']
 CONFIG = 'configs/config.ini'
@@ -96,8 +96,8 @@ if __name__=="__main__":
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
     
-    bundles = aux.read.into_dict(cfg['clusters']['brainmap_lr'])
-    resnet = aux.read.into_dict(cfg['mat']['resnet']) 
+    bundles = ioaux.read.into_dict(cfg['clusters']['brainmap_lr'])
+    resnet = ioaux.read.into_dict(cfg['mat']['resnet']) 
     nbl = dict([(k,(v,int(resnet[k]))) for (k,v) in bundles.items() if int(resnet[k]) > -1])
 
     A = nx.read_graphml(cfg['refgraphs']['adj']%4)
@@ -139,8 +139,8 @@ if __name__=="__main__":
 
 
     print(total)
-    aux.write.from_list(cfg['resnet']['resnet_edges'],resedges)
-    aux.write.from_list('source_data/source_data_figure_4a.csv',SD)
+    ioaux.write.from_list(cfg['resnet']['resnet_edges'],resedges)
+    ioaux.write.from_list('source_data/source_data_figure_4a.csv',SD)
 
 
     

@@ -27,7 +27,7 @@ def run(_cfg,fout=None,source_data=None):
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(_cfg)
     clusters = 'data/clusters/clusters_s23_m4_t35.csv'
-    clusters = aux.read.into_dict(clusters)
+    clusters = ioaux.read.into_dict(clusters)
     no_ticklabels = False
     reorder_nodes = False
     no_cbar = False

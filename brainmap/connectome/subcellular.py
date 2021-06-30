@@ -12,7 +12,7 @@ Created: 07 February 2018
 import networkx as nx
 from random import shuffle
 
-import aux
+import ioaux
 import db
 
 class Subcell:

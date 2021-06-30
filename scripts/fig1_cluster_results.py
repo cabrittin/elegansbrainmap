@@ -34,7 +34,7 @@ def run(_cfg,fout=None,source_data=None):
     cfg.read(_cfg)
     perturbations = 'data/perturbations/mc_cluster_rand_sig23_m4_t35.npz' 
     clusters = 'data/clusters/clusters_s23_m4_t35.csv'
-    clusters = aux.read.into_dict(clusters)
+    clusters = ioaux.read.into_dict(clusters)
     no_ticklabels = False
     reorder_nodes = True
     no_cbar = False

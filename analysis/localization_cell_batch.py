@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from tqdm import tqdm
 
-import aux
+import ioaux
 from localization_prob import *
 
 #CONFIG = os.environ['CONFIG']
@@ -40,14 +40,14 @@ if __name__=="__main__":
     params = parser.parse_args()
     cfg = ConfigParser(interpolation=ExtendedInterpolation())
     cfg.read(params.config)
-    left = aux.read.into_list(cfg['mat']['left_nodes'])
-    right = aux.read.into_list(cfg['mat']['right_nodes'])
-    lrmap = aux.read.into_lr_dict(cfg['mat']['lrmap'])
-    remove = aux.read.into_list(cfg['mat']['remove'])
-    cclass = aux.read.into_dict(cfg['mat']['class'])
+    left = ioaux.read.into_list(cfg['mat']['left_nodes'])
+    right = ioaux.read.into_list(cfg['mat']['right_nodes'])
+    lrmap = ioaux.read.into_lr_dict(cfg['mat']['lrmap'])
+    remove = ioaux.read.into_list(cfg['mat']['remove'])
+    cclass = ioaux.read.into_dict(cfg['mat']['class'])
     
     A4 = nx.read_graphml(cfg['refgraphs']['adj']%4)
-    data = aux.read.into_list2(cfg['adj_align']['fout'])
+    data = ioaux.read.into_list2(cfg['adj_align']['fout'])
     
     edict = {}
     for (i,(a,b)) in enumerate(A4.edges()):
