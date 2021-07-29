@@ -374,8 +374,8 @@ def clean_graph(G,Ref):
     H : networkx graph, same type as G with node and edge attributes 
     """
     H = G.copy()
-    H.remove_nodes_from(n for n in G if n not in Ref)
-    H.remove_edges_from((a,b) for (a,b) in G.edges() if not Ref.has_edge(a,b))
+    H.remove_nodes_from([n for n in G if n not in Ref])
+    H.remove_edges_from([(a,b) for (a,b) in G.edges() if not Ref.has_edge(a,b)])
     return H
 
 
